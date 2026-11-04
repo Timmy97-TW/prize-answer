@@ -59,7 +59,8 @@ AWARD({
       flow: [
         { t: { en: '77 h clean, OD 3.34', zh: '乾淨運轉 77 小時、OD 3.34' } },
         { t: { en: '3.4 to 6.5 µg/mL', zh: '3.4 到 6.5 µg/mL' },
-          leaf: [{ en: 'active 18 to 72 h', zh: '18 到 72 小時有活性' }] },
+          leaf: [{ en: 'above 2 µg/mL right through 72 h', zh: '整個 72 小時都高於 2 µg/mL' }] },
+        { t: { en: 'Protein at 12 h, activity at 18', zh: '12 小時有蛋白、18 小時有活性' } },
         { t: { en: '10.7 against 10.5 across the wall', zh: '膜兩側 10.7 對 10.5' },
           leaf: [{ en: 'registered 0.2986, got 0.286', zh: '預註冊 0.2986，實測 0.286' }] }
       ],
@@ -72,8 +73,10 @@ AWARD({
                zh: '十月的兩次運轉都讓殼側透過液含有 3.4 到 6.5 µg/mL 的 ACC 去胺酶。' }, src: 'results' },
         { t: { en: 'The product crosses the barrier: ELISA reads 10.7 µg/mL in the lumen against 10.5 on the shell side.',
                zh: '產物確實穿過了膜：ELISA 在管內讀到 10.7 µg/mL，殼側 10.5。' }, src: 'hardware-bioreactor' },
-        { t: { en: 'Functional enzyme appears at 18 h and specific activity holds between 5 and 8.4 U/mg out to 72 h.',
-               zh: '18 小時出現有功能的酵素，比活性從 5 到 8.4 U/mg，一路維持到 72 小時。' }, src: 'results' }
+        { t: { en: 'The shell permeate held ACC deaminase above 2 µg/mL right through the 72-hour run; functional enzyme appears at 18 h and specific activity holds between 5 and 8.4 U/mg, peaking at 6.3, out to 72 h.',
+               zh: '殼側透過液在整個 72 小時運轉中都維持 ACC 去胺酶高於 2 µg/mL；18 小時出現有功能的酵素，比活性從 5 到 8.4 U/mg（高峰 6.3），一路維持到 72 小時。' }, src: 'results' },
+        { t: { en: 'Amount and activity are two readouts and they peak six hours apart: anti-His ELISA peaked near 6.5 µg/mL at 12 h while DNPH activity stayed near zero until 18 h, so protein crosses the wall before working enzyme does.',
+               zh: '數量與活性是兩個不同的讀值，而且高峰差六小時：anti-His ELISA 在 12 小時達到約 6.5 µg/mL，DNPH 活性則到 18 小時前都接近零——蛋白質比有活性的酵素先過膜。' }, src: 'results' }
       ],
       figs: ['m08', 'm07', 's02', 'w03', 'w04'],
       a: {
@@ -82,13 +85,18 @@ AWARD({
           + '0.286 ± 0.010 per hour against a rate we had pre-registered thirteen days earlier at 0.2986 with a 90 percent '
           + 'interval of 0.2705 to 0.3300. Both October runs put 3.4 to 6.5 micrograms per millilitre of ACC deaminase into '
           + 'the shell-side permeate, and the lumen and shell read 10.7 against 10.5, so the protein is crossing the wall '
-          + 'rather than accumulating inside. Functional enzyme appears at eighteen hours and specific activity holds between '
-          + '5 and 8.4 units per milligram out to seventy-two. The titre is low for a bioprocess and we say so: the claim is a '
+          + 'rather than accumulating inside. Across the seventy-two-hour run the permeate stayed above 2 micrograms per '
+          + 'millilitre throughout, and we read it two ways rather than one: anti-His ELISA peaked near 6.5 micrograms per '
+          + 'millilitre at twelve hours while DNPH activity stayed near zero until eighteen, so protein crosses the wall '
+          + 'before working enzyme does, and specific activity then holds between 5 and 8.4 units per milligram out to '
+          + 'seventy-two. The titre is low for a bioprocess and we say so: the claim is a '
           + 'working loop at one litre, not an industrial yield.',
         zh: '一個生產主張需要三件事，我們三件都拿得出來：長菌、有產物、產物過得了膜。生產菌株 WB800 最長的乾淨運轉撐了 77 小時、'
           + 'OD600 到 3.34；第 6 次運轉的比生長速率是 0.286 ± 0.010 h⁻¹，而我們在十三天前就把 0.2986 h⁻¹（90% 區間 0.2705 至 0.3300）'
           + '註冊下來了。十月兩次運轉都讓殼側透過液含 3.4 到 6.5 µg/mL 的 ACC 去胺酶，管內與殼側是 10.7 對 10.5，表示蛋白質是穿過膜，'
-          + '不是堆在裡面。18 小時出現有功能的酵素，比活性 5 到 8.4 U/mg 一直維持到 72 小時。對一個生物製程來說這個效價偏低，'
+          + '不是堆在裡面。整個 72 小時運轉中透過液都維持在 2 µg/mL 以上，而且我們用兩種方式讀它、不是一種：anti-His ELISA 在 '
+          + '12 小時達到約 6.5 µg/mL，DNPH 活性到 18 小時前都接近零——蛋白質比有活性的酵素先過膜——之後比活性 5 到 8.4 U/mg '
+          + '一直維持到 72 小時。對一個生物製程來說這個效價偏低，'
           + '我們也直說：我們主張的是一公升尺度上一個會跑的閉環，不是工業產量。'
       }
     },
@@ -158,8 +166,8 @@ AWARD({
                zh: '依 Jennifer Brophy 博士的建議，用物理圍阻取代基因自殺開關：開關是受選擇壓力的 DNA，會突變失效，孔徑則不受基因型影響。' }, src: 'human-practices' },
         { t: { en: 'Stated limit: two single platings, no replicate and no recorded detection limit, so we claim retention demonstrated and not a log reduction.',
                zh: '明說的限制：兩次單一塗盤，沒有重複、沒有記錄偵測極限，所以我們主張的是「有留住」，不是某個 log 去除率。' }, src: 'results' },
-        { t: { en: 'The one real breach was traced: a Luer valve broke at 38 h, the membrane did not fail, and the cause was 35% hydrogen peroxide reaching the valves during clean-in-place.',
-               zh: '唯一一次真的破口已經追到原因：38 小時時一個 Luer 閥斷裂，膜沒有失效，原因是原位清洗時 35% 過氧化氫先到了閥體。' }, src: 'hardware-bioreactor' }
+        { t: { en: 'The one real breach was traced to the plumbing and not the membrane: a Luer valve broke at 38 h. We name two candidate causes because we could not separate them — the 35% hydrogen peroxide of clean-in-place and the 1 M potassium hydroxide of automated pH dosing both reached those valves — and automated pH dosing was withdrawn as a result.',
+               zh: '唯一一次真的破口追到的是管路、不是膜：38 小時時一個 Luer 閥斷裂。成因我們列兩個可能，因為我們分不出來——原位清洗的 35% 過氧化氫，與自動加鹼的 1 M 氫氧化鉀，兩者都碰到了那些閥體——自動 pH 加藥也因此被撤掉。' }, src: 'hardware-bioreactor' }
       ],
       figs: ['f01', 'f02', 'f03', 'v20', 'q02'],
       a: {
@@ -170,14 +178,17 @@ AWARD({
           + 'because a switch is a piece of DNA under selection and will mutate, whereas a pore does not depend on the '
           + 'organism’s genotype. We will not overstate the evidence: that is two single platings with no replicate and '
           + 'no recorded detection limit, so we claim retention demonstrated, not a log reduction. The one real breach we '
-          + 'had — a Luer valve snapping at thirty-eight hours — was traced to the hydrogen peroxide in our own '
-          + 'clean-in-place step rather than to the membrane, and it is published with the three fixes it bought.',
+          + 'had — a Luer valve snapping at thirty-eight hours — was traced to our own plumbing rather than to the '
+          + 'membrane, and we give two candidate causes because we could not separate them: the hydrogen peroxide of the '
+          + 'clean-in-place step and the potassium hydroxide of automated pH dosing both reached those valves. It is '
+          + 'published with the three fixes it bought.',
         zh: '圍阻和產物路徑是同一件事：把菌關住的那道 0.2 µm mPES 膜，就是保護劑穿出去的那道膜，所以監測跨膜壓差和流量就等於監測圍阻。'
           + '殼側樣品在 37 °C 放 24 小時後塗盤沒有長出任何菌落，而管內樣品的盤子長了菌。我們是依 Jennifer Brophy 博士的建議'
           + '選物理屏障而不是基因自殺開關，因為開關是一段受選擇壓力的 DNA，終究會突變，而孔徑不受菌的基因型影響。'
           + '我們不會把證據說得比它更強：那是兩次單一塗盤，沒有重複、沒有記錄偵測極限，所以我們主張的是「證明有留住」，'
-          + '不是某個 log 去除率。我們唯一一次真的破口——38 小時時 Luer 閥斷裂——追出來的原因是我們自己原位清洗用的過氧化氫，'
-          + '不是膜，而且它連同換來的三項修正一起公布在頁面上。'
+          + '不是某個 log 去除率。我們唯一一次真的破口——38 小時時 Luer 閥斷裂——追到的是我們自己的管路、不是膜；'
+          + '成因我們列兩個可能，因為分不出來：原位清洗用的過氧化氫，以及自動 pH 加藥用的氫氧化鉀，兩者都碰到了那些閥體。'
+          + '它連同換來的三項修正一起公布在頁面上。'
       }
     },
     {
@@ -187,7 +198,8 @@ AWARD({
       },
       flow: [
         { t: { en: 'US$2,800 to build', zh: '造一台 2,800 美元' } },
-        { t: { en: '226 hectares to break even', zh: '226 公頃損益兩平' } },
+        { t: { en: '226 hectares to break even', zh: '226 公頃損益兩平' },
+          leaf: [{ en: 'against US$627,000 of fixed cost', zh: '對應 62.7 萬美元固定成本' }] },
         { t: { en: 'Three regulatory parts', zh: '法規拆成三塊' },
           leaf: [
             { en: 'nothing confirmed in writing', zh: '沒有任何書面確認' },
@@ -197,32 +209,40 @@ AWARD({
       ev: [
         { t: { en: 'The prototype was built for NT$83,028, about US$2,800; the bioreactor’s known parts come to US$1,022.67.',
                zh: '原型機造價新台幣 83,028 元，約 2,800 美元；生物反應器已知零件合計 1,022.67 美元。' }, src: 'biomanufacturing' },
-        { t: { en: 'The farmer package is about US$5,550 in year one and US$90 a year after, at one price for every farm: twice full cost.',
-               zh: '農民方案第一年約 5,550 美元，之後每年 90 美元，所有農場同一個價：成本的兩倍。' }, src: 'entrepreneurship' },
-        { t: { en: 'Break-even at about 226 hectares, with a cash low point of −US$196,000 in Year 1 and a 24 percent pre-tax IRR on the growth plan.',
-               zh: '約 226 公頃損益兩平，第 1 年現金最低點 −196,000 美元，成長計畫下稅前 IRR 24%。' }, src: 'entrepreneurship' },
-        { t: { en: 'Regulation splits three ways — equipment, a contained GMM, and a cell-free permeate — giving a fertilizer route in Taiwan, a 90-day TSCA MCAN in the United States, and an EU route that excludes B. subtilis from its four permitted microbe groups.',
-               zh: '法規拆成三塊——設備、封閉使用的基因改造微生物、無細胞透過液——台灣走肥料路徑，美國走 TSCA MCAN 90 天審查，歐盟則把枯草桿菌排除在四類許可微生物之外。' }, src: 'laws-and-regulations' },
+        { t: { en: 'The farmer package is about US$5,550 in year one and US$90 a year after, at one price for every farm: twice full cost. For one hectare that is two 1 L bioreactors, three moisture sensors and one refill cartridge, with the browser interface that runs the rig.',
+               zh: '農民方案第一年約 5,550 美元，之後每年 90 美元，所有農場同一個價：成本的兩倍。一公頃的配置是兩台 1 L 生物反應器、三個濕度感測器、一個補充匣，加上操作反應器的瀏覽器介面。' }, src: 'entrepreneurship' },
+        { t: { en: 'Break-even at about 226 hectares is US$627,000 of fixed cost over Years 0 to 4 — mostly a team growing from three people to five — divided by US$2,775 of contribution per hectare. Cash low point is −US$196,000 in Year 1, with a 24 percent pre-tax IRR on the growth plan.',
+               zh: '約 226 公頃損益兩平，算法是第 0 至 4 年的固定成本 62.7 萬美元（主要是團隊由 3 人成長到 5 人）除以每公頃貢獻 2,775 美元。第 1 年現金最低點 −196,000 美元，成長計畫下稅前 IRR 24%。' }, src: 'entrepreneurship' },
+        { t: { en: 'Regulation splits three ways — equipment, a contained GMM, and a cell-free permeate — giving a fertilizer route in Taiwan, a 90-day TSCA MCAN in the United States, and an EU route that excludes B. subtilis from its four permitted microbe groups. Each part is asked a different question — the equipment whether it meets pressure, electrical and fluid-contact requirements, the culture how it is kept inside, the permeate how it should be classified — and the permeate is the part that can move: in the EU it is being investigated as a PFC 6(B) plant biostimulant while the organism itself is blocked.',
+               zh: '法規拆成三塊——設備、封閉使用的基因改造微生物、無細胞透過液——台灣走肥料路徑，美國走 TSCA MCAN 90 天審查，歐盟則把枯草桿菌排除在四類許可微生物之外。三塊各被問不同的問題：設備要問壓力、電氣與接液是否合規，菌液要問怎麼留在系統內，透過液要問該怎麼分類——而能動的那一塊是透過液：在歐盟它正以 PFC 6(B) 植物生物刺激素的路徑評估中，菌株本身則被擋住。' }, src: 'laws-and-regulations' },
         { t: { en: 'Stated limit: no regulator in any of eight markets has confirmed anything in writing, so the route is mapped and not cleared. The plan is five to ten pilot units for one growing season before a sale.',
-               zh: '明說的限制：八個市場裡沒有任何主管機關給過書面確認，所以這條路是「畫出來了」而不是「通了」。計畫是先放 5 到 10 台試點機跑完一個生長季再談銷售。' }, src: 'laws-and-regulations' }
+               zh: '明說的限制：八個市場裡沒有任何主管機關給過書面確認，所以這條路是「畫出來了」而不是「通了」。計畫是先放 5 到 10 台試點機跑完一個生長季再談銷售。' }, src: 'laws-and-regulations' },
+        { t: { en: 'After the pilot the plan is a ladder rather than a date: quality assurance and control, a bioreactor redesign for industrial scaling, the Philippines and Vietnam, regional stress and weather customisation, then international field deployment. Our own pages disagree on when — the text says the Philippines from October 2030, the Gantt chart says Philippine and Vietnam preparation from October 2028 — and the market ranking behind the sequence is our own scoring, with no buyer or investor committed.',
+               zh: '試點之後的計畫是一道階梯、不是一個日期：品質保證與管制、為工業放大重新設計反應器、菲律賓與越南、各地逆境與氣候的客製化，然後才是國際田間佈建。我們自己的頁面對時間並不一致——正文寫菲律賓自 2030 年 10 月起，甘特圖寫菲律賓與越南的準備自 2028 年 10 月起——而排序背後的市場評分是我們自己打的，沒有任何買方或投資人承諾。' }, src: 'entrepreneurship' }
       ],
       figs: ['b02', 'l01', 'l03', 'q15', 'q19'],
       a: {
-        en: 'A unit costs about US$2,800 in parts today, of which the bioreactor itself is US$1,022.67, and the farmer '
-          + 'package is priced at twice full cost — about US$5,550 in year one and US$90 a year after — with the same price '
-          + 'for every farm. On that basis the enterprise breaks even at about 226 hectares, with a cash low point of minus '
-          + 'US$196,000 in Year 1 and a 24 percent pre-tax internal rate of return on the planned growth. Regulation is the '
+        en: 'A unit costs about US$2,800 in parts today, of which the bioreactor itself is US$1,022.67. The farmer '
+          + 'package is priced at twice full cost — about US$5,550 in year one and US$90 a year after, the same price for '
+          + 'every farm — and for one hectare that is two one-litre bioreactors, three moisture sensors and a refill '
+          + 'cartridge. On that basis the enterprise breaks even at about 226 hectares, which is US$627,000 of fixed cost over Years 0 to 4 '
+          + 'divided by US$2,775 of contribution per hectare, with a cash low point of minus US$196,000 in Year 1 and a 24 '
+          + 'percent pre-tax internal rate of return on the planned growth. Regulation is the '
           + 'harder half and we have mapped it rather than assumed it: the system splits into equipment, a contained '
           + 'genetically modified micro-organism and a cell-free permeate, which gives a fertilizer route in Taiwan and a '
           + '90-day MCAN in the United States, while the European Union excludes Bacillus subtilis from its four permitted '
           + 'microbe groups. No regulator has confirmed any of this in writing, so we call the route mapped and not cleared, '
-          + 'and the plan is five to ten pilot units for one growing season before anything is sold.',
+          + 'and the plan is five to ten pilot units for one growing season before anything is sold. What comes after that '
+          + 'we give as a sequence and not a date — quality control, a redesign for industrial scale, then the Philippines '
+          + 'and Vietnam — because our own two pages disagree on the year.',
         zh: '現在造一台的零件成本約 2,800 美元，其中生物反應器本身 1,022.67 美元；農民方案以成本兩倍定價——第一年約 5,550 美元，'
-          + '之後每年 90 美元——而且所有農場同一個價。在這個基礎上，整個事業約在 226 公頃損益兩平，第 1 年現金最低點是 −196,000 美元，'
-          + '成長計畫下稅前內部報酬率 24%。法規是比較難的那一半，我們是把它畫出來而不是假設它沒問題：整套系統拆成設備、'
+          + '之後每年 90 美元——而且所有農場同一個價；一公頃拿到的是兩台 1 L 生物反應器、三個濕度感測器和一個補充匣。'
+          + '在這個基礎上，整個事業約在 226 公頃損益兩平，也就是第 0 至 4 年的 62.7 萬美元固定成本除以每公頃 2,775 美元的貢獻，'
+          + '第 1 年現金最低點是 −196,000 美元，成長計畫下稅前內部報酬率 24%。法規是比較難的那一半，我們是把它畫出來而不是假設它沒問題：整套系統拆成設備、'
           + '封閉使用的基因改造微生物、無細胞透過液三塊，台灣因此有肥料路徑，美國是 90 天的 MCAN，而歐盟把枯草桿菌排除在'
           + '四類許可微生物之外。這些都還沒有任何主管機關給書面確認，所以我們說這條路是畫出來了、不是通了，'
-          + '計畫是先讓 5 到 10 台試點機跑完一個生長季，再談任何銷售。'
+          + '計畫是先讓 5 到 10 台試點機跑完一個生長季，再談任何銷售。之後的事我們是用一道階梯、而不是一個日期來講——'
+          + '品管、為工業放大重新設計、然後是菲律賓與越南——因為我們自己兩個頁面對年份講的不一樣。'
       }
     }
   ]

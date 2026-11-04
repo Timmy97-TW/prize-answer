@@ -19,7 +19,8 @@ MOREQ('general', [
         leaf: [{ en: 'design pipeline, MD, code under MIT', zh: '設計流程、分子動力學、MIT 程式碼' }] },
       { t: { en: 'Help named and bounded', zh: '外援具名且劃界' },
         leaf: [
-          { en: 'Owl Lab on electronics', zh: '貓頭鷹實驗室負責電路' },
+          { en: 'Chang, Owl Lab, iFarm, Brophy', zh: '張教授、貓頭鷹、源鮮、Brophy' },
+          { en: 'each one changed one thing', zh: '每一位各改了一件事' },
           { en: 'reference compounds flagged', zh: '參考化合物都標明' }
         ] }
     ],
@@ -30,10 +31,12 @@ MOREQ('general', [
              zh: '每一台儀器都是團隊自己設計、列印、接線、寫程式的：兩台光度計、光照培養盤、夾管閥、殼側閥，以及水耕浮板。' }, src: 'hardware' },
       { t: { en: 'The dry lab is the team’s as well: a protein design pipeline with its own alanine scans and 30-nanosecond molecular dynamics, and the rig application, operator interface and analysis code released under MIT.',
              zh: '乾式實驗也是團隊自己的：一條有自家丙胺酸掃描與 30 奈秒分子動力學的蛋白質設計流程，以及以 MIT 授權釋出的設備端程式、操作介面與分析程式。' }, src: 'protein-design' },
-      { t: { en: 'Outside help is named and bounded: Owl Lab on electronics, advisers on protocol review, CH Biotech for an industry briefing and a reference peptide.',
-             zh: '外部協助是具名而且劃清範圍的：貓頭鷹實驗室負責電路、顧問負責流程審閱、正瀚生技提供業界簡報與一支參考肽。' }, src: 'human-practices' },
+      { t: { en: 'Outside help is named and bounded, and for each one we can say what it changed: Professor Chang Jo-Shu found that nothing in the first build drove the protectant across the membrane, which produced the pinch valve and a narrower module; Teacher He of Owl Lab reviewed the electronics, which produced the plug-in photometer module; Yes Health iFarm told us to minimise plant transfers, which redrew the hydroponic plate; Dr. Jennifer Brophy argued us out of a genetic kill switch and into a physical pore; CH Biotech gave an industry briefing and a reference peptide. Advice and review, in every case — none of them built or ran anything for us.',
+             zh: '外部協助是具名而且劃清範圍的，而每一位改了什麼我們都講得出來：張嘉修教授指出第一版裡其實沒有任何東西把保護劑推過膜，這帶出了夾管閥與更小的膜模組；貓頭鷹實驗室的何老師審閱電路，帶出了可插拔的光度計模組；源鮮智慧農場要我們把移植次數壓到最低，水耕板因此重畫；Jennifer Brophy 博士把我們從基因自殺開關勸回物理孔徑；正瀚生技提供業界簡報與一支參考肽。每一項都是建議與審閱——沒有任何一位替我們做東西或替我們跑實驗。' }, src: 'human-practices' },
       { t: { en: 'What is not ours is labelled as such: trehalose and the CH Biotech peptide are reference compounds used to show the assay can detect a rescue, not our own protectants.',
-             zh: '不是我們的東西就標明不是：海藻糖與正瀚的肽是用來證明分析方法看得見救援效果的參考化合物，不是我們自己的保護劑。' }, src: 'results' }
+             zh: '不是我們的東西就標明不是：海藻糖與正瀚的肽是用來證明分析方法看得見救援效果的參考化合物，不是我們自己的保護劑。' }, src: 'results' },
+      { t: { en: 'The reverse test matters too: on 15 and 16 October three classmates from outside the team built the Slim photometer from our guide while we watched, and three of its current instructions come from what they hit — so the documentation is ours, but the check that it works is not. Three builders is a small test, and it covered the Slim only.',
+             zh: '反過來的測試也重要：10 月 15 與 16 日，三位團隊外的同學照我們的手冊把 Slim 光度計組起來，我們在旁邊看，手冊現在有三條指示就是從他們踩到的問題來的——文件是我們寫的，但「它真的可用」這個查核不是我們自己做的。三個人是很小的樣本，而且只測了 Slim。' }, src: 'hardware-photometer' }
     ],
     figs: ['c09', 'c05', 'r02', 'r03', 'v03', 'x02', 'x17'],
     a: {
@@ -43,17 +46,27 @@ MOREQ('general', [
         + 'programmed in-house — two in-line photometers, the twenty-four-culture light plate, the pinch valve, the '
         + 'shell-side valve and the hydroponic floating plate — and so is the dry lab, from the alanine scans and '
         + 'thirty-nanosecond molecular dynamics behind the peptide design to the rig application and analysis code, which '
-        + 'are released under the MIT licence. Outside help is named and bounded rather than blurred: Owl Lab on '
-        + 'electronics, advisers on protocol review, CH Biotech for an industry briefing and a reference peptide. And '
-        + 'where a result is not ours we label it: trehalose and the CH Biotech peptide are reference compounds whose job '
-        + 'is to show the assay can detect a rescue at all.',
+        + 'are released under the MIT licence. Outside help is named and bounded, and for each adviser we can say what '
+        + 'they changed: Professor Chang Jo-Shu found that nothing in the first build drove the protectant across the '
+        + 'membrane, Teacher He of Owl Lab reviewed the electronics and that produced the plug-in photometer module, Yes '
+        + 'Health iFarm told us to minimise plant transfers and the hydroponic plate was redrawn, Dr. Jennifer Brophy '
+        + 'argued us out of a kill switch and into a pore, and CH Biotech gave an industry briefing and a reference '
+        + 'peptide. All of it was advice and review; none of them built or ran anything for us. Where a result is not '
+        + 'ours we label it: trehalose and the CH Biotech peptide are reference compounds whose job is to show the assay '
+        + 'can detect a rescue at all. And the one check we deliberately did not do ourselves is the one on our own '
+        + 'documentation — in October three classmates from outside the team built the Slim photometer from our guide '
+        + 'while we watched, and three of its instructions come from what they hit.',
       zh: '做的人和記錄的人都是學生。七個月的濕式實驗累積成 692 筆筆記，硬體筆記本在 30 週裡寫到 82 頁，'
         + '公布的 25 份實驗流程裡還包含沒做出結果的那三份。專案裡每一台儀器都是自己設計、列印、接線、寫程式的——'
         + '兩台線上光度計、能跑 24 個培養的光照盤、夾管閥、殼側閥，以及水耕浮板——乾式實驗也一樣，'
         + '從胜肽設計背後的丙胺酸掃描與 30 奈秒分子動力學，到設備端程式與分析程式，全部以 MIT 授權釋出。'
-        + '外部協助是具名並且劃清範圍，不是模糊帶過：貓頭鷹實驗室負責電路、顧問負責流程審閱、'
-        + '正瀚生技提供業界簡報與一支參考肽。而不是我們的結果我們就標明：海藻糖與正瀚的肽是參考化合物，'
-        + '它們的任務是證明這套分析方法真的看得見救援效果。'
+        + '外部協助是具名並且劃清範圍的，而每一位顧問改了什麼我們都講得出來：張嘉修教授指出第一版裡'
+        + '沒有任何東西把保護劑推過膜；貓頭鷹實驗室的何老師審閱電路，帶出了可插拔的光度計模組；'
+        + '源鮮智慧農場要我們把移植次數壓到最低，水耕板因此重畫；Jennifer Brophy 博士把我們從自殺開關勸回物理孔徑；'
+        + '正瀚生技提供業界簡報與一支參考肽。這些全都是建議與審閱，沒有任何一位替我們做東西或替我們跑實驗。'
+        + '而不是我們的結果我們就標明：海藻糖與正瀚的肽是參考化合物，它們的任務是證明這套分析方法真的看得見救援效果。'
+        + '唯一一件我們刻意不自己做的查核，是查核我們自己的文件——十月時三位團隊外的同學照我們的手冊把 Slim '
+        + '光度計組了起來，我們在旁邊看，手冊上有三條指示就是從他們踩到的問題來的。'
     }
   },
   {
