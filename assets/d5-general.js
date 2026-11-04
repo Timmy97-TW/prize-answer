@@ -96,7 +96,7 @@ AWARD({
         { t: { en: 'Two links are not demonstrated end to end and we name them: no forecast has ever driven a light that reached a culture, and every plant dose was applied by hand rather than through the irrigation line.',
                zh: '有兩個環節還沒有頭尾串起來，我們直接點名：從來沒有一次預報真的驅動一盞照到培養液的燈，而所有植物劑量都是手動施用，不是走灌溉管線。' }, src: 'software' }
       ],
-      figs: ['c01', 'w12', 'x01', 'w13', 'p09'],
+      figs: ['c01', 'w12', 'x01', 'w13', 'p09', 'q04'],
       a: {
         en: 'The individual links work and we can show each one. The device assembled — a 10,293 base-pair Level 2 '
           + 'construct with three independent clones screened across three internal junctions — and the protein is '
@@ -149,7 +149,7 @@ AWARD({
         { t: { en: 'The commercial case is sized rather than asserted: break-even at about 226 hectares, farmer price about US$5,550 in year one and US$90 a year after.',
                zh: '商業規模是算出來的、不是宣稱的：約 226 公頃損益兩平，農民第一年約 5,550 美元，之後每年 90 美元。' }, src: 'entrepreneurship' }
       ],
-      figs: ['p07', 'g02', 'd02', 'd01', 's03'],
+      figs: ['p07', 'g02', 'd02', 'd01', 's03', 'x06'],
       a: {
         en: 'The need is specific and quantified: around 10 percent of rice yield is lost per degree of night warming, '
           + 'and Taiwan’s November-to-December minimum temperature has risen by as much as two degrees between '
@@ -268,7 +268,7 @@ AWARD({
         { t: { en: 'It reaches protocol level: a hydroponic run was voided by an adviser because culture volume was not standardised across arms, and two questions from the floor at a 50-person public forum changed work on the wiki.',
                zh: '它一路做到流程層級：一次水耕運轉因為各組培養液體積沒有標準化而被顧問判定作廢，而一場五十人公開論壇上現場的兩個提問改變了 wiki 上的工作。' }, src: 'plant' }
       ],
-      figs: ['i01', 'l02', 'x05', 'x04', 'p05'],
+      figs: ['i01', 'l02', 'x05', 'x04', 'p05', 'x07'],
       a: {
         en: 'Human Practices decided the shape of this project rather than commenting on it. Professor Chen Wen-Liang '
           + 'told us in April that engineered bacteria in open soil cannot be defended and that we should keep them in a '

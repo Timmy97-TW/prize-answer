@@ -832,6 +832,19 @@ var FIGS = {
    "zh": "底色是各縣市 2024 年全年平均的夜間溫度（18:00 到午夜），分成 20.51 到 27.26 度五個級距，由藍到紅。白色的比例圓圈是各測站 2005 到 2024 年的稻作產量趨勢，從每年每公頃 −0.044 到 +0.058 公噸。最熱的縣市分布在北部與南部。它支持的是開場的那個主張：侵蝕台灣稻作產量的是暖夜，不只是熱天。"
   }
  },
+ "p01": {
+  "id": "p01",
+  "img": "p01.webp",
+  "page": "plant",
+  "label": {
+   "en": "Trehalose plate grid",
+   "zh": "海藻糖平板矩陣"
+  },
+  "read": {
+   "en": "Eight square agar plates, photographed on harvest day, day 13. The top row is 0 millimolar trehalose and the bottom row is 5 millimolar. The columns are 0, 75, 100 and 150 millimolar NaCl. Seedlings shrink sharply from left to right in both rows, which is the salt dose response; the question the figure is set up to answer is whether the bottom row holds up better than the top at each salt level.",
+   "zh": "八個方形洋菜培養盤，在收樣日第 13 天拍攝。上排是 0 毫莫耳海藻糖，下排是 5 毫莫耳。四個欄位分別是 0、75、100、150 毫莫耳 NaCl。兩排的幼苗都從左到右明顯變小，這是鹽的劑量反應；而這張圖要回答的問題是：在每一個鹽濃度下，下排有沒有撐得比上排好。"
+  }
+ },
  "p02": {
   "id": "p02",
   "img": "p02.webp",
@@ -856,6 +869,19 @@ var FIGS = {
   "read": {
    "en": "Set 9, the main ACC deaminase salinity experiment, trial 1, photographed on day 8. Rows are 0, 75 and 100 millimolar NaCl; columns are no ACCD, pre-treatment, co-treatment and post-treatment. Pre-treatment plates carry the densest green rosettes at every salt level. The 100 millimolar post-treatment plate is marked ND, not determined, because it was excluded for extensive mould growth. TB medium was the negative control, 9 seedlings per condition.",
    "zh": "這是第 9 組，ACC 去胺酶抗鹽主實驗的第一次試驗，第 8 天拍攝。三排分別是 0、75、100 毫莫耳 NaCl；四欄分別是不加 ACCD、前處理、同時處理、後處理。前處理那一欄在每一個鹽濃度下都有最密最綠的蓮座。100 毫莫耳的後處理盤標著 ND（未判定），因為黴菌長得太嚴重而被排除。陰性對照是 TB 培養基，每個條件 9 株幼苗。"
+  }
+ },
+ "p04": {
+  "id": "p04",
+  "img": "p04.webp",
+  "page": "plant",
+  "label": {
+   "en": "The salt ladder, set 5",
+   "zh": "第 5 組鹽梯度"
+  },
+  "read": {
+   "en": "Set 5, trial 2, day 12. Rows are 0, 150 and 250 millimolar NaCl; columns are 0, 1, 5 and 10 millimolar trehalose. Root growth falls and chlorosis gets worse as salt rises. At 250 millimolar the inhibition is so severe that two plates are marked ND and the rest carry only tiny seedlings, so 250 is above the useful window: it leaves no room to see a protectant work.",
+   "zh": "這是第 5 組第二次試驗，第 12 天。三排分別是 0、150、250 毫莫耳 NaCl；四欄是 0、1、5、10 毫莫耳海藻糖。鹽濃度越高，根長越差、黃化越明顯。在 250 毫莫耳下抑制嚴重到有兩盤標 ND，其餘只剩極小的幼苗，所以 250 已經超出可用的視窗：壓得太死，保護劑有沒有效都看不出來。"
   }
  },
  "p05": {
@@ -949,6 +975,84 @@ var FIGS = {
    "zh": "圖畫的是整個質體，不是部件本身。插入片段是光感測單元：PliaG、R0-RBS、ccaS-m3，再接 B0015 雙終止子，這就是我們存放的 1693 bp。其餘全是 pSTK-1B 骨架：bla CDS 和高拷貝 ColE1 起點，所以在大腸桿菌裡用安比西林篩選。構築名稱裡仍留著母載體的 sfGFP 字樣。"
   }
  },
+ "q02": {
+  "id": "q02",
+  "img": "2ea9a37bd6c1.avif",
+  "page": "",
+  "label": {
+   "en": "Csn-AcdS in pGEM-T Easy",
+   "zh": "pGEM-T Easy 上的 Csn-AcdS"
+  },
+  "read": {
+   "en": "It is Csn-AcdS-6xHis sitting in pGEM-T Easy, 4212 bp in total. You can see AmpR, the ColE1 ori, an f1 ori, lacZ-alpha split across the cloning site, and T7 and SP6 promoters flanking the insert. It is a holding step: PCR the coding sequence, confirm it here by blue-white screening and T7/SP6 colony PCR, then take the verified fragment into Golden Gate. No sfGFP dropout is involved.",
+   "zh": "這是 Csn-AcdS-6xHis 放在 pGEM-T Easy 裡，全長 4212 bp。圖上看得到 AmpR、ColE1 起點、f1 起點、被選殖位點切開的 lacZ-alpha，以及兩側的 T7 與 SP6 啟動子。它只是暫存步驟：先 PCR 出編碼序列，用藍白篩選和 T7/SP6 菌落 PCR 在這裡確認，再把驗證過的片段帶進 Golden Gate。這裡沒有 sfGFP dropout。"
+  }
+ },
+ "q03": {
+  "id": "q03",
+  "img": "312e8b798260.avif",
+  "page": "",
+  "label": {
+   "en": "LEA14 on a 7191 bp plasmid",
+   "zh": "7191 bp 質體上的 LEA14"
+  },
+  "read": {
+   "en": "Because the drawing is the whole plasmid. The insert is pVeg, RiboJ, R0-RBS, SamyQ, LEA14 2.1 with a 6xHis, and B0015, which is the 1093 bp we deposited. The other 6098 bp is the pSTK-EXP1 backbone: Erm from the STK124 part, the bla CDS, repB, ColE1 and a truncated pBR322 ori. That same 6098 bp backbone is under every EXP1 map in this set.",
+   "zh": "因為圖畫的是整個質體。插入片段是 pVeg、RiboJ、R0-RBS、SamyQ、帶 6xHis 的 LEA14 2.1，再接 B0015，就是我們存放的 1093 bp。其餘 6098 bp 是 pSTK-EXP1 骨架：來自 STK124 的 Erm、bla CDS、repB、ColE1 和截短的 pBR322 起點。這組圖裡每張 EXP1 地圖下面都是同樣的 6098 bp 骨架。"
+  }
+ },
+ "q04": {
+  "id": "q04",
+  "img": "796dddbd81cc.avif",
+  "page": "",
+  "label": {
+   "en": "Point at the insert",
+   "zh": "指出插入片段"
+  },
+  "read": {
+   "en": "The insert is the short run near the left: a small SamyQ arrow, then LEA14 2.1-Histag with the 6xHis marked under it. That is 564 bp of a 2645 bp plasmid. The rest is pSTK-0C, the Level 0 entry vector: a chloramphenicol acetyltransferase CDS drawn as two arrows because it straddles the point where the circle was cut open for drawing, plus a high-copy ColE1 origin.",
+   "zh": "插入片段在偏左的短段：一個小的 SamyQ 箭頭，接著是 LEA14 2.1-Histag，下面標著 6xHis。那是 2645 bp 質體裡的 564 bp。其餘是 Level 0 入門載體 pSTK-0C：一個氯黴素乙醯轉移酶 CDS 被畫成兩個箭頭，因為它跨過了為了畫圖而把環狀質體切開的那一點，另外還有高拷貝 ColE1 起點。"
+  }
+ },
+ "q05": {
+  "id": "q05",
+  "img": "7aa19e0d0524.avif",
+  "page": "",
+  "label": {
+   "en": "AcdS at Level 0",
+   "zh": "Level 0 的 AcdS"
+  },
+  "read": {
+   "en": "Same Level 0 vector, different cargo. SamyQ, then an AcdS 2.1-Histag arrow with the 6xHis marked beneath, 1125 bp deposited inside a 3206 bp plasmid. The backbone is identical to the LEA14 one, chloramphenicol acetyltransferase and the ColE1 origin. Apart from the gene name on the arrow, the thing that separates them is total length: AcdS is about 560 bp longer than LEA14.",
+   "zh": "同一個 Level 0 載體，不同的貨物。SamyQ 之後是 AcdS 2.1-Histag 箭頭，下面標著 6xHis，3206 bp 質體裡存放了 1125 bp。骨架和 LEA14 那張完全一樣：氯黴素乙醯轉移酶和 ColE1 起點。除了箭頭上的基因名稱，分辨兩者的就是總長度：AcdS 比 LEA14 長約 560 bp。"
+  }
+ },
+ "q06": {
+  "id": "q06",
+  "img": "8349ecd5ea36.avif",
+  "page": "",
+  "label": {
+   "en": "The Level 1 output unit",
+   "zh": "Level 1 輸出單元"
+  },
+  "read": {
+   "en": "It is the Level 1 output unit in pSTK-1D: PcpcG2-veg, EEBD, R0-RBS, Csn-AcdS-Histag with 6xHis, and B0015, on a bla and ColE1 backbone, 3857 bp total. Take off the 2108 bp pSTK-1D backbone and the insert is 1749 bp, which is BBa_26PGPSGK. The other page, BBa_26Q3LKZU, is listed at 2617 bp, 868 bp larger. The map fits the corrected deposit, not the older one.",
+   "zh": "這是 pSTK-1D 裡的 Level 1 輸出單元：PcpcG2-veg、EEBD、R0-RBS、帶 6xHis 的 Csn-AcdS-Histag，再接 B0015，骨架是 bla 與 ColE1，全長 3857 bp。扣掉 2108 bp 的 pSTK-1D 骨架，插入片段是 1749 bp，也就是 BBa_26PGPSGK。另一個頁面 BBa_26Q3LKZU 登記 2617 bp，多了 868 bp。這張圖對應的是修正後的存放版本，不是舊的那個。"
+  }
+ },
+ "q07": {
+  "id": "q07",
+  "img": "9d5aa3d1fdfd.avif",
+  "page": "",
+  "label": {
+   "en": "Left to right across the insert",
+   "zh": "由左到右走過插入片段"
+  },
+  "read": {
+   "en": "From the left edge: pVeg, RiboJ, the R0-RBS and its scar, SamyQ, then the AcdS 2.1-Histag arrow, then the B0015 double terminator. That is the 1654 bp deposited part. After it comes the pSTK-EXP1 backbone, Erm from the STK124 part, bla, repB, ColE1 and a truncated pBR322 ori, for 7752 bp total. The map shows order and annotation, not a sequencing read.",
+   "zh": "從左邊開始：pVeg、RiboJ、R0-RBS 和它的 scar、SamyQ，接著是 AcdS 2.1-Histag 箭頭，然後是 B0015 雙終止子。那就是存放的 1654 bp。再來是 pSTK-EXP1 骨架：來自 STK124 的 Erm、bla、repB、ColE1 和截短的 pBR322 起點，全長 7752 bp。圖顯示的是順序與註解，不是定序結果。"
+  }
+ },
  "q08": {
   "id": "q08",
   "img": "bb80d9f09143.avif",
@@ -960,6 +1064,19 @@ var FIGS = {
   "read": {
    "en": "OD600 of WB800 carrying the CcaSR system, red 100% on the left and green 100% on the right, read at 2, 4, 6, 8 and 24 hours. Both end in the same place, 1.026 and 1.017, against a blank of 0.057 to 0.061. So green light does not cost growth. It says nothing about expression or secretion. Red is n=1, and nothing was read between 8 and 24 hours.",
    "zh": "帶有 CcaSR 系統的 WB800 的 OD600，左邊紅光 100%、右邊綠光 100%，在 2、4、6、8 和 24 小時讀取。兩邊最後落在同一個地方，1.026 與 1.017，空白值是 0.057 到 0.061。所以綠光不會損失生長。它對表達或分泌沒有任何說明。紅光只有 n=1，而且 8 到 24 小時之間沒有量測。"
+  }
+ },
+ "q09": {
+  "id": "q09",
+  "img": "bd8c162daae6.avif",
+  "page": "",
+  "label": {
+   "en": "BoPep4, 183 bp",
+   "zh": "BoPep4、183 bp"
+  },
+  "read": {
+   "en": "It is the short arrow at the far left, labelled SamyQ-BoPep4 2.1-Histag, with 6xHis marked underneath. The whole fusion is drawn as one feature rather than split into signal peptide, peptide and tag. That is 183 bp of a 2263 bp plasmid; the rest is pSTK-0C, chloramphenicol acetyltransferase and the ColE1 origin. BoPep4 itself is only 69 bp, so most of the insert is signal and tag.",
+   "zh": "就是最左邊那個短箭頭，標示 SamyQ-BoPep4 2.1-Histag，下面標著 6xHis。整個融合被畫成一個特徵，沒有拆成訊號胜肽、胜肽和標籤。那是 2263 bp 質體裡的 183 bp；其餘是 pSTK-0C、氯黴素乙醯轉移酶和 ColE1 起點。BoPep4 本身只有 69 bp，所以插入片段大部分是訊號和標籤。"
   }
  },
  "q10": {
@@ -1001,6 +1118,19 @@ var FIGS = {
    "zh": "少了訊號胜肽和 6xHis 標籤。這是 pSTK-1C 裡的傳遞單元：pVeg、R0-RBS、ccaR、B0015，3243 bp 質體裡的 964 bp，骨架是 bla 與 ColE1 起點。上面沒有 SamyQ 或 Csn，也沒有 His 標籤，連 RiboJ 都沒有。CcaR 是反應調節蛋白，在細胞內作用，所以既不分泌，也不用鎳柱拉下來。"
   }
  },
+ "q13": {
+  "id": "q13",
+  "img": "d03c0ee204e2.avif",
+  "page": "",
+  "label": {
+   "en": "Two cargoes, one vector",
+   "zh": "同一載體、兩種貨物"
+  },
+  "read": {
+   "en": "Barely at all. Same pSTK-0C vector, same chloramphenicol acetyltransferase and ColE1 origin, same fusion drawn as one arrow with 6xHis beneath. This one reads 2264 bp and the 2.1 map reads 2263. But both inserts are deposited at 183 bp, so that one-base gap is a drawing inconsistency, not a real difference. 2.1 and 2.2 are codon variants of the same 69 bp peptide.",
+   "zh": "幾乎沒差。同一個 pSTK-0C 載體，同樣的氯黴素乙醯轉移酶和 ColE1 起點，同樣用一個箭頭畫完整個融合、下面標 6xHis。這張寫 2264 bp，2.1 那張寫 2263。但兩個插入片段都登記為 183 bp，所以那一個鹼基的差距是畫圖不一致，不是真的差異。2.1 和 2.2 是同一段 69 bp 胜肽的密碼子變體。"
+  }
+ },
  "q14": {
   "id": "q14",
   "img": "d09d66204dd3.avif",
@@ -1014,6 +1144,32 @@ var FIGS = {
    "zh": "寫 SamyQ。粗體名稱是 ccaSR-SamyQ-AcdS-Histag，這和頁面的 CcaSR-Csn-AcdS-Histag 矛盾。圖上自己的特徵就能判定：第四個單元註解為 CDS-Csn_Acc，而 BBa_260MVA1K 存放的序列是 6061 bp 的 Csn 版本。所以頁面和特徵箭頭是對的，底下的構築名稱標錯了。這張圖也沒有印出總長度。"
   }
  },
+ "q15": {
+  "id": "q15",
+  "img": "d1767d23bdba.avif",
+  "page": "",
+  "label": {
+   "en": "BoPep4 2.2 in pSTK-EXP1",
+   "zh": "pSTK-EXP1 上的 BoPep4 2.2"
+  },
+  "read": {
+   "en": "The BoPep4 2.2 expression construct in pSTK-EXP1: pVeg, RiboJ, R0-RBS, the fusion drawn as one arrow, 6xHis, B0015. That is 712 bp of insert on the 6098 bp EXP1 backbone with Erm, bla, repB and ColE1, 6810 bp in all. What you cannot tell is which BoPep4 variant it is. The arrow is labelled SamyQ-Bopep4-v2t1 and the 2.1 map is the same length with the same label.",
+   "zh": "pSTK-EXP1 裡的 BoPep4 2.2 表達構築：pVeg、RiboJ、R0-RBS、用一個箭頭畫完的融合、6xHis、B0015。那是 712 bp 的插入片段，放在 6098 bp 的 EXP1 骨架上，含 Erm、bla、repB 和 ColE1，全長 6810 bp。看不出來的是它究竟是哪個 BoPep4 變體：箭頭標示為 SamyQ-Bopep4-v2t1，而 2.1 那張圖長度相同、標示也相同。"
+  }
+ },
+ "q16": {
+  "id": "q16",
+  "img": "dd7ceaa83e24.avif",
+  "page": "",
+  "label": {
+   "en": "Csn or SamyQ, read by length",
+   "zh": "用長度分辨 Csn 與 SamyQ"
+  },
+  "read": {
+   "en": "Csn. The fusion is drawn as a single arrow, Csn-AcdS-Histag, in pSTK-EXP1 at 7767 bp. The SamyQ version of the same unit is 7752, which is 15 bp smaller, exactly Csn 108 minus SamyQ 93. The deposited inserts agree: 1669 against 1654. Everything else is the same 6098 bp backbone with Erm, bla, repB and ColE1, so length is the one number separating the two pictures.",
+   "zh": "是 Csn。融合被畫成單一箭頭 Csn-AcdS-Histag，在 pSTK-EXP1 裡是 7767 bp。同一單元的 SamyQ 版本是 7752，小 15 bp，正好是 Csn 的 108 減 SamyQ 的 93。存放的插入片段也對得上：1669 對 1654。其餘都是同樣的 6098 bp 骨架，含 Erm、bla、repB 和 ColE1，所以長度是分辨兩張圖的唯一數字。"
+  }
+ },
  "q17": {
   "id": "q17",
   "img": "e300abd83e05.avif",
@@ -1025,6 +1181,32 @@ var FIGS = {
   "read": {
    "en": "It makes the chromophore. Ho1 turns heme into biliverdin and PcyA reduces that to PCB, which CcaS needs in order to sense green light, and B. subtilis does not make PCB on its own. The two enzymes are joined by a GGGGS double linker and expressed as one fusion, which is why the arrows abut. Driven by PtagC+RBS, closed by L3S2P21: 1655 bp of a 3754 bp pSTK-1A plasmid.",
    "zh": "它負責做發色團。Ho1 把血紅素轉成膽綠素，PcyA 再把它還原成 PCB，而 CcaS 需要 PCB 才能感測綠光，枯草桿菌自己不會做 PCB。兩個酵素由 GGGGS 雙重連接子接在一起、以單一融合蛋白表達，所以兩個箭頭是相連的。由 PtagC+RBS 驅動、L3S2P21 收尾：3754 bp 的 pSTK-1A 質體裡的 1655 bp。"
+  }
+ },
+ "q18": {
+  "id": "q18",
+  "img": "f3cde1565dbc.avif",
+  "page": "",
+  "label": {
+   "en": "Fifteen base pairs apart",
+   "zh": "相差十五個鹼基對"
+  },
+  "read": {
+   "en": "Fifteen base pairs more, if the signal peptide is the only change. The SamyQ-LEA14 2.1 map in the same pSTK-0C vector is 2645 bp and this one is 2660, which fits Csn 108 against SamyQ 93. But the deposited lengths are 582 and 564, which is 18 apart. Those two gaps do not match, so three bases somewhere need checking. Otherwise it is the same picture: one fusion arrow, 6xHis, CAT, ColE1.",
+   "zh": "如果只換訊號胜肽，應該多 15 個鹼基對。同一個 pSTK-0C 載體裡的 SamyQ-LEA14 2.1 地圖是 2645 bp，這張是 2660，正好符合 Csn 的 108 對 SamyQ 的 93。但存放的長度是 582 和 564，相差 18。這兩個差距對不上，所以有三個鹼基需要查。其餘都一樣：一個融合箭頭、6xHis、CAT、ColE1。"
+  }
+ },
+ "q19": {
+  "id": "q19",
+  "img": "f96a66b9dd79.avif",
+  "page": "",
+  "label": {
+   "en": "Two maps that agree",
+   "zh": "兩張一致的圖譜"
+  },
+  "read": {
+   "en": "Yes, and here two maps agreeing is the correct answer. Both BoPep4 Level 1 units are deposited at 712 bp and both sit on the 6098 bp pSTK-EXP1 backbone, so both plasmids come to 6810. The pSTK-0C maps of the same two inserts print 2263 and 2264, and those cannot both be right. Features here: pVeg, RiboJ, the fusion arrow, 6xHis, B0015, Erm and bla.",
+   "zh": "對，而且這裡兩張圖數字一樣才是正確的。兩個 BoPep4 的 Level 1 單元都登記為 712 bp，也都放在 6098 bp 的 pSTK-EXP1 骨架上，所以兩個質體都是 6810。同樣這兩個插入片段的 pSTK-0C 地圖卻印成 2263 和 2264，那兩個不可能都對。這裡的特徵：pVeg、RiboJ、融合箭頭、6xHis、B0015、Erm 和 bla。"
   }
  },
  "r01": {
@@ -1157,6 +1339,19 @@ var FIGS = {
    "zh": "M 加上六個菌落泳道。只有第 3 和第 6 道有帶，位置略高於 1.5 kb 標記，標註為 1588 bp，也就是 6 選 2。包含陽性在內的每一道，膠前緣都有一團亮點，那是以菌落為模板時的引子二聚體。這條帶只說明插入片段長度大致正確，並沒有說明四個元件的順序正確或沒有突變。送定序的是選殖株 3。"
   }
  },
+ "v02": {
+  "id": "v02",
+  "img": "0b523a149a6f.avif",
+  "page": "",
+  "label": {
+   "en": "Lanes 2 and 11",
+   "zh": "第 2 與第 11 道"
+  },
+  "read": {
+   "en": "M plus two colony lanes, labelled 2 and 11. Both carry a band high up the gel, bracketed as 1331 bp. The caption says 2 of 2, but lane numbers 2 and 11 mean at least eleven colonies were picked and only two were run. The only labelled rungs are 800 and 700 bp, both far below the band, so nothing on this image sizes 1331 bp. Clone 2 was sequenced.",
+   "zh": "M 加上兩個菌落泳道，編號 2 和 11。兩道都在膠的上方有帶，括號標為 1331 bp。圖說寫「2 選 2」，但泳道編號 2 和 11 表示至少挑了十一個菌落，只跑了兩個。唯一有標字的刻度是 800 與 700 bp，都遠在帶的下方，所以這張圖本身無法定出 1331 bp。送定序的是選殖株 2。"
+  }
+ },
  "v03": {
   "id": "v03",
   "img": "101fcb99f2b1.avif",
@@ -1196,6 +1391,32 @@ var FIGS = {
    "zh": "M 加十六個菌落泳道，每一道都在 800 bp 刻度稍上方的同一高度有帶，括號標為 811 bp。亮度相當均勻，沒有空白道也沒有對照，所以這張膠裡看不到失敗的菌落長什麼樣。頁面自己的算法是插入片段 576 bp 加載體 235 bp，但姊妹頁對同一段載體寫的是約 209 bp。送定序的是選殖株 16。"
   }
  },
+ "v06": {
+  "id": "v06",
+  "img": "2463682d514c.avif",
+  "page": "",
+  "label": {
+   "en": "Two lanes, one sizing",
+   "zh": "兩道、一次定大小"
+  },
+  "read": {
+   "en": "M plus two colony lanes, numbered 1 and 3. Both carry a band between the 700 and 800 bp rungs, consistent with the stated 770 bp. That sizing is the one thing this small gel does well, because the band falls between two labelled markers. The caption says 2 of 2, but the lane labels skip 2, so at least three colonies existed. Lane 3 also has a heavy low smear. Clone 1 was sequenced.",
+   "zh": "M 加兩個菌落泳道，編號 1 和 3。兩道的帶都落在 700 與 800 bp 刻度之間，與所寫的 770 bp 相符。這張小膠最可取的就是這點：帶剛好夾在兩個有標字的刻度中間。圖說寫「2 選 2」，但泳道編號跳過了 2，表示至少有三個菌落。第 3 道下方還有一大片拖尾。送定序的是選殖株 1。"
+  }
+ },
+ "v07": {
+  "id": "v07",
+  "img": "43e883f568b3.avif",
+  "page": "",
+  "label": {
+   "en": "All three colonies",
+   "zh": "三株全中"
+  },
+  "read": {
+   "en": "M plus three colony lanes, and all three carry a bright band between the 1.5 and 2 kb rungs, bracketed 1721 bp. \"All colonies\" means three here, because three is what was loaded. The missing denominator is the fix this figure needs. The bands are overloaded and run together across the three lanes, so a small difference in size between clones would not show. Clone 1 was sequenced.",
+   "zh": "M 加三個菌落泳道，三道都在 1.5 與 2 kb 刻度之間有明亮的帶，括號標為 1721 bp。這裡的「所有菌落」就是三個，因為只上了三道。這張圖要補的就是缺少的分母。帶都過載，三道之間幾乎連成一片，所以選殖株之間若有小幅大小差異也看不出來。送定序的是選殖株 1。"
+  }
+ },
  "v08": {
   "id": "v08",
   "img": "469dcae98058.avif",
@@ -1209,6 +1430,19 @@ var FIGS = {
    "zh": "M 加十一道，編號 9 到 19，所以這是一次較大篩選的後半段。只有第 14 道有一條淡帶，括號標為 678 bp，而且它和 750 bp 刻度齊平，而不是在其下方。圖說寫「10 選 1」，頁面接著說送定序的是選殖株 14，比十還大。每一道前緣都有明亮的引子二聚體。一個菌落、一條淡帶，證據很薄。"
   }
  },
+ "v09": {
+  "id": "v09",
+  "img": "54aa2f3c3988.avif",
+  "page": "",
+  "label": {
+   "en": "Two bright, one faint",
+   "zh": "兩條亮、一條淡"
+  },
+  "read": {
+   "en": "M plus four colony lanes from a pGEM-T Easy ligation. Lanes 3 and 4 give bright bands just under the 1.5 kb rung, bracketed 1372 bp. Lane 2 has a faint band at the same height that the 2-of-4 count leaves out, and lane 1 is empty. The lower ladder mark is printed \"400k\", which has to mean 400 bp. The 1122 bp insert length quoted here is also quoted for the SamyQ version, though the two signal peptides differ by 15 bp.",
+   "zh": "M 加四個菌落泳道，來自 pGEM-T Easy 接合。第 3、4 道在 1.5 kb 刻度略下方有明亮的帶，括號標為 1372 bp。第 2 道在同一高度有一條淡帶，沒有被「4 選 2」算進去，第 1 道空白。標記下方那格印成「400k」，實際上應該是 400 bp。這裡寫的插入片段 1122 bp，在 SamyQ 版頁面上也是 1122 bp，但兩個訊號胜肽長度差 15 bp。"
+  }
+ },
  "v10": {
   "id": "v10",
   "img": "68787dec5c52.avif",
@@ -1220,6 +1454,19 @@ var FIGS = {
   "read": {
    "en": "M then a run of banded lanes in repeating 375 / 632 / 441 triplets. I count twelve such lanes, but only three triplets carry the numbers 1, 2, 3. One triplet between the first and second labelled group has bands and no labels. Each triplet is one clone checked at three junctions. Nine or twelve, the junctions prove module order only. Nothing here reads the sequence inside a module.",
    "zh": "M 之後是一連串有帶的泳道，以 375 / 632 / 441 三條一組重複。我數到十二道，但只有三組標了 1、2、3；在第一組與第二組標號之間，還有一組有帶卻沒有標號。每一組代表一個選殖株、三個接點。不論是九道還是十二道，接點只能證明模組順序，這裡沒有任何資料讀到模組內部的序列。"
+  }
+ },
+ "v11": {
+  "id": "v11",
+  "img": "7ae42b9bff17.avif",
+  "page": "",
+  "label": {
+   "en": "Four of five",
+   "zh": "五株中四株"
+  },
+  "read": {
+   "en": "M plus five colony lanes. Lanes 1, 3, 4 and 5 carry a band between the 600 and 700 bp rungs, consistent with 678 bp. Lane 2 shows only a faint smudge at that height plus a lower band. That is the 4 of 5. The exposure is heavy: the positive bands are saturated and bleed sideways into each other. So the gel can say a band is present, not that it is a single clean product. Clone 5 was sequenced.",
+   "zh": "M 加五個菌落泳道。第 1、3、4、5 道在 600 與 700 bp 刻度之間有帶，與 678 bp 相符；第 2 道在那個高度只有一片模糊，另有一條較低的帶。這就是「5 選 4」。曝光偏重：陽性帶都過曝並向兩側暈開，所以這張膠只能說有帶，不能說那是單一乾淨的產物。送定序的是選殖株 5。"
   }
  },
  "v12": {
@@ -1248,6 +1495,32 @@ var FIGS = {
    "zh": "標記旁只有一個菌落泳道。標為 735 bp 的帶幾乎看不見，只是 800 刻度下方一片淡淡的痕跡，而這一道最亮的東西是前緣的引子二聚體。標記那一道也過載，800 到 500 的刻度糊成一條白柱，參考價值很低。一個菌落、一條淡帶。頁面接著寫「選殖株 [X] 已定序」，佔位符根本沒填。"
   }
  },
+ "v14": {
+  "id": "v14",
+  "img": "b207909c8639.avif",
+  "page": "",
+  "label": {
+   "en": "Three bands, caption says one",
+   "zh": "三條帶、圖說寫一株"
+  },
+  "read": {
+   "en": "Three colony lanes with the ladder on the right, which is unusual but fine. All three carry a bright band near the 1.5 kb rung. Lane 1 runs a little higher than lanes 2 and 3, and only lane 1 is bracketed 1602 bp. So \"1 of 3\" is a judgement about migration height, not about presence. On a gel this overloaded that difference is a few pixels wide. Clone 1 was sequenced, and that is the evidence that holds.",
+   "zh": "三個菌落泳道，標記放在右側，雖然少見但沒問題。三道在 1.5 kb 刻度附近都有明亮的帶。第 1 道跑得比第 2、3 道略高，而且只有第 1 道被括號標為 1602 bp。所以「3 選 1」是對遷移高度的判斷，不是對有無帶的判斷。在這麼過載的膠上，那個差距只有幾個像素寬。送定序的是選殖株 1，真正站得住的是定序。"
+  }
+ },
+ "v15": {
+  "id": "v15",
+  "img": "ba762e02cb85.avif",
+  "page": "",
+  "label": {
+   "en": "Three bands per lane",
+   "zh": "每道三條帶"
+  },
+  "read": {
+   "en": "M plus four colony lanes, numbered 2 to 5. Lanes 3, 4 and 5 each show a band between the 500 and 750 rungs, the 632 bp junction product. Lane 2 is empty. Each positive lane also carries a band near 250 bp that is brighter than the target, plus faint high-molecular-weight material. The caption names both as non-specific amplification from a colony template, which is the right thing to do. Clone 4, at insert:vector 1:7, was sequenced.",
+   "zh": "M 加四個菌落泳道，編號 2 到 5。第 3、4、5 道在 500 與 750 刻度之間各有一條帶，就是 632 bp 的接點產物；第 2 道空白。每個陽性道還有一條約 250 bp、比目標帶更亮的帶，以及上方淡淡的高分子量痕跡。圖說把這兩者都點名為以菌落為模板的非專一性擴增，這是正確的做法。送定序的是選殖株 4（插入:載體 = 1:7）。"
+  }
+ },
  "v16": {
   "id": "v16",
   "img": "bd64752e9f98.avif",
@@ -1259,6 +1532,84 @@ var FIGS = {
   "read": {
    "en": "M plus eight colony lanes. Four of them, lanes 2, 4, 5 and 7, carry a band just below the 2 kb rung, but only lane 7 is bracketed 1984 bp. Lanes 1 and 8 give a much shorter product and lanes 3 and 6 show only front smear. The caption's \"1 of 1 colonies\" does not describe this gel: eight were screened and at least four look positive. Clone 1 was sequenced, though lane 7 is the annotated one.",
    "zh": "M 加八個菌落泳道。其中四道（第 2、4、5、7 道）在 2 kb 刻度略下方有帶，但只有第 7 道被括號標為 1984 bp。第 1、8 道是明顯短得多的產物，第 3、6 道只有前緣拖尾。圖說的「1 選 1」根本沒有描述這張膠：篩了八個，至少四個看起來是陽性。頁面說送定序的是選殖株 1，被標註的卻是第 7 道。"
+  }
+ },
+ "v17": {
+  "id": "v17",
+  "img": "c00e095c212c.avif",
+  "page": "",
+  "label": {
+   "en": "Eleven for eleven",
+   "zh": "十一株全中"
+  },
+  "read": {
+   "en": "M plus eleven colony lanes, every one with a strong band at the same height, bracketed 632 bp. Several lanes also show a faint lower band. The ladder lane has rungs but no printed sizes at all, so on this image alone you cannot place the band against any marker. The 632 bp claim rests on the sister gel, where the ladder is labelled. Eleven matching bands still prove only this one junction. Clone 1 was sequenced.",
+   "zh": "M 加十一個菌落泳道，每一道都在同一高度有明顯的帶，括號標為 632 bp。有幾道下方還有一條淡帶。標記那一道雖然有刻度，卻完全沒有印上數字，所以單憑這張圖無法把帶對到任何參考點，632 bp 這個說法得靠姊妹膠（那張的標記有標字）。十一條一致的帶，仍然只證明這一個接點。送定序的是選殖株 1。"
+  }
+ },
+ "v18": {
+  "id": "v18",
+  "img": "c99753738e91.avif",
+  "page": "",
+  "label": {
+   "en": "Overloaded and spreading",
+   "zh": "上樣過量、糊開了"
+  },
+  "read": {
+   "en": "M plus four colony lanes, each with a band just above the 500 bp rung, consistent with 536 bp. All four are overloaded and spread sideways until lanes 2, 3 and 4 nearly merge, so you cannot say whether any lane holds a second, close product. Four of four with no negative control means nothing on this gel shows what a failed colony looks like. Clone 1 was sequenced; the gel measured length only.",
+   "zh": "M 加四個菌落泳道，每道在 500 bp 刻度略上方有帶，與 536 bp 相符。四道都上樣過量並向兩側擴散，第 2、3、4 道幾乎連在一起，所以無法判斷任何一道是否還藏著第二條靠得很近的產物。4 選 4 又沒有陰性對照，等於這張膠裡看不到失敗的菌落長什麼樣。送定序的是選殖株 1；膠本身只量了長度。"
+  }
+ },
+ "v19": {
+  "id": "v19",
+  "img": "ebfd0c76c34d.avif",
+  "page": "",
+  "label": {
+   "en": "Two of seven",
+   "zh": "七株中兩株"
+  },
+  "read": {
+   "en": "M plus seven colony lanes. Lanes 1 and 4 carry a band just below the 1.5 kb rung, bracketed 1423 bp, which is the 2 of 7. Lane 2 is not blank: it has a strong band far lower down, a wrong-size product, and lanes 1 and 4 show faint low doublets of their own. Lanes 3, 5 and 7 are empty. A band at 1423 bp fixes length only. Clone 1 was sequenced and that is what the page rests on.",
+   "zh": "M 加七個菌落泳道。第 1、4 道在 1.5 kb 刻度略下方有帶，括號標為 1423 bp，也就是「7 選 2」。第 2 道並非空白：它在很下方有一條明亮的帶，是大小不對的產物；第 1、4 道自己下方也各有一對淡帶。第 3、5、7 道空白。1423 bp 的帶只固定了長度。送定序的是選殖株 1，頁面靠的是那份定序。"
+  }
+ },
+ "v20": {
+  "id": "v20",
+  "img": "ec8e3cdacc85.avif",
+  "page": "",
+  "label": {
+   "en": "A multi-kilobase band",
+   "zh": "好幾 kb 的帶"
+  },
+  "read": {
+   "en": "One colony lane beside a high-range ladder marked 10k, 8k and 6k. The single band sits between the 8k and 10k rungs, bracketed 7767 bp. The same page's methods say a correct band runs at [1145 bp], and the deposited sequence with the stated Csn F and ACCD R primers gives 1195 bp. Three numbers for one band, none matching the other two. Whatever this lane shows, it is not a 1.2 kb insert check.",
+   "zh": "一個菌落泳道，旁邊是標著 10k、8k、6k 的高範圍標記。唯一的帶落在 8k 與 10k 刻度之間，括號標為 7767 bp。同一頁的方法段寫「正確的帶在 [1145 bp]」，而用頁面所列的 Csn F 與 ACCD R 引子對已登錄序列計算，應為 1195 bp。一條帶、三個數字，彼此都對不上。這一道不論是什麼，都不是 1.2 kb 的插入片段檢查。"
+  }
+ },
+ "v21": {
+  "id": "v21",
+  "img": "fa7885bfe062.avif",
+  "page": "",
+  "label": {
+   "en": "Two of four",
+   "zh": "四株中兩株"
+  },
+  "read": {
+   "en": "M plus four colony lanes. Lanes 2 and 4 carry a band just below the 1.5 kb rung, bracketed 1442 bp, which is the 2 of 4. Lanes 1 and 3 are not empty: both give a bright, much shorter product, so those colonies amplified the wrong thing rather than nothing. The ladder is labelled only at 3K and 1.5K, so the 1442 bp reading rests on one nearby rung. Clone 4 was sequenced.",
+   "zh": "M 加四個菌落泳道。第 2、4 道在 1.5 kb 刻度略下方有帶，括號標為 1442 bp，也就是「4 選 2」。第 1、3 道並非空白：兩道都有明亮且短得多的產物，表示那些菌落擴增出錯的東西，而不是什麼都沒有。標記只在 3K 與 1.5K 有標字，所以 1442 bp 的判讀只靠附近一個刻度。送定序的是選殖株 4。"
+  }
+ },
+ "w01": {
+  "id": "w01",
+  "img": "18639698c5cc.avif",
+  "page": "",
+  "label": {
+   "en": "Green above red at every time",
+   "zh": "每個時間點綠都高於紅"
+  },
+  "read": {
+   "en": "This is the DNPH assay, so it reports activity, not amount. Baseline before light is about 2.7. Green is above red at every time: roughly 8 against 6 at 3 h, 12 against 9 at 6 h, 18 against 16 at 8 h. The clean gap is at 6 h. At 3 h and 8 h the error bars overlap. There is no plasmid-free bar on this plot, and the axis is still labelled concentration in µg/mL.",
+   "zh": "這是 DNPH 活性測定，量的是活性不是蛋白量。照光前的 baseline 約 2.7。每個時間點綠光都高於紅光：3 小時約 8 比 6，6 小時約 12 比 9，8 小時約 18 比 16。差距最乾淨的是 6 小時；3 小時與 8 小時的誤差線互相重疊。這張圖沒有無質體的對照柱，而且 y 軸仍標成濃度 µg/mL。"
   }
  },
  "w02": {
@@ -1285,6 +1636,19 @@ var FIGS = {
   "read": {
    "en": "Three lanes, green light only, sampled 3, 6 and 8 h after a 16 h dark culture. Lane M is the ladder at 180, 130 and 100 kDa. Each lane carries one band just below 100 kDa. Our AcdS monomer is predicted at about 35 kDa, so this runs far too high. We offer a roughly 70 kDa homodimer as a possibility we have not tested. There is no red, dark or plasmid-free lane on this blot.",
    "zh": "三條泳道，全部都是綠光，在 16 小時暗培養後的 3、6、8 小時取樣。M 是 marker，標示 180、130、100 kDa。每一道都有一條略低於 100 kDa 的條帶。我們的 AcdS 單體預測約 35 kDa，所以這個位置明顯偏高。我們提出約 70 kDa 的同源二聚體作為一個尚未驗證的可能解釋。這張膜上沒有紅光、暗處或無質體的泳道。"
+  }
+ },
+ "w04": {
+  "id": "w04",
+  "img": "59fdb2dd4530.avif",
+  "page": "",
+  "label": {
+   "en": "The blot, quantified",
+   "zh": "墨點定量後"
+  },
+  "read": {
+   "en": "The bars are the blot quantified, relative to 3 h set at 1.00: 6 h is 1.10 and 8 h is 0.65, so signal falls by about a third at 8 h. That is one blot, one replicate, and no loading control, so the numbers are normalised only to themselves. The band itself sits just below the 100 kDa marker, against a predicted 35 kDa monomer. All three lanes are green at 100 percent.",
+   "zh": "長條圖是這張膜的定量結果，以 3 小時設為 1.00：6 小時是 1.10，8 小時是 0.65，也就是 8 小時掉了約三分之一。這是單一張膜、單一重複，而且沒有 loading control，所以這些數字只是自己對自己的正規化。條帶本身落在略低於 100 kDa 的位置，而預測單體是 35 kDa。三條泳道全部是 100% 綠光。"
   }
  },
  "w05": {
@@ -1456,6 +1820,19 @@ var FIGS = {
    "zh": "這是 236 nt 的轉譯起始視窗，用 ViennaRNA 2.7.2 在 37 °C 下摺疊。表格顯示訂購的設計在 42,581 個變體中排第 4：start+15 可及性由 0.396 升到 0.497，Shine-Dalgarno 核心由 0.067 升到 0.634，改了 9 個密碼子、11 個鹼基，CAI 由 0.87 降到 0.77。(b)(c) 是預測的最低自由能結構，(d) 是每個鹼基的未配對機率。全部都是摺疊預測，這個卡匣的轉譯起始從未被量測過。"
   }
  },
+ "x03": {
+  "id": "x03",
+  "img": "3da62e90de50.avif",
+  "page": "",
+  "label": {
+   "en": "The contact the design rests on",
+   "zh": "設計賴以成立的那個接觸"
+  },
+  "read": {
+   "en": "Three panels on the one contact the design rests on. In (a) Arg487 grips the Asn23 C-terminal carboxylate with both oxygens in 100.0 % of wild-type frames and 99.5 % of AtPep1 frames; with a C-terminal 6xHis tag bidentate engagement is 0.0 % and monodentate 99.3 %. In (b) the first shell is the peptide C-terminal COO- for both controls and a backbone carbonyl for the tagged system. In (c) the charge centres sit 4.0 Å apart for the controls and 20.1 Å with the tag.",
+   "zh": "三張圖都在講設計所倚靠的那一個接觸。(a) Arg487 以兩個氧抓住 Asn23 的 C 端羧基，野生型 100.0 % 的 frames、AtPep1 99.5 %；加上 C 端 6xHis 標籤後，雙齒結合變成 0.0 %，單齒 99.3 %。(b) 第一殼層在兩組對照是胜肽 C 端 COO−，在加標籤的系統則換成主鏈羰基。(c) 電荷中心距離在對照是 4.0 Å，加標籤後是 20.1 Å。"
+  }
+ },
  "x04": {
   "id": "x04",
   "img": "426238dcca98.avif",
@@ -1480,6 +1857,45 @@ var FIGS = {
   "read": {
    "en": "The same hydroponic rack photographed before the heat stress, with 15-day-old Arabidopsis. Every plug is green and the rosettes look comparable. The rack carries ACC deaminase at 1/40, 1/60, 1/80 and 1/100, BoPep4 at the same four dilutions, and a 1/40 WB800 vehicle plus a 0.1x MS medium control repeated for each arm, three seedlings per bracket. White fuzz is visible on at least two plugs. This image carries no measurement.",
    "zh": "這是同一組水耕盤架在熱逆境之前拍的，裡面是 15 天大的阿拉伯芥。每個孔的植株都是綠的，蓮座葉看起來彼此相當。盤上有 ACC deaminase 的 1/40、1/60、1/80、1/100，BoPep4 同樣四個稀釋度，以及每一臂各自重複的 1/40 WB800 載體與 0.1x MS 培養基對照，每括號三株。至少兩個孔上看得到白色菌絲。這張照片本身沒有任何測量值。"
+  }
+ },
+ "x06": {
+  "id": "x06",
+  "img": "563e8334c64d.avif",
+  "page": "",
+  "label": {
+   "en": "Eight systems over 30 ns",
+   "zh": "八個系統、30 奈秒"
+  },
+  "read": {
+   "en": "Eight peptide-bound systems plus apo PEPR1, 30 ns each, 1,500 frames, smoothed over 500 ps. Panel (a) is receptor Ca RMSD against a 3.0 A gate, (b) peptide backbone RMSD in the receptor frame against 4.0 A, (c) the minimum heavy-atom distance across Asn23-Arg487 with the 4 A cut-off and the 5GR8 crystal value at 2.4 A, and (d) clamp contacts against a floor of 3 of 4. Only the two 9-23 systems leave the band for long.",
+   "zh": "八個結合胜肽的系統加上單獨的 PEPR1，各跑 30 ns、1,500 frames，用 500 ps 滾動平均平滑。(a) 是受體 Cα RMSD 對 3.0 Å 的門檻，(b) 是在受體座標下的胜肽主鏈 RMSD 對 4.0 Å，(c) 是 Asn23–Arg487 的最短重原子距離，標了 4 Å 判定線與 5GR8 晶體的 2.4 Å，(d) 是夾持接觸數對 4 取 3 的底線。只有兩個 9–23 系統長時間離開區間。"
+  }
+ },
+ "x07": {
+  "id": "x07",
+  "img": "5e77975cbd45.avif",
+  "page": "",
+  "label": {
+   "en": "Contact occupancy",
+   "zh": "接觸佔有率"
+  },
+  "read": {
+   "en": "Fraction of the 1,500 production frames in which each contact is made, for eight systems. Dashed red lines mark the 60 % pass mark on Arg487 within 4 A and on clamp at 3 of 4 or better, written down before the runs. Only BoPep4 9-23 at pH 5.5 fails, at 23.6 % and 19.3 %. BoPep4 WT plus C-His6 reads 99.8, 100.0, 99.7 and 100.0, and 15-23, the pre-registered negative control, reads 99.9, 97.1, 99.9 and 100.0.",
+   "zh": "這是八個系統在 1,500 個生產 frames 中各接觸出現的比例。紅色虛線標出事前寫下的 60 % 通過線，分別落在 Arg487 ≤4 Å 與夾持 ≥3/4 兩欄。只有 BoPep4 9–23 在 pH 5.5 不通過，為 23.6 % 與 19.3 %。BoPep4 WT 加 C-His6 是 99.8、100.0、99.7、100.0；事前登記為陰性對照的 15–23 則是 99.9、97.1、99.9、100.0。"
+  }
+ },
+ "x08": {
+  "id": "x08",
+  "img": "62bf14698087.avif",
+  "page": "",
+  "label": {
+   "en": "BoPep4 salinity, three panels",
+   "zh": "BoPep4 鹽逆境三面板"
+  },
+  "read": {
+   "en": "Three panels from the BoPep4 salinity run, twelve groups each, one bar per group, three seedlings, no error bars and no repeat. On fresh weight the best salt-stressed group is 1/40 BoPep4 at about 0.049 g, against 0.043 g for the 1/40 WB800 vehicle and 0.028 g for 0.1x MS medium. On chlorophyll per plant 1/40 BoPep4 reaches about 8.4 ug against 2.1 and 4.4. The third panel reverses the order.",
+   "zh": "這是 BoPep4 鹽逆境試驗的三張圖，每張 12 組，每組一根柱、三株苗，沒有誤差棒也沒有重複。鮮重上，鹽逆境中最高的是 1/40 BoPep4 約 0.049 g，1/40 WB800 載體約 0.043 g，0.1x MS 培養基約 0.028 g。每株葉綠素上，1/40 BoPep4 約 8.4 µg，對照分別是 2.1 與 4.4。第三張圖則把順序倒過來。"
   }
  },
  "x09": {
@@ -1521,6 +1937,45 @@ var FIGS = {
    "zh": "四列把事前登記的驗收標準和實際跑出來的結果並排。四項都被預測為不通過，結果四項全過：受體 Cα RMSD 2.10 Å（門檻 3.0 Å）、胜肽主鏈 RMSD 1.83 Å（門檻 4.0 Å）、Asn23–Arg487 在 4 Å 內佔 99.9 % 的 frames、夾持 ≥3/4 佔 100.0 %。表下的註記直說：這些標準分辨不出這個片段和野生型。"
   }
  },
+ "x13": {
+  "id": "x13",
+  "img": "857f2439d39f.avif",
+  "page": "",
+  "label": {
+   "en": "Thermo-priming readouts",
+   "zh": "熱馴化讀值"
+  },
+  "read": {
+   "en": "Four readouts from the agar thermo-priming set on day 15, one plate per condition. In (a) fresh weight, the unheated untreated plate is 0.065 g while pre-, co- and post-treatment reach about 0.455, 0.23 and 0.665 g; all heated groups sit near 0.02 to 0.04 g. Panel (b) divides chlorophyll by that weight and sets the unheated untreated plate as the 1.0 reference. Panel (c) is unnormalised. In (d) the co-treatment box collapses to a line near 20 mm.",
+   "zh": "這是洋菜熱馴化組第 15 天的四項讀數，每個條件只有一盤。(a) 鮮重：未加熱未處理為 0.065 g，前、同、後處理分別約 0.455、0.23、0.665 g；加熱各組都在 0.02 到 0.04 g 之間。(b) 把葉綠素除以那個鮮重，並以未加熱未處理盤當作 1.0 的基準。(c) 則未標準化。(d) 中同處理那一格塌成一條約 20 mm 的線。"
+  }
+ },
+ "x14": {
+  "id": "x14",
+  "img": "967ad6a6fb98.avif",
+  "page": "",
+  "label": {
+   "en": "The vehicle on its own",
+   "zh": "只有載體本身"
+  },
+  "read": {
+   "en": "The vehicle on its own: TB medium carrying WB800 with no protectant, at 1, 1/2, 1/4, 1/8, 1/16 and 0, at pH 5.7 and pH 7.1. Undiluted vehicle drops fresh weight to about 0.006 g against 0.065 g with no medium at all, and even 1/16 stays below the no-medium group. Chlorophyll per plant follows the same order. Relative chlorophyll reverses it, with the 1/2 dilutions topping that panel near 3.3 and 3.5.",
+   "zh": "這是單獨測載體：帶 WB800 但不含保護蛋白的 TB 培養液，稀釋為 1、1/2、1/4、1/8、1/16 與 0，並分 pH 5.7 與 pH 7.1。未稀釋的載體把鮮重壓到約 0.006 g，而完全不加培養液是約 0.065 g；就算 1/16 也仍低於不加培養液那組。每株葉綠素的順序相同。相對葉綠素則倒過來，1/2 那兩組衝到約 3.3 與 3.5 的最高點。"
+  }
+ },
+ "x15": {
+  "id": "x15",
+  "img": "a1dda76e26ac.avif",
+  "page": "",
+  "label": {
+   "en": "Residues 1 to 14 travel",
+   "zh": "殘基 1 到 14 會跑"
+  },
+  "read": {
+   "en": "Panel (a) plots total contact occupancy for each BoPep4 residue on the 30 ns wild-type run, residues 1-14 lost in red and 15-23 retained in teal; Asn23 is the tallest bar near 5.9, and His14, just outside the fragment, is about 4.2. Panel (b) is the ledger: 49.8 % of contact occupancy retained, 8 of 8 crystallographic contacts kept, 17 receptor partners lost including 5 tyrosines, Asn23-Arg487 kept, Arg9-Asp179 and Lys7-Asp129 lost.",
+   "zh": "(a) 圖畫出 30 ns 野生型軌跡中每個 BoPep4 殘基的總接觸佔有率，紅色是 15–23 丟掉的 1–14 殘基，藍綠色是保留的 15–23；Asn23 是最高的一根，約 5.9，而剛好落在片段外的 His14 約 4.2。(b) 是帳本：接觸佔有率保留 49.8 %，8 個晶體接觸全數保留，失去 17 個受體夥伴（其中 5 個酪胺酸），Asn23–Arg487 保住，Arg9–Asp179 與 Lys7–Asp129 丟失。"
+  }
+ },
  "x16": {
   "id": "x16",
   "img": "bf0adfe3ac46.avif",
@@ -1558,6 +2013,32 @@ var FIGS = {
   "read": {
    "en": "The salinity rack with 15-day-old Arabidopsis: the upper block at 0 mM NaCl, the lower block at 100 mM. Within each block BoPep4 runs at 1/40, 1/60, 1/80 and 1/100, with a 1/40 WB800 vehicle and a 0.1x MS medium control, three seedlings per bracket. The salt block is visibly smaller, with purple-red and bleached leaves across all groups including 1/40. One rack, one photograph, no scoring, no repeat.",
    "zh": "這是鹽逆境盤架，裡面是 15 天大的阿拉伯芥：上半區 0 mM NaCl，下半區 100 mM。每一區裡 BoPep4 有 1/40、1/60、1/80、1/100，加上 1/40 WB800 載體與 0.1x MS 培養基對照，每括號三株。加鹽那一區明顯較小，所有組（含 1/40）都有紫紅與白化的葉片。只有一盤、一張照片，沒有評分、沒有重複。"
+  }
+ },
+ "x20": {
+  "id": "x20",
+  "img": "de3fe476b68b.avif",
+  "page": "",
+  "label": {
+   "en": "Eight plates, two temperatures",
+   "zh": "八個盤、兩種溫度"
+  },
+  "read": {
+   "en": "Eight vertical agar plates on day 15: the top row held at 22 °C, the bottom row thermo-primed at 37 °C, columns untreated, pre-, co- and post-treatment. Nine to ten seedlings per plate and one plate per condition, so the plate is the replicate. Three carry a printed *contaminated mark: co-treatment at 22 °C, and under heat both the co-treatment plate and the untreated control. Heated seedlings are white or pale yellow with much shorter roots.",
+   "zh": "第 15 天的八盤垂直洋菜板：上排整段維持 22 °C，下排在 37 °C 熱馴化，欄位由左至右為未加、前處理、同處理、後處理。每盤 9 到 10 株，每個條件只有一盤，所以盤本身就是重複單位。其中三盤印有 *contaminated 標記：22 °C 的同處理，以及加熱組的同處理與未處理對照。加熱的苗是白色或淡黃，根也短得多。"
+  }
+ },
+ "x21": {
+  "id": "x21",
+  "img": "f2d532ebc455.avif",
+  "page": "",
+  "label": {
+   "en": "Vehicle series, ACCD page",
+   "zh": "載體系列（ACCD 頁）"
+  },
+  "read": {
+   "en": "The same vehicle-only series repeated on the ACC deaminase page: TB medium carrying WB800 with no protectant at 1, 1/2, 1/4, 1/8, 1/16 and 0, at pH 5.7 and pH 7.1. Fresh weight climbs with dilution at both pH values, from about 0.006 g undiluted to 0.065 g with no medium at pH 5.7, and 0.004 to 0.057 g at pH 7.1. The dose response on this figure belongs to the medium, not to any protectant.",
+   "zh": "同一組純載體系列也出現在 ACC deaminase 頁：帶 WB800 但不含保護蛋白的 TB 培養液，稀釋為 1、1/2、1/4、1/8、1/16 與 0，分 pH 5.7 與 pH 7.1。兩個 pH 下鮮重都隨稀釋上升，pH 5.7 由未稀釋的約 0.006 g 升到不加培養液的約 0.065 g，pH 7.1 則是 0.004 升到 0.057 g。這張圖上的劑量反應屬於培養液本身，不屬於任何保護蛋白。"
   }
  },
  "y01": {

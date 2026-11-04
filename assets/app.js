@@ -7,6 +7,7 @@
   var lang = 'en';
   var mode = 'full';
   var first = true;
+  var openId = null;   /* only one section's questions are shown at a time */
 
   try {
     lang = localStorage.getItem(KEY_LANG) === 'zh' ? 'zh' : 'en';
@@ -40,6 +41,9 @@
     + ' stroke-linecap="round" stroke-linejoin="round"/></svg>';
   var BURGER = '<svg width="15" height="12" viewBox="0 0 15 12" fill="none" aria-hidden="true">'
     + '<path d="M1 1h13M1 6h13M1 11h13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>';
+  var CHEV = '<svg width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true">'
+    + '<path d="M1 1.2 5 4.8 9 1.2" stroke="currentColor" stroke-width="1.4"'
+    + ' stroke-linecap="round" stroke-linejoin="round"/></svg>';
   var UPARROW = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">'
     + '<path d="M7 12V2M2.5 6.5 7 2l4.5 4.5" stroke="currentColor" stroke-width="1.5"'
     + ' stroke-linecap="round" stroke-linejoin="round"/></svg>';
@@ -132,15 +136,18 @@
     /* contents rail */
     var rail = '';
     DATA.awards.forEach(function (a) {
-      rail += '<div data-acc="' + a.id + '">'
-        + '<a class="sec" href="#' + a.id + '"><span class="dot"></span>' + esc(t(a.name)) + '</a>';
+      rail += '<div class="grp" data-acc="' + a.id + '" data-grp="' + a.id + '">'
+        + '<a class="sec" href="#' + a.id + '"><span class="dot"></span><span class="nm">' + esc(t(a.name))
+        + '</span><span class="cnt">' + a.questions.length + '</span><span class="chev">'
+        + CHEV + '</span></a><div class="qs">';
       a.questions.forEach(function (q, i) {
         rail += '<a class="ql" href="#' + a.id + '-q' + (i + 1) + '" data-q="' + a.id + '-q' + (i + 1) + '">'
           + '<i>' + (i + 1) + '</i><span>' + esc(t(q.q)) + '</span></a>';
       });
-      rail += '</div>';
+      rail += '</div></div>';
     });
     document.getElementById('rail').innerHTML = rail;
+    openGroup(openId || DATA.awards[0].id);
 
     document.getElementById('tocbtn').innerHTML = BURGER + '<span>' + esc(t(UI.contents)) + '</span>';
     document.getElementById('upbtn').innerHTML = UPARROW;
@@ -202,6 +209,15 @@
     if (first) { first = false; jump(); }
   }
 
+  /* only one section is expanded at a time, so the rail stays short */
+  function openGroup(id) {
+    if (!id) return;
+    openId = id;
+    Array.prototype.forEach.call(document.querySelectorAll('#rail .grp'), function (g) {
+      g.classList.toggle('on', g.getAttribute('data-grp') === id);
+    });
+  }
+
   /* a re-render drops the browser's anchor position, so put it back */
   function jump() {
     var h = location.hash ? location.hash.slice(1) : '';
@@ -243,6 +259,7 @@
       var a = links[best];
       if (!a) return;
       a.classList.add('on');
+      openGroup(best.split('-q')[0]);
       var rail = document.getElementById('rail');
       var top = a.offsetTop, h = rail.clientHeight;
       if (top < rail.scrollTop + 60 || top > rail.scrollTop + h - 80) {
@@ -294,6 +311,13 @@
     if (el.closest('#tocbtn')) { document.body.classList.toggle('toc'); return; }
     if (el.closest('.scrim')) { closeTOC(); return; }
     if (el.closest('#upbtn')) { window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
+    var sec = el.closest('#rail .sec');
+    if (sec) {
+      var g = sec.parentElement.getAttribute('data-grp');
+      if (openId === g) { e.preventDefault(); openGroup(null); openId = g; sec.parentElement.classList.remove('on'); openId = null; }
+      else { openGroup(g); }
+      return;
+    }
     if (el.closest('#rail a')) { closeTOC(); return; }
 
     var lbtn = el.closest('[data-lang]');

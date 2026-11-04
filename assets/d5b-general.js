@@ -210,7 +210,7 @@ MOREQ('general', [
       { t: { en: 'So is the weakest part of our strongest claim: the light-plate work is n = 2, the red LEDs are at 640 nm when CcaSR needs about 672 for a clean off state, and we name the one week of plate work that would settle it.',
              zh: '我們最強主張裡最弱的一環也是一樣：光照盤實驗 n = 2，紅光 LED 是 640 nm，而 CcaSR 要約 672 nm 才有乾淨的關閉態；我們也說得出用一週的盤子實驗就能把它定下來。' }, src: 'results' }
     ],
-    figs: ['j01', 'j02', 'w15', 'w07', 'w14'],
+    figs: ['j01', 'j02', 'w15', 'w07', 'w14', 'v09'],
     a: {
       en: 'We prepared for this part of the ballot as deliberately as for the bench. The team drilled against a '
         + '542-question bank built from our own wiki, including 181 questions that judges actually asked other teams, and '

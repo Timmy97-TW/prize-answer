@@ -491,5 +491,153 @@
  "q12": [
   "The unit with no tag",
   "沒有標籤的單元"
+ ],
+ "q02": [
+  "Csn-AcdS in pGEM-T Easy",
+  "pGEM-T Easy 上的 Csn-AcdS"
+ ],
+ "q03": [
+  "LEA14 on a 7191 bp plasmid",
+  "7191 bp 質體上的 LEA14"
+ ],
+ "q04": [
+  "Point at the insert",
+  "指出插入片段"
+ ],
+ "q05": [
+  "AcdS at Level 0",
+  "Level 0 的 AcdS"
+ ],
+ "q06": [
+  "The Level 1 output unit",
+  "Level 1 輸出單元"
+ ],
+ "q07": [
+  "Left to right across the insert",
+  "由左到右走過插入片段"
+ ],
+ "q09": [
+  "BoPep4, 183 bp",
+  "BoPep4、183 bp"
+ ],
+ "q13": [
+  "Two cargoes, one vector",
+  "同一載體、兩種貨物"
+ ],
+ "q15": [
+  "BoPep4 2.2 in pSTK-EXP1",
+  "pSTK-EXP1 上的 BoPep4 2.2"
+ ],
+ "q16": [
+  "Csn or SamyQ, read by length",
+  "用長度分辨 Csn 與 SamyQ"
+ ],
+ "q18": [
+  "Fifteen base pairs apart",
+  "相差十五個鹼基對"
+ ],
+ "q19": [
+  "Two maps that agree",
+  "兩張一致的圖譜"
+ ],
+ "v02": [
+  "Lanes 2 and 11",
+  "第 2 與第 11 道"
+ ],
+ "v06": [
+  "Two lanes, one sizing",
+  "兩道、一次定大小"
+ ],
+ "v07": [
+  "All three colonies",
+  "三株全中"
+ ],
+ "v09": [
+  "Two bright, one faint",
+  "兩條亮、一條淡"
+ ],
+ "v11": [
+  "Four of five",
+  "五株中四株"
+ ],
+ "v14": [
+  "Three bands, caption says one",
+  "三條帶、圖說寫一株"
+ ],
+ "v15": [
+  "Three bands per lane",
+  "每道三條帶"
+ ],
+ "v17": [
+  "Eleven for eleven",
+  "十一株全中"
+ ],
+ "v18": [
+  "Overloaded and spreading",
+  "上樣過量、糊開了"
+ ],
+ "v19": [
+  "Two of seven",
+  "七株中兩株"
+ ],
+ "v20": [
+  "A multi-kilobase band",
+  "好幾 kb 的帶"
+ ],
+ "v21": [
+  "Two of four",
+  "四株中兩株"
+ ],
+ "w01": [
+  "Green above red at every time",
+  "每個時間點綠都高於紅"
+ ],
+ "w04": [
+  "The blot, quantified",
+  "墨點定量後"
+ ],
+ "x03": [
+  "The contact the design rests on",
+  "設計賴以成立的那個接觸"
+ ],
+ "x06": [
+  "Eight systems over 30 ns",
+  "八個系統、30 奈秒"
+ ],
+ "x07": [
+  "Contact occupancy",
+  "接觸佔有率"
+ ],
+ "x08": [
+  "BoPep4 salinity, three panels",
+  "BoPep4 鹽逆境三面板"
+ ],
+ "x13": [
+  "Thermo-priming readouts",
+  "熱馴化讀值"
+ ],
+ "x14": [
+  "The vehicle on its own",
+  "只有載體本身"
+ ],
+ "x15": [
+  "Residues 1 to 14 travel",
+  "殘基 1 到 14 會跑"
+ ],
+ "x20": [
+  "Eight plates, two temperatures",
+  "八個盤、兩種溫度"
+ ],
+ "x21": [
+  "Vehicle series, ACCD page",
+  "載體系列（ACCD 頁）"
+ ],
+ "p01": [
+  "Trehalose plate grid",
+  "海藻糖平板矩陣"
+ ],
+ "p04": [
+  "The salt ladder, set 5",
+  "第 5 組鹽梯度"
  ]
 }

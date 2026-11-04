@@ -25,7 +25,7 @@ MOREQ('biomfg', [
       { t: { en: 'Scale-out also matches the customer: 99.2 percent of Taiwan’s farms are under two hectares, so one large plant serving many farms would put the cold chain back in.',
              zh: '橫向複製也比較貼合客戶：台灣 99.2% 的農場不到兩公頃，蓋一座大廠供應很多農場，等於又把冷鏈裝回去了。' }, src: 'geospatial-analysis' }
     ],
-    figs: ['n03', 'b01', 'n02'],
+    figs: ['n03', 'b01', 'n02', 'q05', 'q07'],
     a: {
       en: 'Making the vessel bigger means re-establishing every quantity that depends on a length scale: oxygen transfer, '
         + 'heat removal, mixing time, membrane area per unit volume, and the wall shear rate that sets the critical flux. '
@@ -68,7 +68,7 @@ MOREQ('biomfg', [
       { t: { en: 'The fleet arithmetic is in the model: ten 20-litre units cover 2.5 hectares while running only 4.3 percent of the calendar, so the binding constraint is capital and medium, not reactor time.',
              zh: '機隊的算術在模型裡：十台 20 L 的機器可以覆蓋 2.5 公頃，而且只占了 4.3% 的日曆時間，所以真正的限制是資本與培養基，不是反應器時間。' }, src: 'model' }
     ],
-    figs: ['i10', 'b03', 'g03'],
+    figs: ['i10', 'b03', 'g03', 'x13', 'x20'],
     a: {
       en: 'The membrane is the last thing to bind, not the first: at one module we run at 2 LMH against a critical flux '
         + 'of 46, so there is about twenty-five-fold headroom in the fibre. What binds first is consumables and watts — '

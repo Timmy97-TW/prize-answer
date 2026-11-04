@@ -14,7 +14,7 @@ no build step to view it, no external requests, works offline once loaded.
 |---|---|
 | **Keywords** | Drawn as a flow: nodes along a spine with a branch under the ones that need it. Six for an award question, up to ten for one of the nine Project questions. This is what a student holds in their head when they are nervous — say the spine, and the sentence builds itself. |
 | **Context** | On the Project questions, one line on what the judge is actually testing, so the answer is aimed at the right thing. |
-| **Figures** | Three or four for an award question, five to seven for a Project question, each one used **once** across the whole site. Where there is a physical thing to show, the concrete figure leads and the diagrams and plots follow. Click one for the full-size figure and a reading of what it shows. |
+| **Figures** | Five for an award question, six or seven for a Project question, each one used **once** across the whole site — 161 figures, no repeats. Where there is a physical thing to show, the concrete figure leads and the diagrams and plots follow. Click one for the full-size figure and a reading of what it shows. |
 | **The answer** | Three to five sentences of scientific English, ready to say out loud. Where a number has a boundary, the boundary is in the answer rather than hidden behind it. |
 | **Evidence** | Three to six checkable items, each linked to the wiki page it came from. |
 
@@ -33,9 +33,9 @@ no build step to view it, no external requests, works offline once loaded.
 **Full** shows everything. **Keywords** strips the page back to the question and its keyword flow —
 that is the drill view. Both settings and the language stick in `localStorage`.
 
-Navigation is a contents rail: every question listed under its section, the one you are reading
-highlighted and scrolled into view as you go. It is fixed on the left above 1160px and a drawer
-below that. Each question also carries previous and next, every question has its own URL
+Navigation is a contents rail that works as an accordion: one section is open at a time with its
+questions listed, the rest collapse to a row with a count, and the open section follows you as you
+scroll. It is fixed on the left above 1160px and a drawer below that. Each question also carries previous and next, every question has its own URL
 (`#hardware-q2`), and a progress bar runs along the bottom of the top bar.
 
 ## Colour
@@ -48,8 +48,14 @@ numerals, so you always know which section you are in.
 
 ## Where the content comes from
 
-Facts, figure readings and the honest boundaries are drawn from the team's judging trainer
-(`releaf-judging-qa`), which was itself built from the frozen wiki at
+The three special-award sections are written from the live wiki pages themselves —
+[measurement](https://2026.igem.wiki/gems-taiwan/measurement),
+[hardware](https://2026.igem.wiki/gems-taiwan/hardware) with its instrument pages, and
+[human-practices](https://2026.igem.wiki/gems-taiwan/human-practices). The Measurement page answers
+the four judging aspects in its own conclusion and this site follows it; the Human Practices page
+logs every engagement as a Before and an After, and those pairs are the evidence here. Figure
+readings and the honest boundaries come from the team's judging trainer (`releaf-judging-qa`),
+which was itself built from the frozen wiki at
 [2026.igem.wiki/gems-taiwan](https://2026.igem.wiki/gems-taiwan/). Nothing here is invented. Where
 our own pages disagree, the answer says which page is the authority rather than picking the
 flattering number.
