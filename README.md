@@ -60,6 +60,22 @@ which was itself built from the frozen wiki at
 our own pages disagree, the answer says which page is the authority rather than picking the
 flattering number.
 
+## Inside the judging trainer
+
+The same thirty questions are also a page of the team's judging trainer, at
+[releaf-judging-qa/prize.html](https://timmy97-tw.github.io/releaf-judging-qa/prize.html), where
+they wear the trainer's chrome and follow its language switch.
+
+```bash
+python3 tools/export_trainer.py
+```
+
+Merges `assets/figs.js` and the `assets/d*.js` content files into the trainer's
+`assets/js/prize-data.js`, rewriting every figure path to the trainer's own `img/fq` and `img/reg`
+folders — the trainer already holds all 162 figures, so none is duplicated. Run it after any
+content change here, then commit the trainer. The script fails rather than exporting a figure the
+trainer does not have.
+
 ## Rebuilding the figures
 
 ```bash
