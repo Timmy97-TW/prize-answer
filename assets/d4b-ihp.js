@@ -23,7 +23,7 @@ MOREQ('ihp', [
       { t: { en: 'Industry and regulators were engaged alongside academics: CH Biotech on 9 July, the Miaoli Agricultural Research Station on 31 August and 12 October, and the French Office in Taipei on 20 October.',
              zh: '產業與主管機關跟學界一起納進來：7 月 9 日正瀚生技、8 月 31 日與 10 月 12 日苗栗區農業改良場、10 月 20 日法國在台協會。' }, src: 'human-practices' }
     ],
-    figs: ['i01', 'i08', 'i04', 'i10'],
+    figs: ['i08', 'i04', 'y01'],
     a: {
       en: 'Four kinds of stakeholder are on the map and they do not agree: farmers and target customers, academics, '
         + 'industry, and regulators and the public — and where they conflict we keep the conflict rather than averaging '
@@ -69,7 +69,7 @@ MOREQ('ihp', [
       { t: { en: 'The booth exhibit was measured on the same terms: 59 of 62 respondents, 95.2 percent, said the physicalization helped them understand plant stress.',
              zh: '攤位展品也用同樣的標準量測：62 位填答者中有 59 位、也就是 95.2%，表示實體化展品幫助他們理解植物逆境。' }, src: 'data-physicalization' }
     ],
-    figs: ['i02', 'u01', 'e03', 'y01'],
+    figs: ['i02', 'u01', 'e03', 'y02'],
     a: {
       en: 'Each engagement is logged the same way — the date, who was in the room, what they asked and what changed '
         + 'because of it — so another team can audit the chain from a conversation to a design decision. The artefacts are '
@@ -113,7 +113,7 @@ MOREQ('ihp', [
       { t: { en: 'The practice we would most like copied is the one that costs something: we publish the places our own pages disagree, each with the honest sentence that goes with it.',
              zh: '我們最希望別人抄的那個做法，是會付代價的那個：我們公布自己頁面之間互相矛盾的地方，每一處都配上一句老實話。' }, src: 'results' }
     ],
-    figs: ['y01', 'e01', 'u02'],
+    figs: ['e01', 'e02', 'u02', 'y03'],
     a: {
       en: 'The most transferable thing we did is give a stakeholder authority over the architecture: "keep it in a vessel '
         + 'and sell the consumable" was said to us in April and it is the shape of the entire project, hardware included. '

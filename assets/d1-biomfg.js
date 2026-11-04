@@ -5,9 +5,9 @@ AWARD({
   basis: {
     en: 'A Village Award, scored on a weighted average of the Project, Presentation and Wiki rubric '
       + 'categories within the Biomanufacturing Village. The handbook gives it no separate aspect list, '
-      + 'so these are the five biomanufacturing questions a village judge presses on.',
+      + 'so these are the seven biomanufacturing questions a village judge presses on, three of them about scale.',
     zh: '這是村落獎，計分方式是生物製造村落內 Project、Presentation、Wiki 三個評分項的加權平均。'
-      + '評審手冊沒有為它列出單獨的評分面向，所以下面五題是村落評審實際會追問的生物製造問題。'
+      + '評審手冊沒有為它列出單獨的評分面向，所以下面七題是村落評審實際會追問的生物製造問題，其中三題講的是規模。'
   },
   questions: [
     {
@@ -34,7 +34,7 @@ AWARD({
         { t: { en: 'Keeping the cells in the vessel splits the regulation in two: contained use for the strain, plant-biostimulant route for the cell-free permeate.',
                zh: '菌體留在槽內，法規就一分為二：菌株走封閉使用，無細胞透過液走植物生物刺激劑。' }, src: 'biomanufacturing' }
       ],
-      figs: ['n01', 'o02', 'o01'],
+      figs: ['n01', 'o02', 'o01', 'w05'],
       a: {
         en: 'Three of our protectants are proteins and one of them is a catalyst, so chemical synthesis is not an '
           + 'alternative: ACC deaminase destroys the ethylene precursor ACC, and one molecule of it works many times over. '
@@ -75,7 +75,7 @@ AWARD({
         { t: { en: 'Functional enzyme appears at 18 h and specific activity holds between 5 and 8.4 U/mg out to 72 h.',
                zh: '18 小時出現有功能的酵素，比活性從 5 到 8.4 U/mg，一路維持到 72 小時。' }, src: 'results' }
       ],
-      figs: ['s02', 'm07', 'm08', 'h04'],
+      figs: ['m08', 'm07', 's02', 'w03'],
       a: {
         en: 'We can show the three things a production claim needs: growth, product, and product on the far side of the '
           + 'barrier. The longest clean run with the production strain WB800 held 77 hours to OD600 3.34, and run 6 grew at '
@@ -116,7 +116,7 @@ AWARD({
         { t: { en: 'Worked from one module to eight: medium draw rises 0.96 to 7.7 L/day and power 3–8 W to 24–64 W against the 101 Wh/day a 45 W panel harvests. The membrane is the last thing to bind.',
                zh: '從一組模組算到八組：培養基用量從 0.96 升到 7.7 L/day，功率從 3–8 W 升到 24–64 W，而 45 W 太陽能板一天只收 101 Wh。膜是最後才成為瓶頸的。' }, src: 'biomanufacturing' }
       ],
-      figs: ['m09', 'h03', 'n02'],
+      figs: ['m09', 's01', 'h03'],
       a: {
         en: 'We scale out rather than up, because tangential-flow filtration has a formal linear method — hold wall shear '
           + 'and transmembrane pressure constant and increase only the channel count — and a scale-down hollow-fibre module '
@@ -161,7 +161,7 @@ AWARD({
         { t: { en: 'The one real breach was traced: a Luer valve broke at 38 h, the membrane did not fail, and the cause was 35% hydrogen peroxide reaching the valves during clean-in-place.',
                zh: '唯一一次真的破口已經追到原因：38 小時時一個 Luer 閥斷裂，膜沒有失效，原因是原位清洗時 35% 過氧化氫先到了閥體。' }, src: 'hardware-bioreactor' }
       ],
-      figs: ['f01', 'h03', 'f02'],
+      figs: ['f01', 'f02', 'f03'],
       a: {
         en: 'Containment and the product path are the same thing: the 0.2 micrometre mPES wall that holds the cells in is '
           + 'the wall the protectant crosses to leave, so monitoring transmembrane pressure and flow is monitoring '
@@ -206,7 +206,7 @@ AWARD({
         { t: { en: 'Stated limit: no regulator in any of eight markets has confirmed anything in writing, so the route is mapped and not cleared. The plan is five to ten pilot units for one growing season before a sale.',
                zh: '明說的限制：八個市場裡沒有任何主管機關給過書面確認，所以這條路是「畫出來了」而不是「通了」。計畫是先放 5 到 10 台試點機跑完一個生長季再談銷售。' }, src: 'laws-and-regulations' }
       ],
-      figs: ['b02', 'n03', 'l01', 'b01'],
+      figs: ['b02', 'l01', 'l03'],
       a: {
         en: 'A unit costs about US$2,800 in parts today, of which the bioreactor itself is US$1,022.67, and the farmer '
           + 'package is priced at twice full cost — about US$5,550 in year one and US$90 a year after — with the same price '

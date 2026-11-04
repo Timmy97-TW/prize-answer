@@ -34,7 +34,7 @@ AWARD({
         { t: { en: 'STLs, a priced bill of materials, firmware and analysis code are published under the MIT licence, and the raw instrument bursts are published too, so the eleven-algorithm comparison replays on the same data.',
                zh: 'STL 檔、標價的材料清單、韌體與分析程式都以 MIT 授權公布，連儀器的原始取樣叢也公布了，所以十一種演算法的比較可以用同一份資料重跑。' }, src: 'software' }
       ],
-      figs: ['h01', 'h07', 'h10'],
+      figs: ['h01', 'm10', 'p08', 'x10'],
       a: {
         en: 'Every measurement we make runs on instruments another team can build for the price of a reagent order: the '
           + 'Slim in-line photometer is US$235.29 in parts, the Pro US$371.78, and the twenty-four-culture light plate '
@@ -77,7 +77,7 @@ AWARD({
         { t: { en: 'Plant readouts go down to the tool: chlorophyll from an 80 percent acetone extract at A663 and A645, root length traced in ImageJ against a 150 mm ruler in the same frame. 25 protocol sheets are published, including three that produced no result.',
                zh: '植物端的讀值連工具都寫出來：葉綠素用 80% 丙酮萃取、讀 A663 與 A645，根長用 ImageJ 對著同一張照片裡的 150 mm 尺描繪。公布了 25 份流程，其中三份沒有做出結果。' }, src: 'experiments' }
       ],
-      figs: ['m06', 'm01', 'm10'],
+      figs: ['m06', 'p10', 'w08', 'c07'],
       a: {
         en: 'Each instrument is documented as an equation and a rule rather than as a reading: optical density is log base '
           + 'ten of S-zero over R-zero divided by S over R, times five; the blank is always taken on that run’s own '
@@ -166,7 +166,7 @@ AWARD({
         { t: { en: 'The activity assay carries a cofactor control: adding pyridoxal-5-phosphate lifted the Csn arm 13.7 and the SamyQ arm 30.0 nmol of product above the host baseline. Stated limit: silica calibrates the instrument, not the cell, so above about OD 2.5 the number is a turbidity extrapolation.',
                zh: '活性分析帶自己的輔因子對照：加入磷酸吡哆醛後，Csn 組比宿主基線高 13.7、SamyQ 組高 30.0 nmol 產物。明說的限制：二氧化矽校的是儀器、不是細胞，所以 OD 約 2.5 以上的數字是濁度外推。' }, src: 'measurement' }
       ],
-      figs: ['m01', 'm06', 'm08'],
+      figs: ['m01', 'w09', 'w11', 'p02'],
       a: {
         en: 'Both instruments are calibrated against a benchtop reference on two independent particle standards: titania on '
           + '23 August put the Pro a median 3.8 percent from the BioDrop at R² 0.9999, and a 41-dose silica ladder on 10 '

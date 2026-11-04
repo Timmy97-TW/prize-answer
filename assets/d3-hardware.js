@@ -34,7 +34,7 @@ AWARD({
         { t: { en: 'The Light Plate Apparatus makes optogenetics affordable: 24 cultures across 6 independently driven conditions for US$65.52, with 40 LEDs measured and grouped to within 0.4 to 1.8 percent.',
                zh: '光照培養盤讓光遺傳學變便宜：65.52 美元跑 24 個培養、6 個獨立控制條件，而且 40 顆 LED 全部量過、分組誤差落在 0.4% 到 1.8%。' }, src: 'hardware-diopal' }
       ],
-      figs: ['h02', 'h03', 'h01', 'h07'],
+      figs: ['h02', 'h07', 'h06'],
       a: {
         en: 'Two problems in synthetic biology meet in this machine. The first is that at a one-litre working volume '
           + 'nobody sells in-line optical density, pH, flow and pressure, so a small lab monitoring a perfusion culture has '
@@ -76,7 +76,7 @@ AWARD({
         { t: { en: 'Three builders outside the team assembled a Slim photometer from our files in about two hours, which is where the documentation gaps surfaced.',
                zh: '三位團隊外的人照我們的檔案約兩小時組好一台 Slim 光度計，文件的缺口就是在那裡浮出來的。' }, src: 'hardware-photometer' }
       ],
-      figs: ['i05', 'h05', 'h06', 'h04'],
+      figs: ['i05', 'h05', 'i09'],
       a: {
         en: 'Every structural change in this hardware is traceable to a named reviewer. Professor Chang Jo-Shu found the '
           + 'flaw that would have sunk the first build: nothing in our design actually drove the protectant from the lumen '
@@ -121,7 +121,7 @@ AWARD({
         { t: { en: 'Product measured on both sides of the membrane: 10.7 µg/mL in the lumen against 10.5 on the shell side, with no colonies on the shell-side plate.',
                zh: '膜兩側都量了產物：管內 10.7 µg/mL、殼側 10.5，而殼側塗盤沒有長出任何菌落。' }, src: 'hardware-bioreactor' }
       ],
-      figs: ['h02', 'h04', 'f01', 'm09'],
+      figs: ['h04', 'w02', 'x11'],
       a: {
         en: 'The rig has run as a closed loop with its instruments live: 116 hours on the first integrated run with '
           + 'transmembrane pressure held within about a tenth of a bar, and 77 hours to OD600 3.34 with the production '
@@ -164,7 +164,7 @@ AWARD({
         { t: { en: 'Failures are published with them: the light plate’s connection post snapped after an overnight run on the shaker, two screws became four, and the page states the fixes were not re-tested.',
                zh: '失敗也一起公布：光照盤的連接柱在搖床上過夜後斷掉，兩顆螺絲改成四顆，而頁面上明寫這些修正還沒有重新測試。' }, src: 'hardware-diopal' }
       ],
-      figs: ['h09', 'h08', 'h10'],
+      figs: ['h09', 'h10', 'h08', 'v13'],
       a: {
         en: 'Reproduction needs three things and all three are published: the parts, the settings, and the failures. The '
           + 'parts are a priced bill of materials for each build — US$1,022.67 of known parts in the bioreactor, US$371.78 '

@@ -52,13 +52,17 @@ var DATA = {
 
 function AWARD(a) { DATA.awards.push(a); }
 
-/* append further questions to an award already registered, so one award can span two files */
+/* Add further questions to an award already registered, so one award can span two files.
+ * A question carrying `at` is spliced in at that 0-based position; the rest are appended. */
 function MOREQ(id, questions) {
   for (var i = 0; i < DATA.awards.length; i++) {
-    if (DATA.awards[i].id === id) {
-      DATA.awards[i].questions = DATA.awards[i].questions.concat(questions);
-      return;
+    if (DATA.awards[i].id !== id) continue;
+    var list = DATA.awards[i].questions;
+    for (var j = 0; j < questions.length; j++) {
+      var q = questions[j];
+      if (typeof q.at === 'number') list.splice(q.at, 0, q); else list.push(q);
     }
+    return;
   }
   throw new Error('MOREQ: no award ' + id);
 }

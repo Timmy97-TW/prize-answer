@@ -36,7 +36,7 @@ AWARD({
         { t: { en: 'Dr. Kyle Peng voided one of our own hydroponic runs because culture volume was not standardised across arms, and the protocol changed.',
                zh: 'Kyle Peng 博士因為各組培養液體積沒有標準化，判定我們自己一次水耕運轉作廢，流程也因此改掉。' }, src: 'plant' }
       ],
-      figs: ['i07', 'i06', 'i05', 'i09'],
+      figs: ['i07', 'i06', 'u03'],
       a: {
         en: 'The project’s architecture was set by a stakeholder, not by the lab. In April Professor Chen Wen-Liang told '
           + 'us that engineered bacteria released into open soil cannot be defended and that we should keep them in a vessel '
@@ -79,7 +79,7 @@ AWARD({
         { t: { en: 'Prior work is named rather than skirted: hollow-fibre perfusion and DIY optical density meters both exist, so the pages state what we added — the single wall that does production, recovery and containment at once, and the signal-processing study behind the instrument.',
                zh: '既有工作是直接點名、不是繞過：中空纖維灌流與自製 OD 計都早就存在，所以頁面上明說我們加了什麼——一道同時做生產、回收與圍阻的膜，以及儀器背後那份訊號處理研究。' }, src: 'measurement' }
       ],
-      figs: ['i01', 'i06', 'i03'],
+      figs: ['i03', 'o03', 'g01'],
       a: {
         en: 'Thirty-one stakeholders were engaged between 1 February and 20 October, and the Human Practices page is '
           + 'organised by the decision each conversation informed rather than by the calendar, so a judge can read it as a '
@@ -123,7 +123,7 @@ AWARD({
         { t: { en: 'The commercial choices are explicit: one price for every farm at twice full cost, a free four-hectare pilot, and farmer subsidies only once cumulative cash turns positive.',
                zh: '商業選擇也寫明：所有農場同一個價，定在成本兩倍；提供免費的四公頃試點；而對農民的補貼要等累積現金轉正才開始。' }, src: 'entrepreneurship' }
       ],
-      figs: ['f01', 'p06', 'l01'],
+      figs: ['x18', 'p06', 'x16', 'x09'],
       a: {
         en: 'The responsibility argument rests on two decisions we did not make alone. Physical containment replaced a '
           + 'genetic kill switch because a switch is DNA under selection and will mutate, and the barrier we chose doubles '

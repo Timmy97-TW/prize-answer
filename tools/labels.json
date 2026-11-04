@@ -1,0 +1,495 @@
+{
+ "_comment": "figure id -> [English label, Chinese label]. Two to six words: a name, not a caption. The longer reading of each figure comes from the judging trainer's bank and is not edited here.",
+ "n01": [
+  "Production chain",
+  "生產鏈"
+ ],
+ "n02": [
+  "Perfusion system layout",
+  "灌流系統配置"
+ ],
+ "n03": [
+  "The unit as a sealed case",
+  "密封機箱"
+ ],
+ "o01": [
+  "Forecast to leaf",
+  "預報到葉片"
+ ],
+ "o02": [
+  "The four circuit modules",
+  "基因迴路四模組"
+ ],
+ "o03": [
+  "Night temperature by county",
+  "各縣市夜溫"
+ ],
+ "h01": [
+  "Pro and Slim photometers",
+  "Pro 與 Slim 光度計"
+ ],
+ "h02": [
+  "Bioreactor v4, two loops",
+  "反應器 v4 雙迴路"
+ ],
+ "h03": [
+  "Hollow fiber cutaway",
+  "中空纖維剖面"
+ ],
+ "h04": [
+  "Operator dashboard, 53 h in",
+  "運轉 53 小時的操作介面"
+ ],
+ "h05": [
+  "Printed pinch valve",
+  "3D 列印夾管閥"
+ ],
+ "h06": [
+  "Shell-side Luer valve",
+  "殼側 Luer 閥"
+ ],
+ "h07": [
+  "Light Plate Apparatus",
+  "光照培養盤"
+ ],
+ "h08": [
+  "Hydroponic floating plate",
+  "水耕浮板"
+ ],
+ "h09": [
+  "The post that snapped",
+  "斷掉的支柱"
+ ],
+ "h10": [
+  "Both builds, same scale",
+  "兩款同比例"
+ ],
+ "f01": [
+  "Containment plating",
+  "圍阻性塗盤"
+ ],
+ "f02": [
+  "Membrane cartridge in place",
+  "裝上的膜模組"
+ ],
+ "f03": [
+  "The laboratory door",
+  "實驗室門口"
+ ],
+ "m01": [
+  "Silica ladder, three instruments",
+  "二氧化矽梯度、三台儀器"
+ ],
+ "m02": [
+  "Bubble challenge and the gates",
+  "氣泡挑戰與門檻"
+ ],
+ "m03": [
+  "Firmware quantisation",
+  "韌體量化"
+ ],
+ "m04": [
+  "Reference channel decay",
+  "參考通道衰退"
+ ],
+ "m05": [
+  "Two records, six days apart",
+  "相隔六天的兩筆紀錄"
+ ],
+ "m06": [
+  "ELISA standard curve",
+  "ELISA 標準曲線"
+ ],
+ "m07": [
+  "DNPH activity time course",
+  "DNPH 活性時序"
+ ],
+ "m08": [
+  "Anti-His Western blot",
+  "Anti-His 西方墨點"
+ ],
+ "m09": [
+  "Pressure drop against flow",
+  "壓差對流量"
+ ],
+ "m10": [
+  "Root tracing in ImageJ",
+  "ImageJ 根長描繪"
+ ],
+ "s01": [
+  "Digital Twin, run 7",
+  "數位孿生、第 7 次運轉"
+ ],
+ "s02": [
+  "Seven reactor runs",
+  "七次反應器運轉"
+ ],
+ "s03": [
+  "Leaf against air temperature",
+  "葉溫對氣溫"
+ ],
+ "b01": [
+  "Minimum viable product",
+  "最小可行產品"
+ ],
+ "b02": [
+  "Break-even at 226 hectares",
+  "226 公頃損益兩平"
+ ],
+ "b03": [
+  "Market sizing",
+  "市場規模"
+ ],
+ "l01": [
+  "Three markets, one Venn",
+  "三個市場的交集"
+ ],
+ "l02": [
+  "Fertilizer or pesticide",
+  "肥料還是農藥"
+ ],
+ "l03": [
+  "Expansion markets ranked",
+  "擴張市場排序"
+ ],
+ "d01": [
+  "Fifteen weather stresses ranked",
+  "十五種氣候逆境排序"
+ ],
+ "d02": [
+  "Validation against the baseline",
+  "對基線的驗證"
+ ],
+ "d03": [
+  "Blind 2026 forecast",
+  "2026 盲測預報"
+ ],
+ "g01": [
+  "Farmer age and stations",
+  "農民年齡與測站"
+ ],
+ "g02": [
+  "Minimum temperature shift",
+  "最低溫變化"
+ ],
+ "i01": [
+  "Stakeholder map",
+  "利害關係人地圖"
+ ],
+ "i02": [
+  "農友助手 LINE account",
+  "農友助手 LINE"
+ ],
+ "i03": [
+  "Booth knowledge survey",
+  "攤位知識調查"
+ ],
+ "i04": [
+  "Farmers' KAP results",
+  "農民 KAP 結果"
+ ],
+ "i05": [
+  "Prof. Chang, second visit",
+  "張教授第二次來訪"
+ ],
+ "i06": [
+  "Dr. Brophy on signalling",
+  "Brophy 博士談訊號"
+ ],
+ "i07": [
+  "Prof. Chen on auto-filling",
+  "陳教授談自動補料"
+ ],
+ "i08": [
+  "A farmer takes the microphone",
+  "農民拿起麥克風"
+ ],
+ "i09": [
+  "The 15 October review",
+  "10 月 15 日檢討"
+ ],
+ "i10": [
+  "Ms. Chen's farm, Tamsui",
+  "淡水陳小姐的農場"
+ ],
+ "e01": [
+  "The pre-survey",
+  "前測"
+ ],
+ "e02": [
+  "Leaf-disk demonstration",
+  "葉圓片示範"
+ ],
+ "e03": [
+  "The base-pairing card game",
+  "鹼基配對紙牌"
+ ],
+ "u01": [
+  "Knowledge, 18 to 82 percent",
+  "知識從 18% 到 82%"
+ ],
+ "u02": [
+  "A high school class",
+  "高中課堂"
+ ],
+ "u03": [
+  "Four hydroponic boxes",
+  "四個水耕箱"
+ ],
+ "y01": [
+  "Data physicalization booth",
+  "資料實體化攤位"
+ ],
+ "y02": [
+  "The listening site",
+  "聆聽網站"
+ ],
+ "y03": [
+  "Which region is most stressed",
+  "哪一區逆境最重"
+ ],
+ "p02": [
+  "Trehalose, four readouts",
+  "海藻糖四項讀值"
+ ],
+ "p03": [
+  "ACC deaminase salinity set",
+  "ACC 去胺酶鹽逆境組"
+ ],
+ "p05": [
+  "Hydroponic rack after heat",
+  "熱逆境後的水耕架"
+ ],
+ "p06": [
+  "BoPep4 fresh weight",
+  "BoPep4 鮮重"
+ ],
+ "p07": [
+  "Two soil watering methods",
+  "兩種土壤澆灌法"
+ ],
+ "p08": [
+  "Hydroponic workflow sheet",
+  "水耕流程表"
+ ],
+ "p10": [
+  "The experimental timeline",
+  "實驗時程"
+ ],
+ "c01": [
+  "Level 2, three clones",
+  "Level 2 三株菌"
+ ],
+ "c02": [
+  "Restriction digest check",
+  "限制酶切確認"
+ ],
+ "c03": [
+  "Insert-to-vector sweep",
+  "插入與載體比例掃描"
+ ],
+ "c04": [
+  "The screen that failed",
+  "失敗的那次篩選"
+ ],
+ "c05": [
+  "Twenty-four colonies",
+  "24 個菌落"
+ ],
+ "c06": [
+  "Two assembly strategies",
+  "兩套組裝策略"
+ ],
+ "c07": [
+  "Primer tails and sites",
+  "引子尾端與切位"
+ ],
+ "c08": [
+  "The 10 kb circuit recovered",
+  "長出 10 kb 迴路"
+ ],
+ "c09": [
+  "The whole output library",
+  "整個輸出元件庫"
+ ],
+ "c10": [
+  "Chromophore module rebuilt",
+  "重建的發色團模組"
+ ],
+ "r01": [
+  "GRAFT design pipeline",
+  "GRAFT 設計流程"
+ ],
+ "r02": [
+  "BoPep4 alanine scan",
+  "BoPep4 丙胺酸掃描"
+ ],
+ "r03": [
+  "The contact at Asn23",
+  "Asn23 的接觸"
+ ],
+ "q01": [
+  "Light-sensing unit map",
+  "光感應單元圖譜"
+ ],
+ "q08": [
+  "Green against red growth",
+  "綠光對紅光的生長"
+ ],
+ "q10": [
+  "The whole system on one map",
+  "整個系統一張圖"
+ ],
+ "v01": [
+  "Two of six positive",
+  "六株中兩株陽性"
+ ],
+ "v03": [
+  "Seven of sixteen",
+  "十六株中七株"
+ ],
+ "v04": [
+  "Three primer pairs, two clones",
+  "三組引子、兩株菌"
+ ],
+ "v05": [
+  "Sixteen for sixteen",
+  "十六株全中"
+ ],
+ "w02": [
+  "Lumen, shell and lysate",
+  "管內、殼側與裂解液"
+ ],
+ "w08": [
+  "The band at 37 kilodaltons",
+  "37 kDa 的那條帶"
+ ],
+ "w09": [
+  "The one purification panel",
+  "唯一一張純化圖"
+ ],
+ "w11": [
+  "Four bars, no difference",
+  "四根柱子、沒有差異"
+ ],
+ "w12": [
+  "Green and red at 13 and 16 h",
+  "13 與 16 小時的綠與紅"
+ ],
+ "w13": [
+  "The cleanest light response",
+  "最乾淨的光反應"
+ ],
+ "w15": [
+  "The off control that peaked",
+  "跟著衝高的關燈對照"
+ ],
+ "x01": [
+  "Salinity set, three readouts",
+  "鹽逆境組三項讀值"
+ ],
+ "x04": [
+  "The rack after four days at 37 °C",
+  "37 °C 四天後的架子"
+ ],
+ "x11": [
+  "Registered criteria against the run",
+  "預註冊標準對實測"
+ ],
+ "x16": [
+  "Chlorophyll per plant",
+  "每株葉綠素"
+ ],
+ "x18": [
+  "The salinity rack",
+  "鹽逆境架"
+ ],
+ "g03": [
+  "Structured prompt against plain",
+  "結構化提示對一般提示"
+ ],
+ "p09": [
+  "Commercial peptide, post-treatment",
+  "商用肽、後處理"
+ ],
+ "x02": [
+  "Folding the initiation window",
+  "起始區摺疊排序"
+ ],
+ "x05": [
+  "The rack before the heat",
+  "熱逆境前的架子"
+ ],
+ "q11": [
+  "A map that disagrees",
+  "與頁面不符的圖譜"
+ ],
+ "q14": [
+  "The label contradicts the title",
+  "標示與標題打架"
+ ],
+ "v08": [
+  "Lanes nine to nineteen",
+  "第 9 到 19 道"
+ ],
+ "v12": [
+  "Eighteen of nineteen",
+  "十九株中十八株"
+ ],
+ "v16": [
+  "Count the lanes near 2 kb",
+  "數一數 2 kb 附近幾條"
+ ],
+ "w07": [
+  "Caption and image disagree",
+  "圖說與圖打架"
+ ],
+ "w10": [
+  "LEA14 has no fixed shape",
+  "LEA14 沒有固定結構"
+ ],
+ "w14": [
+  "The dark state is not clean",
+  "暗態並不乾淨"
+ ],
+ "w05": [
+  "The structure we borrowed",
+  "我們借用的結構"
+ ],
+ "w03": [
+  "Green light, three time points",
+  "綠光下的三個時間點"
+ ],
+ "x10": [
+  "Ranked out of 49,000 designs",
+  "四萬九千個設計中的排名"
+ ],
+ "v13": [
+  "One faint band",
+  "只有一條淡帶"
+ ],
+ "x09": [
+  "Heat flattens everything",
+  "熱把一切壓平"
+ ],
+ "w06": [
+  "BoPep4 in the PEPR1 groove",
+  "BoPep4 嵌在 PEPR1 溝槽"
+ ],
+ "v10": [
+  "Twelve lanes, three labels",
+  "十二道、三組標號"
+ ],
+ "x17": [
+  "Every truncation docked twice",
+  "每個截短都對接兩次"
+ ],
+ "q17": [
+  "The chromophore unit",
+  "發色團單元"
+ ],
+ "q12": [
+  "The unit with no tag",
+  "沒有標籤的單元"
+ ]
+}

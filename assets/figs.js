@@ -26,6 +26,19 @@ var FIGS = {
    "zh": "賣到 226 公頃時，營收超過總成本。累計營收與成本畫在第 0 到第 4 年，橫軸是賣給付費農場的公頃數，0 到 300。總成本線從 627,000 美元的固定成本起跳；營收線從零開始，定價假設是成本的兩倍。所以 226 公頃這個數字是那個「兩倍定價」假設的結果，不是獨立量出來的數字。"
   }
  },
+ "b03": {
+  "id": "b03",
+  "img": "b03.webp",
+  "page": "entrepreneurship",
+  "label": {
+   "en": "Market sizing",
+   "zh": "市場規模"
+  },
+  "read": {
+   "en": "A TAM, SAM, SOM market-sizing diagram. The outer circle, the total addressable market, is small and industrial farmers. The middle, the serviceable market, is those same farmers who actually experience heat, salinity or biotic stress. The inner, the obtainable market, is sustainable farmers: the ones whose practice and priorities make them our realistic first customers.",
+   "zh": "這是 TAM、SAM、SOM 的市場規模圖。最外圈 TAM（總體可觸及市場）是小農與工業化農場。中間 SAM（可服務市場）是其中真的遭遇高溫、鹽害或生物性逆境的那一群。最內圈 SOM（可取得市場）是永續農業的農民：以他們的耕作方式與優先順序來看，是我們實際上最先可能成交的客戶。"
+  }
+ },
  "c01": {
   "id": "c01",
   "img": "c01.webp",
@@ -39,6 +52,58 @@ var FIGS = {
    "zh": "2026 年 9 月 19 日，我們手上最強的選殖證據。三個獨立的 ACDI 選殖株 X1、X3、X9，各自檢查三個內部接點：接點 A 375 bp、接點 B 632 bp、接點 C 661 bp。九個正確的接點說明四個模組在三個獨立選殖株裡都以正確順序接上了。它們對接點之間的序列什麼都沒說——所以我們不會光憑這張膠就宣稱序列已經驗證。"
   }
  },
+ "c02": {
+  "id": "c02",
+  "img": "c02.webp",
+  "page": "engineering",
+  "label": {
+   "en": "Restriction digest check",
+   "zh": "限制酶切確認"
+  },
+  "read": {
+   "en": "A restriction digest of the Level 2 construct from two independent clones. EcoRI alone, in lanes 1 and 3, linearises the plasmid at the expected 10,293 bp. EcoRI together with BtsI, in lanes 2 and 4, gives the expected 7,543 bp fragment. Lane 5 is the 10 kb ladder. This is an orthogonal check on the junction PCR: a different enzyme, a different prediction, the same construct.",
+   "zh": "這是把 Level 2 構築從兩個獨立選殖株取出做的限制酶切。第 1、3 道只用 EcoRI，把質體切成線狀，落在預期的 10,293 bp。第 2、4 道用 EcoRI 加 BtsI，切出預期的 7,543 bp 片段。第 5 道是 10 kb 階梯。這是對接點 PCR 的正交驗證：不同的酵素、不同的預測、同一個構築。"
+  }
+ },
+ "c03": {
+  "id": "c03",
+  "img": "c03.webp",
+  "page": "engineering",
+  "label": {
+   "en": "Insert-to-vector sweep",
+   "zh": "插入與載體比例掃描"
+  },
+  "read": {
+   "en": "28 August 2026, the insert-to-vector ratio sweep for the Level 2 Golden Gate assembly, verified with primers specific to each module. Lanes 1 to 3 are 1:5, lanes 4 to 6 are 1:7, each labelled with its expected size of 375, 632 or 661 bp. Both ratios gave all three junctions; 1:7 was the one carried forward.",
+   "zh": "2026 年 8 月 28 日，Level 2 Golden Gate 組裝插入片段對載體比例掃描，用各模組專一的引子驗證。第 1 到 3 道是 1:5，第 4 到 6 道是 1:7，每一道都標了自己的預期大小 375、632 或 661 bp。兩種比例都跑出三個接點；最後帶著往下做的是 1:7。"
+  }
+ },
+ "c04": {
+  "id": "c04",
+  "img": "c04.webp",
+  "page": "engineering",
+  "label": {
+   "en": "The screen that failed",
+   "zh": "失敗的那次篩選"
+  },
+  "read": {
+   "en": "This is the MoClo 2.0 Level 1 screen as it reached us, from the 21 September writing document. It arrived with no lane map, no date and no expected sizes, so it can be shown but it cannot be read. The bands sit at one height across almost every lane, which is the pattern our own learn step describes as suspect. We keep it on the page as a record and we do not draw a conclusion from it.",
+   "zh": "這是 MoClo 2.0 Level 1 的篩選膠，來自 9 月 21 日的寫作文件，傳到我們手上時沒有道次對照表、沒有日期、也沒有預期大小，所以它可以被展示，但沒辦法被判讀。幾乎每一道的帶都落在同一個高度，這正是我們自己在 learn 步驟裡描述過的可疑樣態。我們把它留在頁面上當作紀錄，但不從它推出任何結論。"
+  }
+ },
+ "c05": {
+  "id": "c05",
+  "img": "c05.webp",
+  "page": "engineering",
+  "label": {
+   "en": "Twenty-four colonies",
+   "zh": "24 個菌落"
+  },
+  "read": {
+   "en": "Twenty-four colonies, L1 to L24, screened for pSTK-EXP1-3P-EEBD-RBS0-Csn:GanA-Gala-L3S2P21 on the EXP forward and Csn reverse primers, with the 1 kb ladder in M. It failed. No lane gives a band at the expected 3535 bp: six lanes show something that runs far below the 3 kb ladder step, and the rest show only low-molecular-weight primer dimer. This is the galactosidase reporter arm, and it is the arm we dropped.",
+   "zh": "二十四個菌落 L1 到 L24，用 EXP 正向與 Csn 反向引子篩選 pSTK-EXP1-3P-EEBD-RBS0-Csn:GanA-Gala-L3S2P21，M 道是 1 kb 階梯。它失敗了。沒有任何一道出現預期的 3535 bp：有六道看得到東西，但跑得遠低於 3 kb 的階梯刻度，其餘各道只有低分子量的引子二聚體。這是半乳糖苷酶報導基因那一支，也是我們後來放棄的那一支。"
+  }
+ },
  "c06": {
   "id": "c06",
   "img": "c06.webp",
@@ -50,6 +115,84 @@ var FIGS = {
   "read": {
    "en": "11 June 2026, the two assembly strategies as they were argued. Strategy 1, across the middle, is a MoClo-to-SubtiToolKit linker. Strategy 2, below it, is the kit's own basic-part syntax, with the 1A to 1D transcription-unit overhangs listed on the right. The build follows the lower half of this board, the kit's own syntax, which is why our parts carry STK overhangs rather than linker-adapted MoClo ones.",
    "zh": "2026 年 6 月 11 日，當時被拿出來爭論的兩種組裝策略。策略 1 在白板中間，是 MoClo 轉接到 SubtiToolKit 的連接子方案。策略 2 在下半部，是直接用套件本身的基本零件語法，右邊列出 1A 到 1D 轉錄單元的黏端。我們實際的建構走的是這塊白板的下半部，也就是套件本身的語法——這就是為什麼我們的零件帶的是 STK 黏端，而不是加了連接子的 MoClo 黏端。"
+  }
+ },
+ "c07": {
+  "id": "c07",
+  "img": "c07.webp",
+  "page": "engineering",
+  "label": {
+   "en": "Primer tails and sites",
+   "zh": "引子尾端與切位"
+  },
+  "read": {
+   "en": "An amplicon map of CcaR, 760 bp, with primer 1 covering bases 1 to 50 and primer 2 covering 711 to 760. Each primer tail carries a BbsI site and a BsaI site. That is the Golden Gate grammar: BbsI cuts at the Level 0 step and BsaI at the Level 1 step, so one amplicon can be used twice without re-ordering primers, and the scar-free overhangs are designed in from the start.",
+   "zh": "這是 CcaR 的擴增片段圖，全長 760 bp，引子 1 涵蓋第 1 到 50 鹼基，引子 2 涵蓋第 711 到 760 鹼基。兩條引子的尾巴裡各藏了一個 BbsI 切位與一個 BsaI 切位。這就是 Golden Gate 的文法：BbsI 在 Level 0 這一步切，BsaI 在 Level 1 這一步切，所以同一段擴增產物不必重新訂引子就能用兩次，無疤痕的黏端一開始就設計進去了。"
+  }
+ },
+ "c08": {
+  "id": "c08",
+  "img": "c08.webp",
+  "page": "engineering",
+  "label": {
+   "en": "The 10 kb circuit recovered",
+   "zh": "長出 10 kb 迴路"
+  },
+  "read": {
+   "en": "pSTK-EXP2-CcaSRv1-AcdS 2.1 on LB agar at a 1 to 2,000,000 dilution. This is the assembled 10 kb light circuit recovered in B. subtilis WB800. The dilution matters because the plate is still crowded with several hundred colonies at two million fold: that is what makes it an efficiency claim and not just a 'it transformed' photo.",
+   "zh": "LB 洋菜上長的是 pSTK-EXP2-CcaSRv1-AcdS 2.1，稀釋倍數是一比兩百萬。這是組裝完成的 10 kb 光控線路在 B. subtilis WB800 中被回收到的證據。稀釋倍數之所以重要，是因為在兩百萬倍稀釋下這盤還是密密麻麻幾百個菌落：這才讓它成為一個效率的說法，而不只是一張「有轉形到」的照片。"
+  }
+ },
+ "c09": {
+  "id": "c09",
+  "img": "c09.webp",
+  "page": "engineering",
+  "label": {
+   "en": "The whole output library",
+   "zh": "整個輸出元件庫"
+  },
+  "read": {
+   "en": "The whole output library on one plate: six expression cassettes across the three protectants. A is Csn-AcdS-Histag, one clone at 7762 bp. B is SamyQ-AcdS 2.1-Histag, eight colonies at 1904 bp. C is Csn-LEA14-Histag, one clone at 735 bp. D is SamyQ-LEA14 2.1-Histag, lanes 1 and 4 at 1423 bp. E and F are the two BoPep4 versions, 2.1 and 2.2, with F at 309 bp. Note the honest footnote: the writing document gives 1984 and 7767 where the plate itself is labelled 1904 and 7762, and we carry the plate's own labels.",
+   "zh": "這是把整個輸出端的構築庫放在一張圖上：三種保護劑、六個表現匣。A 是 Csn-AcdS-Histag，一個選殖株，7762 bp。B 是 SamyQ-AcdS 2.1-Histag，八個菌落，1904 bp。C 是 Csn-LEA14-Histag，一個選殖株，735 bp。D 是 SamyQ-LEA14 2.1-Histag，第 1 與第 4 道，1423 bp。E 與 F 是 BoPep4 的 2.1 與 2.2 兩版，F 在 309 bp。要注意我們自己加的誠實註腳：寫作文件寫的是 1984 與 7767，而膠上標的是 1904 與 7762，我們以膠上的標示為準。"
+  }
+ },
+ "c10": {
+  "id": "c10",
+  "img": "c10.webp",
+  "page": "engineering",
+  "label": {
+   "en": "Chromophore module rebuilt",
+   "zh": "重建的發色團模組"
+  },
+  "read": {
+   "en": "30 July 2026, the rebuilt chromophore module PtagC-RBS-Ho1:pcyA-L3S2P21, twelve colonies A1 to A12 screened at 1833 bp on the BioBrick prefix and STK-seq reverse primers. A11 is the one failure, carrying only a low smear. A1, A2 and A3 sequenced positive the next day. The chromophore module is what makes the phycocyanobilin that CcaS needs, so without it the light circuit cannot sense anything.",
+   "zh": "2026 年 7 月 30 日，重建的發色團模組 PtagC-RBS-Ho1:pcyA-L3S2P21，十二個菌落 A1 到 A12，用 BioBrick prefix 與 STK-seq 反向引子篩選，預期 1833 bp。A11 是唯一失敗的一道，只有一條低的拖尾。A1、A2、A3 隔天定序確認正確。發色團模組負責做出 CcaS 需要的藻藍膽素，沒有它整條光控線路就什麼都感測不到。"
+  }
+ },
+ "d01": {
+  "id": "d01",
+  "img": "d01.webp",
+  "page": "model",
+  "label": {
+   "en": "Fifteen weather stresses ranked",
+   "zh": "十五種氣候逆境排序"
+  },
+  "read": {
+   "en": "Two panels, second crop and first crop, ranking fifteen candidate weather stresses. The x-axis is the mean change in county prediction error in kilograms per hectare when that stress is added: left means it helps, right means it hurts. Green is kept in the final model, grey is dropped. The star marks a variable that came from the student model, and the percentage is the share of the 16,383 variable combinations in which adding it helped. For the second crop, rain across five stages and typhoon wind both help in 100 percent of combinations.",
+   "zh": "兩個子圖分別是二期作與一期作，把十五個候選氣象逆境排名。橫軸是把該逆境加進模型後，縣市預測誤差的平均變化（公斤/公頃）：往左代表有幫助，往右代表變差。綠色是最終模型保留的，灰色是捨棄的。星號代表這個變數來自學生版模型，百分比則是在 16,383 種變數組合中「加了它有幫助」的比例。二期作方面，分五個生育階段的降雨與颱風風速在 100% 的組合中都有幫助。"
+  }
+ },
+ "d02": {
+  "id": "d02",
+  "img": "d02.webp",
+  "page": "model",
+  "label": {
+   "en": "Validation against the baseline",
+   "zh": "對基線的驗證"
+  },
+  "read": {
+   "en": "Island first-crop yield plotted against two predictions made from earlier years only, so neither has seen the year it is predicting. The baseline is the trend and the other is our model. Over 2016 to 2025 the county error is 419 kilograms per hectare for the trend and 365 for the model. The bar panel breaks the island error down year by year. The honest framing: a 13 percent improvement over a trend line, not a transformation.",
+   "zh": "這是把全島一期作產量，對兩個「只用更早年份資料做出來」的預測畫在一起，所以兩個預測都沒看過它要預測的那一年。基準是趨勢線，另一個是我們的模型。2016 到 2025 年間，縣市誤差趨勢線是 419 公斤/公頃，模型是 365。下方的長條圖把全島誤差逐年拆開。誠實的講法是：比趨勢線改善約 13%，不是什麼翻天覆地的突破。"
   }
  },
  "d03": {
@@ -76,6 +219,19 @@ var FIGS = {
   "read": {
    "en": "Elementary students at laptops answering a Kahoot quiz at the start of a lesson: the pre-survey. It matters because it is the baseline. Everything we claim about knowledge growth in the elementary programme rests on having asked the same questions before the lesson as after it, across four different visits.",
    "zh": "國小學生在課程一開始用筆電作答 Kahoot 測驗：這是前測。它之所以重要，是因為它就是基線。我們對國小課程「知識有成長」的所有主張，都建立在「同樣的題目在課前問過、課後再問一次」這件事上，而且做了四次不同的拜訪。"
+  }
+ },
+ "e02": {
+  "id": "e02",
+  "img": "e02.webp",
+  "page": "education",
+  "label": {
+   "en": "Leaf-disk demonstration",
+   "zh": "葉圓片示範"
+  },
+  "read": {
+   "en": "A team member demonstrating the spinach leaf-disk experiment to elementary students around a table. Leaf disks sink in bicarbonate solution and float again as photosynthesis fills them with oxygen, so the class watches the rate of photosynthesis directly, with no instrument. It is the hands-on half of the lesson that the pre and post survey then measures.",
+   "zh": "隊員在桌邊向國小學生示範菠菜葉圓盤實驗。葉圓盤放進碳酸氫鈉溶液中會沉下去，隨著光合作用產生氧氣又浮起來，所以全班不需要任何儀器就能直接看到光合作用的速率。這是課程中動手的那一半，而前後測量的就是這一段的效果。"
   }
  },
  "e03": {
@@ -117,6 +273,32 @@ var FIGS = {
    "zh": "這是中空纖維膜濾芯，直立安裝在反應器機箱裡，旁邊是把菌液送過它的管路與培養基瓶。它 0.2 微米的孔壁就是實體圍堵：細胞比任何孔都大，所以留在管腔裡，而分泌出來的保護劑可以穿到殼側。在 Brophy 博士建議之後，這變成整個專題主要的生物安全機制，取代了自殺開關。"
   }
  },
+ "f03": {
+  "id": "f03",
+  "img": "f03.webp",
+  "page": "safety-and-security",
+  "label": {
+   "en": "The laboratory door",
+   "zh": "實驗室門口"
+  },
+  "read": {
+   "en": "Three posters on the lab door: the GEMS Academy laboratory rules, a Laboratory Area sign and a chart of the GHS hazard pictograms. The Laboratory Area sign lists biological hazard, toxic and poison materials, and P1 laboratory, together with the required personal protective equipment: lab coat, gloves, long trousers and closed-toe shoes. The emergency contact table is blurred in the published photograph.",
+   "zh": "實驗室門上貼了三張：GEMS Academy 的實驗室規則、一張 Laboratory Area 標示，以及 GHS 危害圖示表。Laboratory Area 標示上列出生物危害、毒性物質，以及 P1 實驗室，還有必備的個人防護裝備：實驗衣、手套、長褲與包鞋。公開照片上的緊急聯絡人表格做了模糊處理。"
+  }
+ },
+ "g01": {
+  "id": "g01",
+  "img": "g01.webp",
+  "page": "geospatial-analysis",
+  "label": {
+   "en": "Farmer age and stations",
+   "zh": "農民年齡與測站"
+  },
+  "read": {
+   "en": "Counties shaded by the average age of farmers in 2016, from 55 years in pale yellow to 61 and over in dark blue, with dark red circles at the weather stations sized by temperature change from 1991 to 2020. The overlay asks whether the counties facing the most heat stress are also the ones with the oldest farmers, which is a question about who will have to adapt and how much capacity they have to do it.",
+   "zh": "縣市底色是 2016 年農民平均年齡，淡黃色 55 歲到深藍色 61 歲以上；上面疊的是各氣象站的深紅色圓圈，大小代表 1991 到 2020 年的溫度變化。這個疊圖問的是：承受最多熱逆境的縣市，是不是也是農民最高齡的縣市——這是在問「誰得去適應」以及「他們有多少餘力去適應」。"
+  }
+ },
  "g02": {
   "id": "g02",
   "img": "g02.webp",
@@ -128,6 +310,19 @@ var FIGS = {
   "read": {
    "en": "The change in November to December minimum temperature between 1961-1990 and 2015-2024, by county, from 0 to 1.0 degrees in pale yellow up to 1.9 to 2.05 degrees in dark red. Miaoli, Taichung, Nantou, Chiayi, Tainan and Kaohsiung are the darkest. That window is tomato flowering: warm nights during flowering cut fruit set, so a night-warming map over those two months is the one that matters for tomato yield.",
    "zh": "這張畫的是各縣市 11 到 12 月最低溫，從 1961–1990 年到 2015–2024 年的變化，淡黃是 0 到 1.0 度，深紅是 1.9 到 2.05 度。苗栗、台中、南投、嘉義、台南、高雄最深。這一段時間正是番茄的開花期：開花期夜溫偏高會降低著果率，所以針對這兩個月做的夜間暖化圖，才是對番茄產量真正有意義的那一張。"
+  }
+ },
+ "g03": {
+  "id": "g03",
+  "img": "g03.webp",
+  "page": "geospatial-analysis",
+  "label": {
+   "en": "Structured prompt against plain",
+   "zh": "結構化提示對一般提示"
+  },
+  "read": {
+   "en": "A validation of our structured geospatial prompt against a plain-language one. The same 15,138-row dataset and the same question go to both. The structured prompt checks coordinate range and coordinate reference system, flags a precision problem (only 3,739 unique points), applies the filter and returns 2,502 rows. The plain-language prompt checks only for missing values, applies no filter and hands back all 15,138 rows. The structured prompt is the one that catches the data problem.",
+   "zh": "這是把我們的結構化地理空間提示詞，拿來跟自然語言提示詞做驗證比較。同一份 15,138 列的資料、同一個問題，分別送給兩者。結構化提示詞會檢查座標範圍與座標參考系統，標出精度問題（只有 3,739 個不重複的點），套用篩選條件後回傳 2,502 列。自然語言提示詞只檢查缺失值，不做任何篩選，把 15,138 列原封不動丟回來。能抓到資料問題的是結構化提示詞。"
   }
  },
  "h01": {
@@ -175,7 +370,7 @@ var FIGS = {
   "page": "hardware-bioreactor",
   "label": {
    "en": "Operator dashboard, 53 h in",
-   "zh": "運轉中的操作介面"
+   "zh": "運轉 53 小時的操作介面"
   },
   "read": {
    "en": "The operator dashboard, 4 September 2026, 53 hours into a recording. It carries OD600 with its sample and reference channels, the flow rate, and the feed, retentate and permeate pressures. Transmembrane pressure is the computed one: it comes from the three measured pressures, not from a sensor of its own.",
@@ -304,7 +499,7 @@ var FIGS = {
   "img": "i04.webp",
   "page": "human-practices",
   "label": {
-   "en": "Farmers’ KAP results",
+   "en": "Farmers' KAP results",
    "zh": "農民 KAP 結果"
   },
   "read": {
@@ -382,7 +577,7 @@ var FIGS = {
   "img": "i10.webp",
   "page": "human-practices",
   "label": {
-   "en": "Ms. Chen’s farm, Tamsui",
+   "en": "Ms. Chen's farm, Tamsui",
    "zh": "淡水陳小姐的農場"
   },
   "read": {
@@ -401,6 +596,32 @@ var FIGS = {
   "read": {
    "en": "A three-circle Venn of the regulatory themes in the United States, the European Union and Taiwan, on the abiotic pathway. Each circle lists that market's rules for the bioreactor, the culture and the output: OSHA and EPA TSCA 40 CFR Part 725 in the US, the Machinery Regulation 2023/1230 and Directive 2009/41/EC in the EU, BSMI and the Fertilizer Management Act in Taiwan. The overlaps hold what is shared, GMO biosafety and plant-biostimulant or fertilizer regulation. The centre is our core claim: improves plant tolerance to abiotic stress, an agricultural input rather than a pesticide.",
    "zh": "這是美國、歐盟、台灣三方在非生物性逆境路徑上的法規主題范氏圖。每個圈分別列出該市場對反應器、菌液與產出的規定：美國是 OSHA 與 EPA TSCA 40 CFR Part 725，歐盟是機械法規 2023/1230 與指令 2009/41/EC，台灣是 BSMI 與肥料管理法。交集處是三方共有的部分：基改生物安全，以及植物生物刺激素或肥料的管理。中心寫的是我們的核心主張：提升植物對非生物逆境的耐受性，屬於農業資材而非農藥。"
+  }
+ },
+ "l02": {
+  "id": "l02",
+  "img": "l02.webp",
+  "page": "laws-and-regulations",
+  "label": {
+   "en": "Fertilizer or pesticide",
+   "zh": "肥料還是農藥"
+  },
+  "read": {
+   "en": "CH Biotech's breakdown of how Taiwan splits fertilizers from pesticides. The Ministry of Agriculture branches to the Agriculture and Food Agency, which covers fertilizers and biostimulants, and to the Animal and Plant Health Inspection Agency, which covers chemical pesticides, biological pesticides and non-registered plant protection materials. Our claim is that the protectant improves tolerance rather than controlling a pest, so it belongs on the fertilizer and biostimulant branch, under the Agriculture and Food Agency.",
+   "zh": "這是正瀚生技替我們拆解的「台灣如何區分肥料與農藥」。農業部下分成農糧署（管肥料與生物刺激素）與動植物防疫檢疫署（管化學農藥、生物農藥，以及非列管植物保護資材）。我們的主張是保護劑提升的是耐受性、不是防治病蟲害，所以它屬於肥料與生物刺激素那一支，歸農糧署管。"
+  }
+ },
+ "l03": {
+  "id": "l03",
+  "img": "l03.webp",
+  "page": "laws-and-regulations",
+  "label": {
+   "en": "Expansion markets ranked",
+   "zh": "擴張市場排序"
+  },
+  "read": {
+   "en": "Expansion markets placed by regulatory and commercialisation challenge on the horizontal axis against strategic value for ReLEAF on the vertical. The Philippines is highest on value and lowest on challenge; Taiwan and Thailand sit below it; the European Union is high on value but furthest right on challenge. Each market carries its regulatory advantages and challenges. The caveat is printed on our own page: these positions are our qualitative synthesis of the frameworks we reviewed, not official ratings and not approval predictions.",
+   "zh": "這是把擴張市場依「法規與商業化難度」（橫軸）對「對 ReLEAF 的策略價值」（縱軸）定位。菲律賓價值最高、難度最低；台灣與泰國在它下面；歐盟價值高但難度最靠右。每個市場旁邊都列了法規上的優勢與挑戰。但書就印在我們自己的頁面上：這些位置是我們對所查閱框架的質性綜合判斷，不是官方評等，也不是核准預測。"
   }
  },
  "m01": {
@@ -611,6 +832,19 @@ var FIGS = {
    "zh": "底色是各縣市 2024 年全年平均的夜間溫度（18:00 到午夜），分成 20.51 到 27.26 度五個級距，由藍到紅。白色的比例圓圈是各測站 2005 到 2024 年的稻作產量趨勢，從每年每公頃 −0.044 到 +0.058 公噸。最熱的縣市分布在北部與南部。它支持的是開場的那個主張：侵蝕台灣稻作產量的是暖夜，不只是熱天。"
   }
  },
+ "p02": {
+  "id": "p02",
+  "img": "p02.webp",
+  "page": "plant",
+  "label": {
+   "en": "Trehalose, four readouts",
+   "zh": "海藻糖四項讀值"
+  },
+  "read": {
+   "en": "The readouts for the same trehalose set: fresh weight, relative chlorophyll with fresh-weight normalisation, relative chlorophyll without it, and primary root length. The significance brackets sit at 75, 100 and 150 millimolar. The red box marks 100 millimolar NaCl, where 5 millimolar trehalose significantly enhanced salt tolerance. That is the one condition we claim; we do not claim rescue at every salt level.",
+   "zh": "這是同一組海藻糖實驗的量化結果：鮮重、以鮮重標準化的相對葉綠素、未標準化的相對葉綠素，以及主根長。顯著性括號出現在 75、100、150 毫莫耳。紅框標的是 100 毫莫耳 NaCl，在這個條件下 5 毫莫耳海藻糖顯著提升了耐鹽性。我們宣稱的就是這一個條件；我們不會宣稱在每個鹽濃度下都有挽救效果。"
+  }
+ },
  "p03": {
   "id": "p03",
   "img": "p03.webp",
@@ -622,6 +856,19 @@ var FIGS = {
   "read": {
    "en": "Set 9, the main ACC deaminase salinity experiment, trial 1, photographed on day 8. Rows are 0, 75 and 100 millimolar NaCl; columns are no ACCD, pre-treatment, co-treatment and post-treatment. Pre-treatment plates carry the densest green rosettes at every salt level. The 100 millimolar post-treatment plate is marked ND, not determined, because it was excluded for extensive mould growth. TB medium was the negative control, 9 seedlings per condition.",
    "zh": "這是第 9 組，ACC 去胺酶抗鹽主實驗的第一次試驗，第 8 天拍攝。三排分別是 0、75、100 毫莫耳 NaCl；四欄分別是不加 ACCD、前處理、同時處理、後處理。前處理那一欄在每一個鹽濃度下都有最密最綠的蓮座。100 毫莫耳的後處理盤標著 ND（未判定），因為黴菌長得太嚴重而被排除。陰性對照是 TB 培養基，每個條件 9 株幼苗。"
+  }
+ },
+ "p05": {
+  "id": "p05",
+  "img": "p05.webp",
+  "page": "plant",
+  "label": {
+   "en": "Hydroponic rack after heat",
+   "zh": "熱逆境後的水耕架"
+  },
+  "read": {
+   "en": "The hydroponic tube rack after heat stress, photographed from above with its red labels: ACCD and BoPep4 each at 1/40, 1/60, 1/80 and 1/100, with the controls. Most rosettes are bleached white; only a few of the ACCD groups still carry green leaves. The 'before' photograph of the same layout is on the same page, which is what makes the comparison readable.",
+   "zh": "這是熱逆境之後的水耕試管架，從上方拍攝，紅色標籤標的是 ACCD 與 BoPep4 各自的 1/40、1/60、1/80、1/100 稀釋，以及對照組。多數蓮座已經白化，只有少數 ACCD 組還留著綠葉。同一頁上也有同一排佈局的「處理前」照片，有這張對照，這張圖才讀得出意義。"
   }
  },
  "p06": {
@@ -637,6 +884,58 @@ var FIGS = {
    "zh": "縱軸是鮮重（公克），共十二組：BoPep4 的 1/40、1/60、1/80、1/100 稀釋加上兩個對照，分別在 0 與 100 毫莫耳 NaCl 下。六個未加鹽的組落在大約 0.056 到 0.106 公克之間；六個加鹽的組全部比較低。在 100 毫莫耳那一區塊裡，1/40 BoPep4 是唯一還留在接近未加鹽範圍的一組，約 0.051 公克，而 0.1 倍 MS 培養基只有 0.029。"
   }
  },
+ "p07": {
+  "id": "p07",
+  "img": "p07.webp",
+  "page": "plant",
+  "label": {
+   "en": "Two soil watering methods",
+   "zh": "兩種土壤澆灌法"
+  },
+  "read": {
+   "en": "Four soil pots from above, two methods by two days. The left column is the sub-irrigation accumulation method and the right column is Professor Cheng's top-down wash protocol; the top row is day 0 of salinity and the bottom row day 5. By day 5 the wash pot carries smaller, paler rosettes. The wash protocol produced reproducible salt stress and a visible phenotype; the accumulation method did not, so the wash protocol is the one we kept for soil.",
+   "zh": "四個土耕盆從上方拍攝，兩種方法乘兩個時間點。左欄是底部灌溉累積法，右欄是鄭教授的由上而下沖洗法；上排是施鹽第 0 天，下排是第 5 天。到第 5 天，沖洗法那一盆的蓮座比較小、比較淡。沖洗法做得出可重現的鹽逆境與看得見的表型差異，累積法做不出來，所以土耕的部分我們留下的是沖洗法。"
+  }
+ },
+ "p08": {
+  "id": "p08",
+  "img": "p08.webp",
+  "page": "plant",
+  "label": {
+   "en": "Hydroponic workflow sheet",
+   "zh": "水耕流程表"
+  },
+  "read": {
+   "en": "The revised hydroponic workflow drawn as one sheet: seedling preparation down the left, then salinity and protectant treatment on racks. It specifies 2.1 millilitres of 0.1x MS per well at 7 days old, changed to 1.9 millilitres at 10 days, a master mix per treatment from WB800, 0.1x MS, ACC deaminase or BoPep4 and PLP at 1/100 for ACCD only, then 2.1 millilitres of master mix plus 0.07 millilitres of 3 molar NaCl per rack, and seven days of observation. The heat arm runs the same way and finishes in a 37 degree incubator. It is the document that lets another team repeat the assay.",
+   "zh": "這是修訂後的水耕實驗流程，畫成一整張圖：左邊是幼苗準備，右邊是試管架上的鹽逆境與保護劑處理。它寫明 7 天大時每孔 2.1 毫升 0.1 倍 MS、10 天大時改成 1.9 毫升；每個處理配一份 master mix，成分是 WB800、0.1 倍 MS、ACC 去胺酶或 BoPep4，PLP 只有 ACCD 那組加 1/100；每個試管架加 2.1 毫升 master mix 與 0.07 毫升 3 莫耳 NaCl，然後觀察七天。熱逆境那一支流程相同，最後放進 37 度培養箱。這就是讓別的隊伍可以重做這個試驗的文件。"
+  }
+ },
+ "p09": {
+  "id": "p09",
+  "img": "p09.webp",
+  "page": "plant",
+  "label": {
+   "en": "Commercial peptide, post-treatment",
+   "zh": "商用肽、後處理"
+  },
+  "read": {
+   "en": "Set 7, trial 2: the CH Bio commercial peptide at 0, 75 and 100 millimolar NaCl, as no peptide, co-treatment and post-treatment. Post-treatment gives the most recovery in chlorophyll retention. Panels are fresh weight and relative total chlorophyll in two forms, 9 seedlings per condition, mean plus or minus SEM. Three asterisks is p below 0.001, four is p below 0.0001, ns is not significant.",
+   "zh": "這是第 7 組第二次試驗：CH Bio 市售胜肽在 0、75、100 毫莫耳 NaCl 下，分成不加胜肽、同時處理、後處理三組。後處理在葉綠素保留上的挽救效果最好。子圖是鮮重與兩種形式的相對總葉綠素，每個條件 9 株幼苗，呈現平均值 ± SEM。三顆星是 p 小於 0.001，四顆星是 p 小於 0.0001，ns 是不顯著。"
+  }
+ },
+ "p10": {
+  "id": "p10",
+  "img": "p10.webp",
+  "page": "plant",
+  "label": {
+   "en": "The experimental timeline",
+   "zh": "實驗時程"
+  },
+  "read": {
+   "en": "The experimental design for the ACC deaminase and LEA14 salinity runs. Day 0 stratify at 4 degrees, day 4 grow on to 7 days old, day 11 pre-treatment with three sprays, day 12 co-treatment with three sprays of 75 or 100 millimolar NaCl on the stress groups, day 13 post-treatment, then day 20 after seven days of observation: leaf area, chlorophyll extraction, fresh weight, MDA, total protein and relative gene expression. The salt lands on day 12, which is what defines pre, co and post.",
+   "zh": "這是 ACC 去胺酶與 LEA14 抗鹽實驗的設計。第 0 天 4 度春化，第 4 天開始生長到 7 天大，第 11 天前處理噴三次，第 12 天同時處理、對逆境組噴三次 75 或 100 毫莫耳 NaCl，第 13 天後處理，第 20 天在七天觀察之後收樣：葉面積、葉綠素萃取、鮮重、MDA、總蛋白與相對基因表現。鹽是第 12 天下去的，前處理、同時處理、後處理就是以這一天為基準定義的。"
+  }
+ },
  "q01": {
   "id": "q01",
   "img": "0316beea2c6c.avif",
@@ -648,6 +947,19 @@ var FIGS = {
   "read": {
    "en": "The map is the whole plasmid, not the part. The insert is the light-sensing unit: PliaG, R0-RBS, ccaS-m3, then the B0015 double terminator. That is the 1693 bp we deposited. Everything else is pSTK-1B backbone, the bla CDS and a high-copy ColE1 origin, so it is kept in E. coli on ampicillin. The name still carries sfGFP from the parent dropout vector.",
    "zh": "圖畫的是整個質體，不是部件本身。插入片段是光感測單元：PliaG、R0-RBS、ccaS-m3，再接 B0015 雙終止子，這就是我們存放的 1693 bp。其餘全是 pSTK-1B 骨架：bla CDS 和高拷貝 ColE1 起點，所以在大腸桿菌裡用安比西林篩選。構築名稱裡仍留著母載體的 sfGFP 字樣。"
+  }
+ },
+ "q08": {
+  "id": "q08",
+  "img": "bb80d9f09143.avif",
+  "page": "",
+  "label": {
+   "en": "Green against red growth",
+   "zh": "綠光對紅光的生長"
+  },
+  "read": {
+   "en": "OD600 of WB800 carrying the CcaSR system, red 100% on the left and green 100% on the right, read at 2, 4, 6, 8 and 24 hours. Both end in the same place, 1.026 and 1.017, against a blank of 0.057 to 0.061. So green light does not cost growth. It says nothing about expression or secretion. Red is n=1, and nothing was read between 8 and 24 hours.",
+   "zh": "帶有 CcaSR 系統的 WB800 的 OD600，左邊紅光 100%、右邊綠光 100%，在 2、4、6、8 和 24 小時讀取。兩邊最後落在同一個地方，1.026 與 1.017，空白值是 0.057 到 0.061。所以綠光不會損失生長。它對表達或分泌沒有任何說明。紅光只有 n=1，而且 8 到 24 小時之間沒有量測。"
   }
  },
  "q10": {
@@ -663,6 +975,110 @@ var FIGS = {
    "zh": "由左到右：PtagC 加 RBS 驅動 Ho1 與 pcyA，由 L3S2P21 收尾；接著是 PliaG 加 ccaSm3；再來是 pVeg 加 ccaR；最後是 PcpcG2-veg 加 RiboJ、R0-RBS、SamyQ 和標示為 ACC 的 AcdS 箭頭。後三個單元都由 B0015 收尾。全長 10,377 bp，骨架是 pSTK-EXP2，含氯黴素卡匣、repB、ColE1 和截短的 pBR322 起點。"
   }
  },
+ "q11": {
+  "id": "q11",
+  "img": "c8c3303a0770.avif",
+  "page": "",
+  "label": {
+   "en": "A map that disagrees",
+   "zh": "與頁面不符的圖譜"
+  },
+  "read": {
+   "en": "No. The map is the whole plasmid, so the insert is 3842 minus the 2108 bp pSTK-1D backbone, which is 1734 bp. That is the corrected construct carrying the team's own 177 bp PcpcG2-veg, deposited separately as BBa_263IW021. The page this figure sits on is the older 2602 bp version with the 1045 bp third-party part, 868 bp larger. One of the reverse primers is still named Csn:ACCD on a SamyQ construct.",
+   "zh": "對不上。圖畫的是整個質體，所以插入片段是 3842 減掉 2108 bp 的 pSTK-1D 骨架，等於 1734 bp。那是帶團隊自己 177 bp PcpcG2-veg 的修正版構築，另外以 BBa_263IW021 存放。這張圖所在的頁面是舊的 2602 bp 版本，含 1045 bp 的第三方部件，多了 868 bp。另外，SamyQ 構築上有一支反向引子仍叫 Csn:ACCD。"
+  }
+ },
+ "q12": {
+  "id": "q12",
+  "img": "cde051c48ace.avif",
+  "page": "",
+  "label": {
+   "en": "The unit with no tag",
+   "zh": "沒有標籤的單元"
+  },
+  "read": {
+   "en": "A signal peptide and a 6xHis tag. This is the transduction unit in pSTK-1C: pVeg, R0-RBS, ccaR, B0015, 964 bp of a 3243 bp plasmid, with bla and a ColE1 origin as backbone. There is no SamyQ or Csn on it and no His tag, and no RiboJ either. CcaR is the response regulator and works inside the cell, so it is neither secreted nor pulled down on nickel.",
+   "zh": "少了訊號胜肽和 6xHis 標籤。這是 pSTK-1C 裡的傳遞單元：pVeg、R0-RBS、ccaR、B0015，3243 bp 質體裡的 964 bp，骨架是 bla 與 ColE1 起點。上面沒有 SamyQ 或 Csn，也沒有 His 標籤，連 RiboJ 都沒有。CcaR 是反應調節蛋白，在細胞內作用，所以既不分泌，也不用鎳柱拉下來。"
+  }
+ },
+ "q14": {
+  "id": "q14",
+  "img": "d09d66204dd3.avif",
+  "page": "",
+  "label": {
+   "en": "The label contradicts the title",
+   "zh": "標示與標題打架"
+  },
+  "read": {
+   "en": "SamyQ. The bold name reads ccaSR-SamyQ-AcdS-Histag, and that contradicts the page, which is CcaSR-Csn-AcdS-Histag. The map's own feature settles it: the fourth unit is annotated CDS-Csn_Acc, and the deposited sequence for BBa_260MVA1K is the Csn version at 6061 bp. So the page and the feature arrow are right and the bottom label is a mislabel. This map also prints no total length.",
+   "zh": "寫 SamyQ。粗體名稱是 ccaSR-SamyQ-AcdS-Histag，這和頁面的 CcaSR-Csn-AcdS-Histag 矛盾。圖上自己的特徵就能判定：第四個單元註解為 CDS-Csn_Acc，而 BBa_260MVA1K 存放的序列是 6061 bp 的 Csn 版本。所以頁面和特徵箭頭是對的，底下的構築名稱標錯了。這張圖也沒有印出總長度。"
+  }
+ },
+ "q17": {
+  "id": "q17",
+  "img": "e300abd83e05.avif",
+  "page": "",
+  "label": {
+   "en": "The chromophore unit",
+   "zh": "發色團單元"
+  },
+  "read": {
+   "en": "It makes the chromophore. Ho1 turns heme into biliverdin and PcyA reduces that to PCB, which CcaS needs in order to sense green light, and B. subtilis does not make PCB on its own. The two enzymes are joined by a GGGGS double linker and expressed as one fusion, which is why the arrows abut. Driven by PtagC+RBS, closed by L3S2P21: 1655 bp of a 3754 bp pSTK-1A plasmid.",
+   "zh": "它負責做發色團。Ho1 把血紅素轉成膽綠素，PcyA 再把它還原成 PCB，而 CcaS 需要 PCB 才能感測綠光，枯草桿菌自己不會做 PCB。兩個酵素由 GGGGS 雙重連接子接在一起、以單一融合蛋白表達，所以兩個箭頭是相連的。由 PtagC+RBS 驅動、L3S2P21 收尾：3754 bp 的 pSTK-1A 質體裡的 1655 bp。"
+  }
+ },
+ "r01": {
+  "id": "r01",
+  "img": "r01.webp",
+  "page": "protein-design",
+  "label": {
+   "en": "GRAFT design pipeline",
+   "zh": "GRAFT 設計流程"
+  },
+  "read": {
+   "en": "GRAFT, our protein design pipeline: Generate, Restraints, Assembly, Flex meaning molecular dynamics, and Triage and packaging. The diagram runs from the protectant search in the literature across osmotic, heat, salinity and biotic stress, through mutation ideation on the sequence, docking prep with MUSCLE, WHISCY, US-Align and DisVis, into structural docking in binary and ternary modes beside AI co-folding, and ends in structure scoring and validation with HADDOCK score, CAPRI, PDBePISA and wwPDB MolProbity.",
+   "zh": "這是我們的蛋白設計流程 GRAFT：Generate（生成）、Restraints（限制條件）、Assembly（組裝）、Flex（分子動力學）、Triage & packaging（分流與打包）。圖從文獻中搜尋保護劑開始，涵蓋滲透、高溫、鹽害與生物性逆境，接著是序列上的突變構想，再到用 MUSCLE、WHISCY、US-Align、DisVis 做對接前處理，然後是二體與三體的結構對接以及旁邊的 AI 共摺疊，最後以結構評分與驗證收尾，用的是 HADDOCK 分數、CAPRI、PDBePISA 與 wwPDB MolProbity。"
+  }
+ },
+ "r02": {
+  "id": "r02",
+  "img": "r02.webp",
+  "page": "protein-design",
+  "label": {
+   "en": "BoPep4 alanine scan",
+   "zh": "BoPep4 丙胺酸掃描"
+  },
+  "read": {
+   "en": "A BoPep4 alanine scan from S6 to N23 against PEPR1, after HADDOCK refinement. The y-axis is the change in HADDOCK score versus wild type, where positive means destabilising, with the ensemble mean marked as a dot. A tall bar means mutating that residue to alanine costs binding, so it is a hotspot. K7, R9, R11, E12, H14, K18, H22 and N23 come out as binding hotspots; the glycines, prolines and serines in the middle read as structural or conformational rather than contact residues.",
+   "zh": "這是 BoPep4 從 S6 到 N23 對 PEPR1 的丙胺酸掃描，經 HADDOCK 精修後的結果。縱軸是相對於野生型的 HADDOCK 分數變化，正值代表去穩定化，黑點是集合平均。長條越高，代表把那個殘基換成丙胺酸會讓結合變差，也就是熱點。K7、R9、R11、E12、H14、K18、H22、N23 被判為結合熱點；中段的甘胺酸、脯胺酸與絲胺酸則偏向結構或構型角色，不是接觸殘基。"
+  }
+ },
+ "r03": {
+  "id": "r03",
+  "img": "r03.webp",
+  "page": "protein-design",
+  "label": {
+   "en": "The contact at Asn23",
+   "zh": "Asn23 的接觸"
+  },
+  "read": {
+   "en": "Asn23, the peptide's C-terminus, sitting in the PEPR1 groove. Five contacts hold that C-terminus, not one salt bridge as the protocol had assumed. The catch: a six-histidine purification tag on the C-terminus, which every earlier check had approved, abolishes the salt bridge once simulated. That is why the production construct does not carry a C-terminal His tag on BoPep4. We also measured the crystal first: Arg487 clamps the carboxylate at 2.40 angstroms.",
+   "zh": "這是 Asn23，也就是胜肽的 C 端，卡在 PEPR1 的溝槽裡。固定這個 C 端的是五個接觸，不是原本流程假設的單一鹽橋。被攔下來的問題是：C 端那組六個組胺酸的純化標籤——先前每一道檢查都放行過——一旦跑模擬就會破壞那個鹽橋。這就是為什麼量產用的構築裡 BoPep4 不帶 C 端 His 標籤。我們也先量了晶體結構：Arg487 以 2.40 埃夾住那個羧基。"
+  }
+ },
+ "s01": {
+  "id": "s01",
+  "img": "s01.webp",
+  "page": "software",
+  "label": {
+   "en": "Digital Twin, run 7",
+   "zh": "數位孿生、第 7 次運轉"
+  },
+  "read": {
+   "en": "The Digital Twin dashboard, interface v6.2.2, reading from the board during run 7 on 18 October 2026. It shows optical density, pH and the four pressure traces, plus the derived membrane warnings and the feed valve and feed pump panels. The measured quantities are OD, pH and the four pressures; the membrane-filtration values and the warnings are computed from them. The twin reads and warns; induction is not yet automatic, so the control loop is not closed.",
+   "zh": "這是數位孿生的儀表板，介面版本 v6.2.2，2026 年 10 月 18 日第 7 次實驗期間直接從控制板讀取。畫面上有光密度、pH 與四條壓力曲線，加上推導出來的薄膜警示，以及進料閥與進料幫浦的面板。量到的是 OD、pH 與四個壓力；薄膜過濾的數值與警示是由它們算出來的。孿生目前是讀取與警示，誘導還不是自動的，所以控制迴路尚未閉合。"
+  }
+ },
  "s02": {
   "id": "s02",
   "img": "s02.svg",
@@ -674,6 +1090,19 @@ var FIGS = {
   "read": {
    "en": "Seven bioreactor runs of B. subtilis, optical density at 600 nanometres against time. Runs 1 and 2 are hand-sampled against a shake flask; run 3 is 434 hours in line; run 4 is in two logged parts with a 10-hour unlogged gap; run 5 breaks down after ten hours; run 6 rises cleanly over 42 hours with a fitted growth rate; run 7 runs 77 hours to an optical density of 3.3 with the reading intact. Grey marks the readings the twin does not use, which is how we show the failures rather than hiding them.",
    "zh": "這是 B. subtilis 的七次反應器實驗，600 奈米光密度對時間。第 1、2 次是人工取樣並與搖瓶對照；第 3 次是線上量測 434 小時；第 4 次分成兩段紀錄，中間有 10 小時沒有記錄；第 5 次在十小時之後就壞掉；第 6 次在 42 小時內乾淨上升並擬合出生長速率；第 7 次跑了 77 小時到光密度 3.3，讀值全程完好。灰色標的是孿生不採用的讀值——我們用這種方式把失敗攤出來，而不是藏起來。"
+  }
+ },
+ "s03": {
+  "id": "s03",
+  "img": "s03.svg",
+  "page": "software",
+  "label": {
+   "en": "Leaf against air temperature",
+   "zh": "葉溫對氣溫"
+  },
+  "read": {
+   "en": "Leaf minus air temperature for nine five-minute bench runs at three sites on 10 October 2026, with the mean of each run. The incubator sits near plus 1.8 degrees and the stairwell near plus 1.3. The catch is in the caption: there was no leaf between the sensors. So this is the offset between the leaf sensor and the SHT31 in the same air, which is a calibration of the instrument pair, not a measurement of canopy temperature depression.",
+   "zh": "這是 2026 年 10 月 10 日在三個地點做的九次五分鐘桌上測試，量「葉溫減氣溫」，並標出每次的平均。培養箱大約是 +1.8 度，樓梯間大約是 +1.3 度。但書寫在圖說裡：兩個感測器之間沒有夾任何葉子。所以這量到的是葉面感測器與 SHT31 在同一團空氣中的偏差，屬於這對儀器的校正，不是冠層溫差的量測。"
   }
  },
  "u01": {
@@ -702,6 +1131,45 @@ var FIGS = {
    "zh": "隊員在一張標題為「Abiotic vs Biotic Stress」的投影片前，對高中班級授課。在永續頁上，這項工作歸在 SDG 4（優質教育）之下：我們在那裡指出的問題是，很多人對合成生物學抱持誤解，因為唯一拿得到的材料是難讀的科學論文。跨三個學制去上課，就是我們對這件事的回應。"
   }
  },
+ "u03": {
+  "id": "u03",
+  "img": "u03.webp",
+  "page": "sustainability",
+  "label": {
+   "en": "Four hydroponic boxes",
+   "zh": "四個水耕箱"
+  },
+  "read": {
+   "en": "Hydroponic boxes photographed from above: columns are box 1 control, box 2 pre-treatment, box 3 co-treatment and box 4 post-treatment; rows are 25 July, 28 July and 4 August. By 4 August the co-treatment box carries the largest and greenest rosettes while the control and the post-treatment boxes have browned. On the Sustainability page it sits under SDG 2, zero hunger, as the evidence that the protectant can hold a crop through a stress.",
+   "zh": "水耕盒由上方拍攝：四欄分別是第 1 盒對照、第 2 盒前處理、第 3 盒同時處理、第 4 盒後處理；三排是 7 月 25 日、7 月 28 日、8 月 4 日。到 8 月 4 日，同時處理那一盒的蓮座最大也最綠，對照組與後處理組則已經褐化。在永續頁上，它放在 SDG 2（消除飢餓）之下，作為「保護劑能幫作物撐過一次逆境」的證據。"
+  }
+ },
+ "v01": {
+  "id": "v01",
+  "img": "007541e6fe24.avif",
+  "page": "",
+  "label": {
+   "en": "Two of six positive",
+   "zh": "六株中兩株陽性"
+  },
+  "read": {
+   "en": "M plus six colony lanes. Only lanes 3 and 6 carry a band, sitting just above the 1.5 kb rung and labelled 1588 bp. That is the 2 of 6. Every lane, positives included, has a bright blob at the gel front, which is primer dimer off a colony template. The band says a fragment of roughly the right length went in. It does not say the four parts are in order or free of mutation. Clone 3 was sequenced.",
+   "zh": "M 加上六個菌落泳道。只有第 3 和第 6 道有帶，位置略高於 1.5 kb 標記，標註為 1588 bp，也就是 6 選 2。包含陽性在內的每一道，膠前緣都有一團亮點，那是以菌落為模板時的引子二聚體。這條帶只說明插入片段長度大致正確，並沒有說明四個元件的順序正確或沒有突變。送定序的是選殖株 3。"
+  }
+ },
+ "v03": {
+  "id": "v03",
+  "img": "101fcb99f2b1.avif",
+  "page": "",
+  "label": {
+   "en": "Seven of sixteen",
+   "zh": "十六株中七株"
+  },
+  "read": {
+   "en": "A ladder at both ends and sixteen colony lanes. Seven lanes give a clear band between the 1 kb and 1.5 kb rungs: 2, 3, 7, 9, 13, 14 and 15. That matches 7 of 16. Lanes 12 and 16 show a faint band at the same height that was not counted. The gel annotation and the methods text both say 1420 bp. The caption under the gel says 1588 bp. Clone 2 was sequenced.",
+   "zh": "兩端各有一條標記，中間十六個菌落泳道。有七道在 1 kb 與 1.5 kb 刻度之間出現清楚的帶：第 2、3、7、9、13、14、15 道，與「16 選 7」相符。第 12 和 16 道在同一高度有淡帶，沒有被計入。圖上的標註和方法段文字都寫 1420 bp，膠下方的圖說卻寫 1588 bp。送定序的是選殖株 2。"
+  }
+ },
  "v04": {
   "id": "v04",
   "img": "1bb1bfecc9e2.avif",
@@ -715,6 +1183,383 @@ var FIGS = {
    "zh": "M 加上六道：第 1 至 3 道是一個選殖株，第 4 至 6 道是另一個，各用三組引子篩，預期 375、632、661 bp。六條帶都落在 300 至 700 刻度該有的位置。三個接點確實能定出四個模組的順序，卻完全不能說明模組內部的序列，而且這裡沒有任何 Level 2 構築做過全長定序。另外，第三組引子在這張是 661 bp，在姊妹膠上卻是 441 bp。"
   }
  },
+ "v05": {
+  "id": "v05",
+  "img": "2438a0dda56a.avif",
+  "page": "",
+  "label": {
+   "en": "Sixteen for sixteen",
+   "zh": "十六株全中"
+  },
+  "read": {
+   "en": "M plus sixteen colony lanes, every one with a band at the same height just above the 800 bp rung, bracketed 811 bp. The bands are even in intensity, there is no empty lane and no control, so nothing on this gel shows what a failed colony looks like. The page's own arithmetic is 576 bp of insert plus 235 bp of vector, while sister pages quote about 209 bp for that same vector stretch. Clone 16 was sequenced.",
+   "zh": "M 加十六個菌落泳道，每一道都在 800 bp 刻度稍上方的同一高度有帶，括號標為 811 bp。亮度相當均勻，沒有空白道也沒有對照，所以這張膠裡看不到失敗的菌落長什麼樣。頁面自己的算法是插入片段 576 bp 加載體 235 bp，但姊妹頁對同一段載體寫的是約 209 bp。送定序的是選殖株 16。"
+  }
+ },
+ "v08": {
+  "id": "v08",
+  "img": "469dcae98058.avif",
+  "page": "",
+  "label": {
+   "en": "Lanes nine to nineteen",
+   "zh": "第 9 到 19 道"
+  },
+  "read": {
+   "en": "M plus eleven lanes, numbered 9 to 19, which makes this the back half of a bigger screen. One faint band, in lane 14, bracketed 678 bp, and it sits level with the 750 bp rung rather than below it. The caption says 1 of 10 and then the page names clone 14, a number larger than ten. Every lane carries a bright primer-dimer blob at the front. One faint band from one colony is thin evidence.",
+   "zh": "M 加十一道，編號 9 到 19，所以這是一次較大篩選的後半段。只有第 14 道有一條淡帶，括號標為 678 bp，而且它和 750 bp 刻度齊平，而不是在其下方。圖說寫「10 選 1」，頁面接著說送定序的是選殖株 14，比十還大。每一道前緣都有明亮的引子二聚體。一個菌落、一條淡帶，證據很薄。"
+  }
+ },
+ "v10": {
+  "id": "v10",
+  "img": "68787dec5c52.avif",
+  "page": "",
+  "label": {
+   "en": "Twelve lanes, three labels",
+   "zh": "十二道、三組標號"
+  },
+  "read": {
+   "en": "M then a run of banded lanes in repeating 375 / 632 / 441 triplets. I count twelve such lanes, but only three triplets carry the numbers 1, 2, 3. One triplet between the first and second labelled group has bands and no labels. Each triplet is one clone checked at three junctions. Nine or twelve, the junctions prove module order only. Nothing here reads the sequence inside a module.",
+   "zh": "M 之後是一連串有帶的泳道，以 375 / 632 / 441 三條一組重複。我數到十二道，但只有三組標了 1、2、3；在第一組與第二組標號之間，還有一組有帶卻沒有標號。每一組代表一個選殖株、三個接點。不論是九道還是十二道，接點只能證明模組順序，這裡沒有任何資料讀到模組內部的序列。"
+  }
+ },
+ "v12": {
+  "id": "v12",
+  "img": "8834ba1b94f0.avif",
+  "page": "",
+  "label": {
+   "en": "Eighteen of nineteen",
+   "zh": "十九株中十八株"
+  },
+  "read": {
+   "en": "M plus nineteen colony lanes. Eighteen carry a band sitting just above the 500 bp rung, bracketed 536 bp. Lane 6 is not empty. Its band runs clearly lower than the rest, so that colony amplified something shorter, not nothing. BoPep4 2.1 and 2.2 are both quoted at a 177 bp insert and a 536 bp product, so this gel cannot tell the two versions apart. Clone 2 was sequenced.",
+   "zh": "M 加十九個菌落泳道。其中十八道在 500 bp 刻度略上方有帶，括號標為 536 bp。第 6 道並非空白：它的帶明顯跑得比其他道低，表示那個菌落擴增出較短的東西，而不是什麼都沒有。BoPep4 2.1 與 2.2 兩版的插入片段都寫 177 bp、產物都寫 536 bp，所以這張膠分不出兩版。送定序的是選殖株 2。"
+  }
+ },
+ "v13": {
+  "id": "v13",
+  "img": "a2f980ff8969.avif",
+  "page": "",
+  "label": {
+   "en": "One faint band",
+   "zh": "只有一條淡帶"
+  },
+  "read": {
+   "en": "One colony lane beside the ladder. The band called 735 bp is barely visible, a faint smudge below the 800 rung, while the brightest thing in the lane is the primer-dimer blob at the front. The ladder lane is overloaded enough that the 800 to 500 rungs merge into a white column, so the reference is poor too. One colony, one faint band. The page then says clone [X] was sequenced, leaving the placeholder unfilled.",
+   "zh": "標記旁只有一個菌落泳道。標為 735 bp 的帶幾乎看不見，只是 800 刻度下方一片淡淡的痕跡，而這一道最亮的東西是前緣的引子二聚體。標記那一道也過載，800 到 500 的刻度糊成一條白柱，參考價值很低。一個菌落、一條淡帶。頁面接著寫「選殖株 [X] 已定序」，佔位符根本沒填。"
+  }
+ },
+ "v16": {
+  "id": "v16",
+  "img": "bd64752e9f98.avif",
+  "page": "",
+  "label": {
+   "en": "Count the lanes near 2 kb",
+   "zh": "數一數 2 kb 附近幾條"
+  },
+  "read": {
+   "en": "M plus eight colony lanes. Four of them, lanes 2, 4, 5 and 7, carry a band just below the 2 kb rung, but only lane 7 is bracketed 1984 bp. Lanes 1 and 8 give a much shorter product and lanes 3 and 6 show only front smear. The caption's \"1 of 1 colonies\" does not describe this gel: eight were screened and at least four look positive. Clone 1 was sequenced, though lane 7 is the annotated one.",
+   "zh": "M 加八個菌落泳道。其中四道（第 2、4、5、7 道）在 2 kb 刻度略下方有帶，但只有第 7 道被括號標為 1984 bp。第 1、8 道是明顯短得多的產物，第 3、6 道只有前緣拖尾。圖說的「1 選 1」根本沒有描述這張膠：篩了八個，至少四個看起來是陽性。頁面說送定序的是選殖株 1，被標註的卻是第 7 道。"
+  }
+ },
+ "w02": {
+  "id": "w02",
+  "img": "23a9b510db69.avif",
+  "page": "",
+  "label": {
+   "en": "Lumen, shell and lysate",
+   "zh": "管內、殼側與裂解液"
+  },
+  "read": {
+   "en": "Nine time points, three fractions, each strip cropped to 35 to 48 kDa. The only signal is the lumen cell lysate at 14, 16 and 18 h, and it is saturated black, so it cannot be quantified. Both medium sets, lumen and shell, are blank at every time point. The 20 to 24 h row shows nothing anywhere. The figure shows intracellular protein; it does not show secretion or shell-side diffusion.",
+   "zh": "九個時間點、三種樣品，每一條都只裁到 35 至 48 kDa。唯一有訊號的是 14、16、18 小時的管內側細胞裂解液，而且訊號已經飽和成全黑，無法定量。管內側與殼側的兩組培養液在所有時間點都是空白。20 至 24 小時那一排整條都沒有東西。這張圖呈現的是細胞內的蛋白，並沒有呈現分泌或往殼側的擴散。"
+  }
+ },
+ "w03": {
+  "id": "w03",
+  "img": "4c16bfff0d3c.avif",
+  "page": "",
+  "label": {
+   "en": "Green light, three time points",
+   "zh": "綠光下的三個時間點"
+  },
+  "read": {
+   "en": "Three lanes, green light only, sampled 3, 6 and 8 h after a 16 h dark culture. Lane M is the ladder at 180, 130 and 100 kDa. Each lane carries one band just below 100 kDa. Our AcdS monomer is predicted at about 35 kDa, so this runs far too high. We offer a roughly 70 kDa homodimer as a possibility we have not tested. There is no red, dark or plasmid-free lane on this blot.",
+   "zh": "三條泳道，全部都是綠光，在 16 小時暗培養後的 3、6、8 小時取樣。M 是 marker，標示 180、130、100 kDa。每一道都有一條略低於 100 kDa 的條帶。我們的 AcdS 單體預測約 35 kDa，所以這個位置明顯偏高。我們提出約 70 kDa 的同源二聚體作為一個尚未驗證的可能解釋。這張膜上沒有紅光、暗處或無質體的泳道。"
+  }
+ },
+ "w05": {
+  "id": "w05",
+  "img": "90114dd860dc.avif",
+  "page": "",
+  "label": {
+   "en": "The structure we borrowed",
+   "zh": "我們借用的結構"
+  },
+  "read": {
+   "en": "No. It is PDB 1TZJ chain A, a Pseudomonas ACC deaminase solved by X-ray at 1.99 Å, 83 percent identical to our acdS over 330 aligned residues. We use it as a reference for the fold and the active site. Panel b shows pyridoxal-5'-phosphate held by a Schiff base to Lys51, which aligns to Lys50 in our sequence, with D-vinylglycine bound as a substrate analogue. No structure of our own acdS has been determined.",
+   "zh": "不是。這是 PDB 1TZJ 的 A 鏈，一個 Pseudomonas 的 ACC 去胺酶 X 光結構，解析度 1.99 Å，和我們的 acdS 在 330 個比對殘基上有 83% 相同。我們把它當作摺疊方式與活性中心的參考。(b) 圖顯示 pyridoxal-5'-phosphate 透過 Schiff base 接在 Lys51 上，對應到我們序列中的 Lys50，並有基質類似物 D-vinylglycine 結合在口袋裡。我們自己的 acdS 沒有解過結構。"
+  }
+ },
+ "w06": {
+  "id": "w06",
+  "img": "b8766a706c15.avif",
+  "page": "",
+  "label": {
+   "en": "BoPep4 in the PEPR1 groove",
+   "zh": "BoPep4 嵌在 PEPR1 溝槽"
+  },
+  "read": {
+   "en": "BoPep4, Gly1 to Asn23, is the orange chain lying in the inner groove of the PEPR1 ectodomain. It is threaded onto the 5GR8 PEPR1-AtPep1 crystal structure, so this is a model and the starting point of our MD runs, not an experiment. Panel b is the problem: the free C-terminal carboxylate of Asn23 is gripped by Arg487, with Asn465 and Asp441. A C-terminal 6xHis tag blocks that carboxylate, and every BoPep4 part we deposited carries one.",
+   "zh": "橘色那條是 BoPep4，Gly1 到 Asn23，躺在 PEPR1 外域的內側溝槽裡。它是接到 5GR8（PEPR1-AtPep1）晶體結構上的，所以這是模型、是我們所有 MD 的起始結構，不是實驗。(b) 圖才是問題所在：Asn23 游離的 C 端羧基被 Arg487 夾住，Asn465 與 Asp441 一起完成這個夾持。C 端加 6xHis tag 會擋住那個羧基，而我們登錄的每一個 BoPep4 part 都帶著這個 tag。"
+  }
+ },
+ "w07": {
+  "id": "w07",
+  "img": "ba29fa86398c.avif",
+  "page": "",
+  "label": {
+   "en": "Caption and image disagree",
+   "zh": "圖說與圖打架"
+  },
+  "read": {
+   "en": "I have to flag the figure first. The caption describes four lanes, green and red at 13 and 16 h, but the image under it is the three-lane green-only blot from Figure 2, with the same G3, G6, G8 bar chart beside it. The four-lane blot the caption describes sits on BBa_26U8UTMH, where one band runs between the 75 and 100 kDa markers in all four lanes. Read the caption against that figure, not this one.",
+   "zh": "我得先說圖本身的問題。圖說描述的是四條泳道，13 和 16 小時的綠光與紅光，但圖說底下那張圖其實是 Figure 2 那張只有綠光的三道膜，旁邊還是同一組 G3、G6、G8 長條圖。圖說描述的那張四道膜在 BBa_26U8UTMH 上，四條泳道都有一條跑在 75 與 100 kDa marker 之間的條帶。請拿那張圖來對照這段圖說，而不是這一張。"
+  }
+ },
+ "w08": {
+  "id": "w08",
+  "img": "bd3754cc481d.avif",
+  "page": "",
+  "label": {
+   "en": "The band at 37 kilodaltons",
+   "zh": "37 kDa 的那條帶"
+  },
+  "read": {
+   "en": "Neither. The lanes are the ladder, at 63, 48 and 35 kDa, and the culture supernatant. The band sits between 35 and 48, at about 37 kDa, against a predicted 35 kDa for the secreted protein, and that agreement is real: this is one of the few figures on our site where the size matches. The band is saturated, so I would not quantify it, and there is no untransformed WB800 or empty-vector lane.",
+   "zh": "兩道都不是。這兩道一道是 marker，標示 63、48、35 kDa，另一道是培養上清液。條帶落在 35 與 48 之間，大約 37 kDa，而分泌型蛋白的預測值是 35 kDa，這個吻合是真的：這是我們網站上少數幾張分子量對得上的圖。條帶已經飽和，所以我不會拿它定量；而且這裡沒有未轉形的 WB800，也沒有空載體的泳道。"
+  }
+ },
+ "w09": {
+  "id": "w09",
+  "img": "cf26d4e64d66.avif",
+  "page": "",
+  "label": {
+   "en": "The one purification panel",
+   "zh": "唯一一張純化圖"
+  },
+  "read": {
+   "en": "Panel B is the only purification panel we have anywhere. Lane S1 at 25 mM imidazole is empty; S2 at 10 mM, S3 at 150 mM and S4 at 250 mM each give a band just above the 35 kDa marker, and S2 also shows a fainter band near 40. Two caveats: the labels run 25 then 10 mM, which is not a rising series, and the page caption prints 100 mM for S2. We report no purified yield or concentration anywhere.",
+   "zh": "(B) 圖是我們整個網站上唯一的純化圖。S1 的 25 mM imidazole 是空的；S2 的 10 mM、S3 的 150 mM、S4 的 250 mM 各有一條略高於 35 kDa marker 的條帶，S2 另外還有一條較淡、靠近 40 的條帶。兩個要注意的地方：標示是 25 之後接 10 mM，並不是遞增的序列；而且頁面圖說把 S2 寫成 100 mM。我們在任何地方都沒有給出純化的產量或濃度。"
+  }
+ },
+ "w10": {
+  "id": "w10",
+  "img": "d087c7afc2e9.avif",
+  "page": "",
+  "label": {
+   "en": "LEA14 has no fixed shape",
+   "zh": "LEA14 沒有固定結構"
+  },
+  "read": {
+   "en": "Because it has no fixed structure. This one is our own protein: PDB 1XO8 residues 2 to 151 are exactly the mature LEA14 our cassette encodes. The core is a 9-stranded β-sandwich with one helix. Panel b colours and thickens each residue by RMSF across the 20 NMR models: the core, residues 28 to 143, averages 0.42 Å, while the N-terminal 1 to 16 averages 8.75 Å and reaches 11.9 Å. Order actually begins at residue 17, already 1.13 Å.",
+   "zh": "因為它沒有固定的結構。這一張是我們自己的蛋白：PDB 1XO8 的第 2 到 151 個殘基，正好就是我們卡匣編碼的成熟型 LEA14。核心是九股 β-sandwich 加一段螺旋。(b) 圖用 20 個 NMR 模型的每殘基 RMSF 來上色與加粗：核心（殘基 28 到 143）平均 0.42 Å，而 N 端 1 到 16 平均 8.75 Å，最高到 11.9 Å。真正開始有序是在第 17 個殘基，已經降到 1.13 Å。"
+  }
+ },
+ "w11": {
+  "id": "w11",
+  "img": "e4d3f567128c.avif",
+  "page": "",
+  "label": {
+   "en": "Four bars, no difference",
+   "zh": "四根柱子、沒有差異"
+  },
+  "read": {
+   "en": "No. Four bars, all between about 12 and 13 µg/mL: green at 13 h is highest at about 12.9 and red at 16 h lowest at about 12.1, so the whole spread is under 1 µg/mL with small error bars. Colour does nothing here and neither does time. Note what is missing against the short-term plate: there is no plasmid-free WB800 bar on this chart, so the floor is not shown.",
+   "zh": "分不出來。四根柱子全部落在約 12 到 13 µg/mL：13 小時綠光最高，約 12.9；16 小時紅光最低，約 12.1，整個範圍不到 1 µg/mL，誤差線也很小。光色沒有造成差別，時間也沒有。還要注意相對於短期那塊盤少了什麼：這張圖上沒有無質體 WB800 的柱子，所以底線沒有被畫出來。"
+  }
+ },
+ "w12": {
+  "id": "w12",
+  "img": "e566cdecd66e.avif",
+  "page": "",
+  "label": {
+   "en": "Green and red at 13 and 16 h",
+   "zh": "13 與 16 小時的綠與紅"
+  },
+  "read": {
+   "en": "Five lanes: the ladder at 180, 130, 100 and 75 kDa, then green and red at 13 h and again at 16 h. One band per sample lane, running between the 75 and 100 kDa markers. By eye the four intensities are similar, which is what this caption says; our other page calls the green lanes somewhat stronger. Similar is the defensible reading, because nothing was quantified. Red light is the only negative control here.",
+   "zh": "五條泳道：marker 標 180、130、100、75 kDa，然後是 13 小時的綠光與紅光，再來是 16 小時的綠光與紅光。每條樣品泳道一條帶，跑在 75 與 100 kDa marker 之間。用眼睛看，四道深淺差不多，這也是這段圖說寫的；我們另一頁則說綠光那兩道看起來稍微強一點。比較站得住腳的講法是「差不多」，因為我們沒有做定量。這裡唯一的陰性對照就是紅光。"
+  }
+ },
+ "w13": {
+  "id": "w13",
+  "img": "eb9f556de867.avif",
+  "page": "",
+  "label": {
+   "en": "The cleanest light response",
+   "zh": "最乾淨的光反應"
+  },
+  "read": {
+   "en": "It is the cleanest light response we got and also the least supported. At 13 h green is about 10.4 nmol alpha-KB per mL per hour against about 0.7 for red, roughly fourteen to one. At 16 h it inverts: green about 1.1, red about 3.8. The 13 h green error bar runs from about 5 to 16, neither time point was repeated, and across both times colour comes out at p = 0.72.",
+   "zh": "這是我們做出來最乾淨的光反應，同時也是支撐最弱的。13 小時綠光約 10.4 nmol alpha-KB mL⁻¹ h⁻¹，紅光約 0.7，大約十四比一。到 16 小時則反過來：綠光約 1.1，紅光約 3.8。13 小時綠光的誤差線從大約 5 拉到 16，兩個時間點都沒有重複，而且把兩個時間一起看，光色的 p 值是 0.72。"
+  }
+ },
+ "w14": {
+  "id": "w14",
+  "img": "ef5b2ee4ffa5.avif",
+  "page": "",
+  "label": {
+   "en": "The dark state is not clean",
+   "zh": "暗態並不乾淨"
+  },
+  "read": {
+   "en": "Nothing measurable. Baseline before any light is already about 3.0 µg/mL, and every illuminated sample sits between 2.6 and 3.2, green and red alike, with 6 h and 8 h slightly below the 3 h pair. The last bar, WB, is plasmid-free WB800 at about 1.3, and it separates clearly from the rest. That makes this one of the few figures we have where the negative control actually works.",
+   "zh": "沒有造成可量到的改變。照光前的 baseline 已經約 3.0 µg/mL，所有照過光的樣品都落在 2.6 到 3.2 之間，綠光紅光都一樣，6 與 8 小時比 3 小時那一組略低一點。最後一根 WB 是無質體的 WB800，約 1.3，和其他柱子分得很開。這也讓它成為我們少數幾張陰性對照真的有作用的圖。"
+  }
+ },
+ "w15": {
+  "id": "w15",
+  "img": "f858b4d704db.avif",
+  "page": "",
+  "label": {
+   "en": "The off control that peaked",
+   "zh": "跟著衝高的關燈對照"
+  },
+  "read": {
+   "en": "Red 100 percent at 8 h, which is our off control. It peaks at the same time as green, so this blot does not show light control, and that is why we dropped this ABDI construct for ABDQ. That sentence lives on the Level 2 part page, not under this figure. The bands run at roughly 63 to 75 kDa against a 35 kDa monomer. The 0 h lane is the same strain before light, not a plasmid-free control.",
+   "zh": "是 8 小時的 100% 紅光，也就是我們的關閉對照。它和綠光同時達到最強，所以這張膜並沒有顯示出光控制，這也是我們後來放棄這個 ABDI 構築、改用 ABDQ 的原因。不過那句話寫在 Level 2 的 part 頁面上，不在這張圖底下。條帶跑在大約 63 到 75 kDa，而單體是 35 kDa。0 小時那一道是同一株菌照光前的樣品，不是無質體對照。"
+  }
+ },
+ "x01": {
+  "id": "x01",
+  "img": "32d2074018a8.avif",
+  "page": "",
+  "label": {
+   "en": "Salinity set, three readouts",
+   "zh": "鹽逆境組三項讀值"
+  },
+  "read": {
+   "en": "Three readouts from the salinity set at 0, 75 and 100 mM NaCl, for untreated, pre-treatment and post-treatment LEA14 supernatant. Panel (a), fresh weight, carries one point per bar: untreated at 0 mM is highest at about 0.84 g and every other group sits between 0.54 and 0.61 g. Panel (b) divides chlorophyll by that single weight, panel (c) does not. Post-treatment has no 0 mM group, and the only significance bracket runs from untreated 0 mM to untreated 75 mM.",
+   "zh": "這是鹽逆境組在 0、75、100 mM NaCl 下的三項讀數，比較未處理、前處理與後處理 LEA14 上清液。(a) 鮮重每根柱只有一個點：未處理 0 mM 最高，約 0.84 g，其餘各組都落在 0.54 到 0.61 g。(b) 是葉綠素除以那個單一鮮重，(c) 則未除。後處理沒有 0 mM 組，而唯一的顯著性括號是從未處理 0 mM 連到未處理 75 mM。"
+  }
+ },
+ "x02": {
+  "id": "x02",
+  "img": "3cafffeb48fc.avif",
+  "page": "",
+  "label": {
+   "en": "Folding the initiation window",
+   "zh": "起始區摺疊排序"
+  },
+  "read": {
+   "en": "A 236 nt translation-initiation window folded in ViennaRNA 2.7.2 at 37 °C. The table ranks the ordered design fourth of 42,581 variants: start+15 accessibility 0.396 to 0.497, Shine-Dalgarno core 0.067 to 0.634, nine codons changed, 11 bases recoded, CAI 0.87 down to 0.77. Panels (b) and (c) are the predicted minimum-free-energy structures and (d) the per-base unpaired probability. All of it is folding prediction. Translation initiation from this cassette has never been measured.",
+   "zh": "這是 236 nt 的轉譯起始視窗，用 ViennaRNA 2.7.2 在 37 °C 下摺疊。表格顯示訂購的設計在 42,581 個變體中排第 4：start+15 可及性由 0.396 升到 0.497，Shine-Dalgarno 核心由 0.067 升到 0.634，改了 9 個密碼子、11 個鹼基，CAI 由 0.87 降到 0.77。(b)(c) 是預測的最低自由能結構，(d) 是每個鹼基的未配對機率。全部都是摺疊預測，這個卡匣的轉譯起始從未被量測過。"
+  }
+ },
+ "x04": {
+  "id": "x04",
+  "img": "426238dcca98.avif",
+  "page": "",
+  "label": {
+   "en": "The rack after four days at 37 °C",
+   "zh": "37 °C 四天後的架子"
+  },
+  "read": {
+   "en": "The hydroponic rack after four days at 37 °C. Most rosettes have bleached to white or pale yellow. Green is retained across the ACC deaminase row at all four dilutions, and also in the 1/40 WB800 vehicle bracketed in the same block; the 0.1x MS medium control in that block is bleached. It is one photograph of one rack, three seedlings per bracketed group, no repeat and no quantification on the panel itself.",
+   "zh": "這是在 37 °C 放四天之後的水耕盤架。多數蓮座葉已經白化或變成淡黃。ACC deaminase 那一列四個稀釋度都還留著綠色，同一區塊裡被括起來的 1/40 WB800 載體對照也是綠的；同區塊的 0.1x MS 培養基對照則已白化。這只是一盤、一張照片，每個括號組三株，沒有重複，也沒有任何量化。"
+  }
+ },
+ "x05": {
+  "id": "x05",
+  "img": "4ff207877161.avif",
+  "page": "",
+  "label": {
+   "en": "The rack before the heat",
+   "zh": "熱逆境前的架子"
+  },
+  "read": {
+   "en": "The same hydroponic rack photographed before the heat stress, with 15-day-old Arabidopsis. Every plug is green and the rosettes look comparable. The rack carries ACC deaminase at 1/40, 1/60, 1/80 and 1/100, BoPep4 at the same four dilutions, and a 1/40 WB800 vehicle plus a 0.1x MS medium control repeated for each arm, three seedlings per bracket. White fuzz is visible on at least two plugs. This image carries no measurement.",
+   "zh": "這是同一組水耕盤架在熱逆境之前拍的，裡面是 15 天大的阿拉伯芥。每個孔的植株都是綠的，蓮座葉看起來彼此相當。盤上有 ACC deaminase 的 1/40、1/60、1/80、1/100，BoPep4 同樣四個稀釋度，以及每一臂各自重複的 1/40 WB800 載體與 0.1x MS 培養基對照，每括號三株。至少兩個孔上看得到白色菌絲。這張照片本身沒有任何測量值。"
+  }
+ },
+ "x09": {
+  "id": "x09",
+  "img": "65b84544f840.avif",
+  "page": "",
+  "label": {
+   "en": "Heat flattens everything",
+   "zh": "熱把一切壓平"
+  },
+  "read": {
+   "en": "Three panels, twelve groups, one bar per group. Heat flattens everything: fresh weight falls from about 0.09 g unheated to between 0.011 and 0.030 g heated. Among the heated groups the 1/40 WB800 vehicle is the heaviest at about 0.030 g, above every BoPep4 dilution. On chlorophyll per plant 1/40 BoPep4 leads at about 2.2 ug against 0.6 for the vehicle, and on relative chlorophyll it leads at about 0.81 against 0.26. The two readouts disagree.",
+   "zh": "三張圖、12 組，每組一根柱。熱逆境把一切壓平：鮮重從未加熱的約 0.09 g 掉到加熱後的 0.011 至 0.030 g。加熱組裡最重的是 1/40 WB800 載體，約 0.030 g，高於每一個 BoPep4 稀釋度。每株葉綠素上，1/40 BoPep4 約 2.2 µg，載體約 0.6；相對葉綠素上，1/40 BoPep4 約 0.81，載體約 0.26。兩種讀數彼此不一致。"
+  }
+ },
+ "x10": {
+  "id": "x10",
+  "img": "6e350dfaf39f.avif",
+  "page": "",
+  "label": {
+   "en": "Ranked out of 49,000 designs",
+   "zh": "四萬九千個設計中的排名"
+  },
+  "read": {
+   "en": "A 236 nt initiation window folded in ViennaRNA 2.7.2 at 37 °C. The table ranks the ordered design third of 49,987: start+15 accessibility 0.563 to 0.773, Shine-Dalgarno core 0.088 to 0.203, twelve synonymous codon changes, 15 bases recoded, CAI 0.85 to 0.75. Panels (b) and (c) are predicted structures and (d) the per-base unpaired probability. Two limits: initiation has never been measured, and the deposited fusion keeps the 93 bp SamyQ segment identical to wild type.",
+   "zh": "這是 236 nt 的起始視窗，用 ViennaRNA 2.7.2 在 37 °C 下摺疊。表格顯示訂購的設計在 49,987 個變體中排第 3：start+15 可及性 0.563 升到 0.773，Shine-Dalgarno 核心 0.088 升到 0.203，12 個同義密碼子變更、15 個鹼基改寫，CAI 由 0.85 降到 0.75。(b)(c) 是預測結構，(d) 是每鹼基未配對機率。兩個限制：起始從未被量測；而上傳的融合序列中，93 bp 的 SamyQ 區段與野生型完全相同。"
+  }
+ },
+ "x11": {
+  "id": "x11",
+  "img": "6f90097d0ba9.avif",
+  "page": "",
+  "label": {
+   "en": "Registered criteria against the run",
+   "zh": "預註冊標準對實測"
+  },
+  "read": {
+   "en": "Four rows setting the pre-registered acceptance criteria against what the run gave. All four were predicted to fail. All four passed: receptor Ca RMSD 2.10 A against a 3.0 A gate, peptide backbone RMSD 1.83 A against 4.0 A, Asn23-Arg487 within 4 A for 99.9 % of frames, and clamp at 3 of 4 or better for 100.0 %. The note under the table says the criteria cannot tell this fragment from the wild type.",
+   "zh": "四列把事前登記的驗收標準和實際跑出來的結果並排。四項都被預測為不通過，結果四項全過：受體 Cα RMSD 2.10 Å（門檻 3.0 Å）、胜肽主鏈 RMSD 1.83 Å（門檻 4.0 Å）、Asn23–Arg487 在 4 Å 內佔 99.9 % 的 frames、夾持 ≥3/4 佔 100.0 %。表下的註記直說：這些標準分辨不出這個片段和野生型。"
+  }
+ },
+ "x16": {
+  "id": "x16",
+  "img": "bf0adfe3ac46.avif",
+  "page": "",
+  "label": {
+   "en": "Chlorophyll per plant",
+   "zh": "每株葉綠素"
+  },
+  "read": {
+   "en": "Three panels, twelve groups, one bar per group, three seedlings, no error bars. On chlorophyll per plant every heated ACC deaminase dilution sits above both heated controls, about 2.6 to 3.0 ug against 2.0 for the 1/40 WB800 vehicle and 1.75 for 0.1x MS medium. On fresh weight the heated bars are flat and do not line up: 1/40 ACC deaminase is about 0.014 g, below the vehicle at about 0.018 g.",
+   "zh": "三張圖、12 組，每組一根柱、三株苗，沒有誤差棒。每株葉綠素上，加熱後每一個 ACC deaminase 稀釋度都高於兩個加熱對照，約 2.6 到 3.0 µg，而 1/40 WB800 載體約 2.0、0.1x MS 培養基約 1.75。鮮重上加熱各組都很平，而且對不上：1/40 ACC deaminase 約 0.014 g，低於載體的約 0.018 g。"
+  }
+ },
+ "x17": {
+  "id": "x17",
+  "img": "c0ae657fc1d1.avif",
+  "page": "",
+  "label": {
+   "en": "Every truncation docked twice",
+   "zh": "每個截短都對接兩次"
+  },
+  "read": {
+   "en": "Every N-terminal truncation from 1-23 to 17-23 docked twice: AlphaFold3 ipTM in green on the left axis, HADDOCK score in grey on the right. HADDOCK worsens steadily, from -197.8 for the wild type to -97.8 at 15-23, which is circled in red. ipTM stays between 0.86 and 0.94 down to 13-23, drops to 0.54 at 14-23, then reads 0.63, 0.62 and 0.73. Shading marks where AtPep1 equivalents stop being active in the literature.",
+   "zh": "從 1–23 到 17–23 的每一個 N 端截短都做了兩種對接：綠色是左軸的 AlphaFold3 ipTM，灰色是右軸的 HADDOCK 分數。HADDOCK 一路變差，從野生型的 -197.8 到 15–23 的 -97.8，15–23 被紅圈標出。ipTM 一直到 13–23 都維持在 0.86 到 0.94，在 14–23 掉到 0.54，之後分別是 0.63、0.62、0.73。背景色標出文獻中 AtPep1 對應片段失去活性的位置。"
+  }
+ },
+ "x18": {
+  "id": "x18",
+  "img": "c82f7570ce2f.avif",
+  "page": "",
+  "label": {
+   "en": "The salinity rack",
+   "zh": "鹽逆境架"
+  },
+  "read": {
+   "en": "The salinity rack with 15-day-old Arabidopsis: the upper block at 0 mM NaCl, the lower block at 100 mM. Within each block BoPep4 runs at 1/40, 1/60, 1/80 and 1/100, with a 1/40 WB800 vehicle and a 0.1x MS medium control, three seedlings per bracket. The salt block is visibly smaller, with purple-red and bleached leaves across all groups including 1/40. One rack, one photograph, no scoring, no repeat.",
+   "zh": "這是鹽逆境盤架，裡面是 15 天大的阿拉伯芥：上半區 0 mM NaCl，下半區 100 mM。每一區裡 BoPep4 有 1/40、1/60、1/80、1/100，加上 1/40 WB800 載體與 0.1x MS 培養基對照，每括號三株。加鹽那一區明顯較小，所有組（含 1/40）都有紫紅與白化的葉片。只有一盤、一張照片，沒有評分、沒有重複。"
+  }
+ },
  "y01": {
   "id": "y01",
   "img": "y01.webp",
@@ -726,6 +1571,32 @@ var FIGS = {
   "read": {
    "en": "Our data physicalization booth at the public forum, in an outdoor market. The blue board headed 作物的感官警報 is the sound exhibit, with the headphones on the table in front of it for listeners. The bioreactor prototype sits beside it, and the styrofoam stress map of Taiwan is the other exhibit. The idea is that a visitor hears and touches the stress data rather than reading a chart of it.",
    "zh": "這是我們在戶外市集公眾論壇上的資料實體化攤位。中間那塊標題為「作物的感官警報」的藍板是聲音展件，前面桌上擺著給聽眾用的耳機。旁邊放著反應器原型，另一個展件是保麗龍做的台灣逆境地圖。概念是：讓參觀者用聽的、用摸的去接觸逆境資料，而不是去看一張圖表。"
+  }
+ },
+ "y02": {
+  "id": "y02",
+  "img": "y02.webp",
+  "page": "data-physicalization",
+  "label": {
+   "en": "The listening site",
+   "zh": "聆聽網站"
+  },
+  "read": {
+   "en": "The listening site, with the header reading Tobacco, Drought and a counter showing 0 of 27 clicks played. Below it is a scatter of pitch in kilohertz against seconds into the recording, with a shaded band marked 40 to 80 kilohertz as the typical range, and a note that bigger dots mean louder clicks. These are the ultrasonic clicks a drought-stressed plant emits, drawn as data and played as sound.",
+   "zh": "這是聆聽網站的畫面，標題寫著「Tobacco, Drought」，計數器顯示 27 個喀噠聲中播放了 0 個。下面是一張散佈圖，縱軸是音高（千赫），橫軸是錄音的秒數，陰影帶標出 40 到 80 千赫的典型範圍，旁邊註明點越大代表聲音越大。這些是乾旱逆境下植物發出的超音波喀噠聲，既畫成資料也播成聲音。"
+  }
+ },
+ "y03": {
+  "id": "y03",
+  "img": "y03.webp",
+  "page": "data-physicalization",
+  "label": {
+   "en": "Which region is most stressed",
+   "zh": "哪一區逆境最重"
+  },
+  "read": {
+   "en": "The knowledge question from the booth survey: which region has the highest plant stress. Yilan County, marked as the correct answer, is the green bar at 51.6 percent, 32 of 62 respondents. Kaohsiung is 19.4 percent, Taichung 17.7 and Tainan 11.3, all grey. It is the data physicalization page's own version of the KAP knowledge result.",
+   "zh": "這是攤位問卷的知識題：哪一個地區的植物逆境最嚴重。被標為正確答案的宜蘭縣是綠色長條，51.6%，62 人中有 32 人。高雄 19.4%、台中 17.7%、台南 11.3%，都是灰色。這是資料實體化頁上自己呈現的 KAP 知識結果版本。"
   }
  },
  "j01": {
